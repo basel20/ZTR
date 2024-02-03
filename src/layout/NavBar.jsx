@@ -4,7 +4,7 @@ import theme from "../theme/theme";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { Link } from "react-router-dom";
-import Logo from './masar.jpg'
+import Logo from './masar2.jpg'
 
 export default function Navbar(props) {
 
@@ -92,7 +92,7 @@ export default function Navbar(props) {
         href="/"
         sx={{
           height: "100%",
-          width: "150px",
+          width: "250px",
           background: `url(${Logo})`,
           backgroundSize: "cover",
           border: "none",
