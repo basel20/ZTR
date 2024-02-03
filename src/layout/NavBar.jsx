@@ -4,11 +4,24 @@ import theme from "../theme/theme";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { Link } from "react-router-dom";
-import Logo from './masar2.jpg'
+import Logo from './masar2.svg'
+import LanguageIcon from '@mui/icons-material/Language';
+import i18n from "../components/Trans/i18";
 
 export default function Navbar(props) {
 
   const [drawerOpen, setDrawerOpen] = useState(false);
+
+  const [isLang, setIsLang] = useState(false);
+
+  function toggleLang() {
+    setIsLang(!isLang);
+  }
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    toggleLang();
+  };
 
   const navStyles = {
     listText: {
@@ -46,7 +59,6 @@ export default function Navbar(props) {
   const listItems = [
     { item: "Home", link: "/" },
     { item: "Categories", link: "/CitiesPage" },
-    { item: "Events", link: "/GuiedsPage" },
     { item: "Contacts", link: "/ContactsPage" },
     { item: "About", link: "/Abotus" },
   ];
@@ -71,30 +83,37 @@ export default function Navbar(props) {
       direction="row"
       justifyContent="space-between"
       alignItems="center"
-      p={{xs:'0 30px',md:"0 100px"}}
+      p={{xs:'0 20px',md:"0 80px"}}
       bgcolor={props.color}
       position="sticky"
       sx={{borderBottom:'5px solid #005A5A'}}
     > 
+    <Box display={{ xs: "flex", md: "none" }} alignItems="center">
       <IconButton
         size="large"
         edge="start"
         color="inherit"
         aria-label="menu"
-        sx={{ display: { md: "none" } }}
+        
         onClick={() => setDrawerOpen(true)}
       >
         <MenuIcon />
       </IconButton>
+      <IconButton onClick={() => changeLanguage(isLang ? "en" : "ar")}>
+          <LanguageIcon sx={{ color: '#005A5A' }} />
+        </IconButton>
+      </Box>
+
+      
 
       <ButtonBase
         disableRipple
         href="/"
         sx={{
-          height: "100%",
+          height: "98%",
           width: "250px",
           background: `url(${Logo})`,
-          backgroundSize: "cover",
+          backgroundSize: "100% 100%",
           border: "none",
           borderRadius: 0,
           color:'#005A5A',
@@ -115,6 +134,9 @@ export default function Navbar(props) {
         >
           {newNavItems}
         </List>
+        <IconButton onClick={() => changeLanguage(isLang ? "en" : "ar")}>
+          <LanguageIcon sx={{color:'#005A5A'}}/>
+        </IconButton>
       </Box>
 
       <Drawer
@@ -140,6 +162,7 @@ export default function Navbar(props) {
           </IconButton>
         </Stack>
         <List>{newNavItems}</List>
+        
       </Drawer>
 
     </Stack>
