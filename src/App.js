@@ -6,11 +6,12 @@ import AboutPage from "./pages/About/About";
 import ContactPage from "./pages/Contacts/ConntactsPage";
 import { Route, Routes } from "react-router-dom";
 import theme from "./theme/theme";
-import Hotels from "./components/Categories/Hotels";
+import Hotels from "./pages/Hotels/Hotels";
 import "./App.css";
 import Navbar from "./layout/NavBar";
 import Resturants from "./components/Categories/resturants";
 import Details from "./components/Details";
+import HotelDetails from "./pages/HotelDetails/HotelDetails";
 // import 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/hotels" element={<Hotels />} />
+          <Route path="/hotels/:id" element={<HotelDetails />} />
           <Route path="/resturants" element={<Resturants />} />
           <Route path="/ContactsPage" element={<ContactPage />} />
           <Route path="/Abotus" element={<AboutPage />} />

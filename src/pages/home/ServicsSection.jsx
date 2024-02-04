@@ -17,19 +17,19 @@ export default function ServicesSection(){
                 borderTop={'5px solid #b9b083'} borderBottom={'5px solid #b9b083'}>
 
                     <Typography fontSize={{xs:'24px',md:'26px'}}  textAlign={{xs:'center', md:'left'}} lineHeight={{xs:'30px', md:'40px'}} fontWeight={700} color='#005A5A' opacity='1'>
-                    <RadioButtonCheckedIcon sx={{mr:1, pt:0.5, color:'#b9b083'}}/>Private car delivery service
+                    <RadioButtonCheckedIcon sx={{mr:1, pt:0.5, color:'#b9b083'}}/>Exclusive Private Car Delivery
                     </Typography>
                     <Typography fontSize={{xs:'24px',md:'26px'}}  textAlign={{xs:'center', md:'left'}} lineHeight={{xs:'30px', md:'40px'}} fontWeight={700} color='#005A5A' opacity='1'>
-                    <RadioButtonCheckedIcon sx={{mr:1, pt:0.5 , color:'#b9b083'}}/>Hotel reservations
+                    <RadioButtonCheckedIcon sx={{mr:1, pt:0.5 , color:'#b9b083'}}/>Hotel Reservations with Exclusive Discounts
                     </Typography>
                     <Typography fontSize={{xs:'24px',md:'26px'}}  textAlign={{xs:'center', md:'left'}} lineHeight={{xs:'30px', md:'40px'}} fontWeight={700} color='#005A5A' opacity='1'>
                     <RadioButtonCheckedIcon sx={{mr:1, pt:0.5, color:'#b9b083'}}/>Restaurant reservations
                     </Typography>
                     <Typography fontSize={{xs:'24px',md:'26px'}}  textAlign={{xs:'center', md:'left'}} lineHeight={{xs:'30px', md:'40px'}} fontWeight={700} color='#005A5A' opacity='1'>
-                    <RadioButtonCheckedIcon sx={{mr:1, pt:0.5, color:'#b9b083'}}/>Event bookings
+                    <RadioButtonCheckedIcon sx={{mr:1, pt:0.5, color:'#b9b083'}}/>Activities bookings
                     </Typography>
                     <Typography fontSize={{xs:'24px',md:'26px'}}    textAlign={{xs:'center', md:'left'}} lineHeight={{xs:'30px', md:'40px'}} fontWeight={700} color='#005A5A' opacity='1'>
-                    <RadioButtonCheckedIcon sx={{mr:1, pt:0.5, color:'#b9b083'}}/>Ticket reservations within Russia
+                    <RadioButtonCheckedIcon sx={{mr:1, pt:0.5, color:'#b9b083'}}/>Ticket Reservations Across Russia
                     </Typography>
                 </Box>
                 <Box display={{xs:'none',md:'flex'}} justifyContent={'center'} height={'98%'} width={{ xs:'100%',md:'40%'}} pr={{md:'5%',lg:'10%'}} borderTop={'5px solid #b9b083'} borderBottom={'5px solid #b9b083'}>
