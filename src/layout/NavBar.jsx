@@ -14,6 +14,11 @@ export default function Navbar(props) {
 
   const [isLang, setIsLang] = useState(false);
 
+  const scrollToCategories = (e) => {
+    e.preventDefault()
+    document.getElementById('categories').scrollIntoView();
+  }
+
   function toggleLang() {
     setIsLang(!isLang);
   }
@@ -58,7 +63,7 @@ export default function Navbar(props) {
 
   const listItems = [
     { item: "Home", link: "/" },
-    { item: "Categories", link: "/CitiesPage" },
+    { item: "Categories", link: '' },
     { item: "Contacts", link: "/ContactsPage" },
     { item: "About", link: "/Abotus" },
   ];
@@ -94,7 +99,6 @@ export default function Navbar(props) {
         edge="start"
         color="inherit"
         aria-label="menu"
-        
         onClick={() => setDrawerOpen(true)}
       >
         <MenuIcon />

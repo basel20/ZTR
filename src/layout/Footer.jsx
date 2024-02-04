@@ -1,12 +1,13 @@
 import React from 'react';
 import { Box, List, ListItem, Typography ,Stack, ListItemButton, IconButton, Container} from '@mui/material';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import Snapchat from './snapchat2.svg'
 
 
 export default function Footer(){
+
+    const openNewTab = (url) => window.open(url, "_blank");
     
     
     const footerStyles ={
@@ -76,17 +77,17 @@ export default function Footer(){
         <Stack direction={{md:"column",lg:'column'}} justifyContent='scenter' alignItems='center' spacing={{xs:'20px', lg:'20px'}} p={{xs:'50px', lg:'20px 0 0'}}>
             
             <Box sx={footerStyles.iconsBox}>
-                <IconButton sx={{backgroundColor:'#CDC392'}}>
-                    <TwitterIcon sx={footerStyles.iconStyle}/>
+                <IconButton onClick={() => openNewTab("https://wa.me/message/KOYNSKJN4S7CD1")} sx={{backgroundColor:'#CDC392'}}>
+                    <WhatsAppIcon sx={footerStyles.iconStyle}/>
                 </IconButton>
-                <IconButton sx={{backgroundColor:'#CDC392'}}>
-                    <FacebookIcon sx={footerStyles.iconStyle}/>
+                <IconButton onClick={() => openNewTab("https://www.snapchat.com/add/masar_moscow")} sx={{backgroundColor:'#CDC392'}}>
+                    <Box sx={{height: {xs:'35px',md:"50px"}, width: {xs:'35px',md:"50px"}, background: `url(${Snapchat})`, backgroundSize: "100% 100%",}}></Box>
                 </IconButton>
                 <IconButton sx={{backgroundColor:'#CDC392'}}>
                     <InstagramIcon sx={footerStyles.iconStyle}/>
                 </IconButton>
                 </Box>
-                <Typography variant={{xs:'h4',md:'h2'}} pt={1}> Take your first step to a great trip</Typography>
+                <Typography variant={{xs:'h3',md:'h2'}} pt={1}><strong> Take your first step to a great trip</strong></Typography>
                 <List sx={{display:'flex', flexDirection:'row', justifyContent:'flex-start', }}>
                     {newNavItems}
                 </List>

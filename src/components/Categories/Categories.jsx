@@ -27,6 +27,7 @@ export default function CategoriesSection() {
   ];
 
   return (
+    <div id="categories">
     <Section header="Categories" >
     
       <Stack
@@ -68,7 +69,7 @@ export default function CategoriesSection() {
                 }}
                 onClick={() => navigate(item.link)}
               >
-                <Typography fontSize={{xs:'18px', md:'24px'}} textAlign="left" color="#fff" sx={{filter:"brightness(150%)"}}>
+                <Typography fontSize={{xs:'18px', md:'24px'}} textAlign="left" color="#fff" sx={{filter:"brightness(150%)"}} fontFamily={"Bai Jamjuree', sans-serif"}>
                   {item.cat}
                 </Typography>
               </Button>
@@ -77,5 +78,6 @@ export default function CategoriesSection() {
         }
       </Stack>
     </Section>
+    </div>
   );
 }
