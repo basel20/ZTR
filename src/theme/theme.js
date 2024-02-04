@@ -51,36 +51,36 @@ const themeSittings = () => {
       },
     },
     typography: {
-      fontFamily: ["Raleway", " sans-serif"].join(","),
-      fontSize: 16,
+      fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
+      fontSize: 18,
       h1: {
-        fontFamily: ["Raleway", " sans-serif"].join(","),
+        fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
         fontSize: 40,
       },
       h2: {
-        fontFamily: ["Raleway", " sans-serif"].join(","),
+        fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
         fontSize: 32,
       },
       h3: {
-        fontFamily: ["Raleway", " sans-serif"].join(","),
+        fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
         fontSize: 24,
       },
       h4: {
-        fontFamily: ["Raleway", " sans-serif"].join(","),
+        fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
         fontSize: 20,
       },
       h5: {
-        fontFamily: ["Raleway", " sans-serif"].join(","),
+        fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
         fontSize: 16,
       },
       h6: {
-        fontFamily: ["Raleway", " sans-serif"].join(","),
+        fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
         fontSize: 14,
       },
       cardTitle: {
         color: "#FFFFFF",
         fontWeight: 500,
-        fontFamily: "Raleway",
+        fontFamily: "Bai Jamjuree",
         fontStyle: "normal",
         fontSize: 34,
       },

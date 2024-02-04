@@ -13,7 +13,7 @@ import MapCard from "./Map";
 export default function ContactPage(){
 
     const Contacts = [
-        {icon:<EmailIcon sx={{fontSize:'56px'}}/>, name:'Email', info:'email.gmial.com'},
+        {icon:<EmailIcon sx={{fontSize:'56px'}}/>, name:'Email', info:'moscowmasar@gmail.com'},
         {icon:<Phone sx={{fontSize:'56px'}}/>, name:'Phone', info:'+793776441777'},
         {icon:<LocationOnIcon sx={{fontSize:'56px'}}/>, name:'Location', info:'SPB,balshoi brasbekt'}
     ]
