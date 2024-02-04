@@ -101,7 +101,7 @@ export default function Navbar(props) {
         aria-label="menu"
         onClick={() => setDrawerOpen(true)}
       >
-        <MenuIcon />
+        <MenuIcon sx={{ color: '#005A5A' }}/>
       </IconButton>
       <IconButton onClick={() => changeLanguage(isLang ? "en" : "ar")}>
           <LanguageIcon sx={{ color: '#005A5A' }} />

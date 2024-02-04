@@ -5,7 +5,7 @@ import { Container, Box, Stack } from "@mui/material";
 
 const Section = ({ children, header,subTitle, container = false }) => {
   return (
-    <Box m={{xs:'60px 0',md:"80px 0"}}>
+    <Box m={{xs:'60px 0 0px 0',md:"80px 0"}}>
       {container ? (
         <Container>
           <Stack spacing={5}>
