@@ -27,10 +27,6 @@ function App() {
           <Route path="/ContactsPage" element={<ContactPage />} />
           <Route path="/Abotus" element={<AboutPage />} />
           <Route path="/details" element={<Details />} />
-          
-          
-          
-          
         </Routes>
         {/* </Layout> */}
         <Footer />

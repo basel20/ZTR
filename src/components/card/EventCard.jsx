@@ -8,10 +8,10 @@ export default function EventCard({event, img, link }) {
     
             <Box
               sx={{
-                height: "300px",
+                height: "350px",
                 width: "100%",
                 background: `url(${img})`,
-                backgroundSize: "100% 100%",
+                backgroundSize: "cover",
                 backgroundPosition: "center",
                 border: "none",
                 display: "flex",

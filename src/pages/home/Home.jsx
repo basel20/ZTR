@@ -16,10 +16,9 @@ function Home() {
         <Stack width={'100%'} alignItems={"center"} justifyContent={'center'} gap={2}>
           <CategoriesSection/>
         </Stack>
-        <EventsSection />
         <HotelsSection/>
+        <EventsSection />
         <ResturantsSection/>
-        
         <ContactSection/>
       </div>
     );

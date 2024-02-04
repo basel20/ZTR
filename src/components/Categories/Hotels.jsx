@@ -9,20 +9,9 @@ import img3 from "./imgs/event3.jpeg";
 import img4 from "./imgs/event4.jpeg";
 
 import EventCard from '../../components/card/EventCard';
-
+import { AllHotels } from "../../data/data";
 
 export default function Hotels() {
-
-  const Hotels = [
-    { hotel: "hotel1", img: img1, link: "/details" },
-    { hotel: "hotel2", img: img2, link: "/details" },
-    { hotel: "hotel3", img: img3, link: "/details" },
-    { hotel: "hotel4", img: img4, link: "" },
-    { hotel: "hotel1", img: img1, link: "" },
-    { hotel: "hotel2", img: img2, link: "" },
-    { hotel: "hotel3", img: img3, link: "" },
-    { hotel: "hotel4", img: img4, link: "" },
-  ];
 
 
   return (
@@ -33,10 +22,10 @@ export default function Hotels() {
         direction={{xs:'column',md:"row"}}
         gridTemplateColumns={{xs:'1fr',md:"1fr 1fr 1fr"}}
       >
-        {Hotels.map((item, index)=><EventCard key={index} event={item.hotel} img={item.img} link={item.link}/>)}
+        {AllHotels.map((item, index)=><EventCard key={index} event={item.hotel} img={item.img} link={item.link}/>)}
           
       </Grid>
-      <ExtractBtn link="/CitiesPage" text="More Hotels" />
+      {/* <ExtractBtn link="/CitiesPage" text="More Hotels" /> */}
     </Section>
   );
 }

@@ -45,10 +45,11 @@ export default function Navbar(props) {
 
   const listItems = [
     { item: "Home", link: "/" },
-    { item: "Categories", link: "/CitiesPage" },
-    { item: "Events", link: "/GuiedsPage" },
-    { item: "Contacts", link: "/ContactsPage" },
-    { item: "About", link: "/Abotus" },
+    { item: "Categories", link: "/Categories" },
+    { item: "Hotels", link: "/Hotels" },
+    { item: "Activities", link: "/Activities" },
+    { item: "Contacts", link: "/Contacts" },
+    { item: "About", link: "/About" },
   ];
 
   const newNavItems = listItems.map((newNavItem, index) => (

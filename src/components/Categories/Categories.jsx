@@ -17,13 +17,13 @@ export default function CategoriesSection() {
 
   const Categories = [
     { cat: "Hotels", img: img4, link: "/hotels" },
+    { cat: "Activities", img: img3, link: "/parks" },
     { cat: "Parks", img: img3, link: "/parks" },
-    { cat: "Shopping", img: img1, link: "/shops" },
+    { cat: "Malls", img: img1, link: "/malls" },
     { cat: "Resturants", img: img2, link: "/resturants" },
-    { cat: "Hotels", img: img4, link: "/hotels" },
-    { cat: "Parks", img: img3, link: "/parks" },
-    { cat: "Shopping", img: img1, link: "/shops" },
-    { cat: "Resturants", img: img2, link: "/resturants" },
+    { cat: "Transfer", img: img4, link: "/transfer" },
+    { cat: "Tickets", img: img1, link: "/tickets" },
+    { cat: "Other", img: img4, link: "/other" }
   ];
 
   return (
@@ -37,7 +37,7 @@ export default function CategoriesSection() {
         gridTemplateColumns={{xs:'1fr 1fr',md:"1fr 1fr 1fr 1fr"}}
         alignItems={"center"}
         justifyContent={'center'}
-        gap={5}
+        gap={10}
       >
         {
           Categories?.map((item) => (

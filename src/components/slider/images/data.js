@@ -1,7 +1,7 @@
-import View1 from "./event1.jpeg"
-import View2 from "./event2.jpeg"
-import View3 from "./event3.jpeg"
-import View4 from "./event4.jpeg"
+import View1 from "./hotel1.jpg"
+import View2 from "./hotel2.jpg"
+import View3 from "./hotel3.jpg"
+import View4 from "./hotel4.jpg"
 
 
 export const Slides = [

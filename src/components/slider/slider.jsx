@@ -83,7 +83,7 @@ const SliderForPages = () => {
       flexDirection="row" 
       sx={{
         maxWidth: "100vw",
-        height: "80vh",
+        height: "90vh",
         overflowX: "hidden !important",
         position: "relative",
       
