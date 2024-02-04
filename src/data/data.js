@@ -5,6 +5,8 @@ import featuredHotel3 from "./Hotels/fourseason.jpg";
 import metropol from './Hotels/metropol.jpg'
 import kempinski from './Hotels/kempinski.jpg'
 import national from "./Hotels/national.jpg"
+import carlton from "./Hotels/carlton.jpeg"
+import radison from "./Hotels/radisson.jpg"
 
 export const FeaturedHotels = [
   {
@@ -72,7 +74,7 @@ export const AllHotels = [
     img: metropol,
     location: "Okhotny Ryad, Moscow",
     // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
-    link: "/hotels/fourseason",
+    link: "/hotels/metropol",
   },
   {
     id: "kempinski",
@@ -81,7 +83,7 @@ export const AllHotels = [
     img: kempinski,
     location: "Okhotny Ryad, Moscow",
     // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
-    link: "/hotels/fourseason",
+    link: "/hotels/kempinski",
   },
   {
     id: "national",
@@ -90,24 +92,24 @@ export const AllHotels = [
     img: national,
     location: "Okhotny Ryad, Moscow",
     // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
-    link: "/hotels/fourseason",
+    link: "/hotels/national",
   },
   {
-    id: "fourseason",
-    hotel: "FOUR SEASONS HOTEL",
+    id: "carlton",
+    hotel: "The Carlton, Moscow ",
     description: "Unparalleled luxury and breathtaking views.",
-    img: featuredHotel3,
+    img: carlton,
     location: "Okhotny Ryad, Moscow",
     // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
-    link: "/hotels/fourseason",
+    link: "/hotels/carlton",
   },
   {
-    id: "fourseason",
-    hotel: "FOUR SEASONS HOTEL",
+    id: "radison",
+    hotel: "Radisson Collection Moscow Hotel ",
     description: "Unparalleled luxury and breathtaking views.",
-    img: featuredHotel3,
+    img: radison,
     location: "Okhotny Ryad, Moscow",
     // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
-    link: "/hotels/fourseason",
+    link: "/hotels/radison",
   },
 ];

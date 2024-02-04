@@ -12,6 +12,7 @@ import Navbar from "./layout/NavBar";
 import Resturants from "./components/Categories/resturants";
 import Details from "./components/Details";
 import HotelDetails from "./pages/HotelDetails/HotelDetails";
+import WhatsAppIconButton from "./components/WhatsAppIcon";
 // import 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="/details" element={<Details />} />
         </Routes>
         {/* </Layout> */}
+        <WhatsAppIconButton />
         <Footer />
       </ThemeProvider>
     </div>

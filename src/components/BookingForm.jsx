@@ -1,9 +1,9 @@
 // BookingForm.jsx
 import React from 'react';
-import { Stack, TextField, Button } from '@mui/material';
+import { Stack, TextField, Button, Typography } from '@mui/material';
 import emailjs from 'emailjs-com';
 
-const BookingForm = ({ onClose }) => {
+const BookingForm = ({ hotelName, onClose }) => {
   
 
   const handleSubmit2 = async (e) => {
@@ -39,9 +39,10 @@ const BookingForm = ({ onClose }) => {
   return (
     <form onSubmit={handleSubmit2}>
       <Stack spacing={2} p={2}>
+        <Typography> Reserve your rooms in {hotelName} </Typography>
         <TextField name="name" label="Name" variant="outlined" fullWidth required />
         <TextField name="email" label="Email" type="email" variant="outlined" fullWidth required />
-        <TextField name="phone" label="Phone Number" variant="outlined" fullWidth required />
+        <TextField name="phone" label="Phone Number - WhatsApp" variant="outlined" fullWidth required />
         <TextField
             name="description"
           label="Description"

@@ -4,11 +4,11 @@ import Section from '../../components/section/Section';
 import { Stack, Typography, Box, Button, Modal  } from '@mui/material';
 import BookingForm from '../../components/BookingForm'; 
 import { useParams } from 'react-router-dom';
-import { FeaturedHotels } from '../../data/data';
+import { AllHotels } from '../../data/data';
 
 function HotelDetails() {
     const { id } = useParams();
-    const hotel = FeaturedHotels.filter((item => item.id === id))[0]
+    const hotel = AllHotels.filter((item => item.id === id))[0]
 
     const [isFormVisible, setFormVisible] = useState(false);
 
@@ -54,7 +54,7 @@ function HotelDetails() {
         
         <Modal open={isFormVisible} onClose={handleCloseForm}>
         <Box sx={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: 400, bgcolor: 'background.paper', border: '2px solid #000', p: 2 }}>
-          <BookingForm onClose={handleCloseForm} />
+          <BookingForm hotelName={hotel.hotel} onClose={handleCloseForm} />
         </Box>
       </Modal>
       
