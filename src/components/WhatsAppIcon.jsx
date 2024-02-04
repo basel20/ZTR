@@ -6,9 +6,10 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const WhatsAppIconButton = () => {
   const handleWhatsAppClick = () => {
-    const whatsappLink = `https://wa.me/+79265058992`;
+    const whatsappLink = `https://wa.me/message/KOYNSKJN4S7CD1`;
     window.open(whatsappLink, '_blank');
   };
+
 
   return (
     <IconButton
@@ -20,7 +21,7 @@ const WhatsAppIconButton = () => {
       }}
       onClick={handleWhatsAppClick}
     >
-      <WhatsAppIcon style={{fontSize: "70px",}} />
+      <WhatsAppIcon style={{fontSize: "50px"}} />
     </IconButton>
   );
 };
