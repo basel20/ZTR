@@ -13,6 +13,8 @@ import Resturants from "./components/Categories/resturants";
 import Details from "./components/Details";
 import HotelDetails from "./pages/HotelDetails/HotelDetails";
 import WhatsAppIconButton from "./components/WhatsAppIcon";
+import Activities from "./pages/Activities/Activities";
+import ActivityDetails from "./pages/ActivityDetails/ActivityDetails";
 // import 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/hotels" element={<Hotels />} />
           <Route path="/hotels/:id" element={<HotelDetails />} />
+          <Route path="/activities" element={<Activities />} />
+          <Route path="/activities/:id" element={<ActivityDetails />} />
           <Route path="/resturants" element={<Resturants />} />
           <Route path="/ContactsPage" element={<ContactPage />} />
           <Route path="/Abotus" element={<AboutPage />} />

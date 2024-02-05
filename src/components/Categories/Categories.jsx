@@ -17,7 +17,7 @@ export default function CategoriesSection() {
 
   const Categories = [
     { cat: "Hotels", img: img4, link: "/hotels" },
-    { cat: "Activities", img: img3, link: "/parks" },
+    { cat: "Activities", img: img3, link: "/activities" },
     { cat: "Parks", img: img3, link: "/parks" },
     { cat: "Malls", img: img1, link: "/malls" },
     { cat: "Resturants", img: img2, link: "/resturants" },
