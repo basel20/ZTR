@@ -18,7 +18,7 @@ import Bigfoot from './Activities/bigfooot.jpg'
 export const FeaturedHotels = [
   {
     id: "stregis",
-    hotel: "ST. REGIS MOSCOW NIKOLSKAYA",
+    hotel: "فندق سانت ريجيس موسكو نيكولسكايا",
     description: "Luxury at its finest with world-class amenities.",
     location: "Nikolskaya Street, Moscow",
     img: featuredHotel1,
@@ -27,7 +27,7 @@ export const FeaturedHotels = [
   },
   {
     id: "ararat",
-    hotel: "ARARAT PARK HOTEL",
+    hotel: " فندق آرارات بارك حياة",
     description: "A blend of modern elegance and historic charm.",
     location: "Krasnopresnenskaya embankment, Moscow",
     img: featuredHotel2,
@@ -36,7 +36,7 @@ export const FeaturedHotels = [
   },
   {
     id: "fourseason",
-    hotel: "FOUR SEASONS HOTEL",
+    hotel: "فندق فور سيزونز",
     description: "Unparalleled luxury and breathtaking views.",
     img: featuredHotel3,
     location: "Okhotny Ryad, Moscow",
@@ -49,25 +49,25 @@ export const FeaturedHotels = [
 export const AllHotels = [
   {
     id: "stregis",
-    hotel: "ST. REGIS MOSCOW NIKOLSKAYA",
-    description: "Luxury at its finest with world-class amenities.",
-    location: "Nikolskaya Street, Moscow",
+    hotel: "فندق سانت ريجيس موسكو نيكولسكايا",
+    description: "يُعدّ فندق سانت ريجيس موسكو خيارًا فخمًا في قلب المدينة، على بعد خطوات من الساحة الحمراء والكرملين. يتميز بتصميم داخلي أنيق، وخدمات راقية، ومرافق شاملة مثل مطاعم وبار ومركز للياقة البدنية ومنتجع صحي.",
+    location: "Russia, Moscow, Nikolskaya, 12",
     img: featuredHotel1,
     // imgList: [featuredHotel1, 'additional-image1.jpg', 'additional-image2.jpg'],
     link: "/hotels/stregis",
   },
   {
     id: "ararat",
-    hotel: "ARARAT PARK HOTEL",
-    description: "A blend of modern elegance and historic charm.",
-    location: "Krasnopresnenskaya embankment, Moscow",
+    hotel: "فندق آرارات بارك حياة",
+    description: "يُعدّ فندق آرارات بارك حياة موسكو خيارًا فخمًا في قلب المدينة، يتميز بتصميم داخلي بسيط وفخم، وخدمات راقية، ومرافق شاملة مثل مسبح داخلي وخدمة واي فاي مجانية.",
+    location: "4 Neglinnaya Street, 109012 Moscow",
     img: featuredHotel2,
     // imgList: [featuredHotel2, 'additional-image3.jpg', 'additional-image4.jpg'],
     link: "/hotels/ararat",
   },
   {
     id: "fourseason",
-    hotel: "FOUR SEASONS HOTEL",
+    hotel: "فندق فور سيزونز",
     description: "Unparalleled luxury and breathtaking views.",
     img: featuredHotel3,
     location: "Okhotny Ryad, Moscow",
@@ -76,7 +76,7 @@ export const AllHotels = [
   },
   {
     id: "metropol",
-    hotel: "METROPOL HOTEL MOSCOW",
+    hotel: "فندق متروبول موسكو",
     description: "Unparalleled luxury and breathtaking views.",
     img: metropol,
     location: "Okhotny Ryad, Moscow",
@@ -85,7 +85,7 @@ export const AllHotels = [
   },
   {
     id: "kempinski",
-    hotel: "HOTEL BALTSCHUG KEMPINSKI MOSCOW",
+    hotel: "فندق بالتشوغ كمبينسكي موسكو",
     description: "Unparalleled luxury and breathtaking views.",
     img: kempinski,
     location: "Okhotny Ryad, Moscow",
@@ -94,7 +94,7 @@ export const AllHotels = [
   },
   {
     id: "national",
-    hotel: "National Hotel Moscow",
+    hotel: "فندق ناشيونال موسكو",
     description: "The National Hotel combines rich history, palatial architecture and high art in the heart of Moscow. Built in 1903 by the famous architect Alexander Ivanov, this 5-star hotel is a magnificent example piece of imperial architecture in the historic centre of Moscow. The hotel overlooks legendary Red Square, while the Kremlin, the Bolshoi Theatre, St. Basil‘s Cathedral and the Old Arbat are just a few steps away.",
     img: national,
     location: "Okhotny Ryad, Moscow",
@@ -103,7 +103,7 @@ export const AllHotels = [
   },
   {
     id: "carlton",
-    hotel: "The Carlton, Moscow ",
+    hotel: "فندق كارلتون موسكو",
     description: "Unparalleled luxury and breathtaking views.",
     img: carlton,
     location: "Okhotny Ryad, Moscow",
@@ -112,7 +112,7 @@ export const AllHotels = [
   },
   {
     id: "radison",
-    hotel: "Radisson Collection Moscow Hotel ",
+    hotel: "فندق راديسون كوليكشن موسكو",
     description: "Unparalleled luxury and breathtaking views.",
     img: radison,
     location: "Okhotny Ryad, Moscow",

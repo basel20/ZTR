@@ -62,12 +62,12 @@ export default function Navbar(props) {
   };
 
   const listItems = [
-    { item: "Home", link: "/" },
-    { item: "Categories", link: "/Categories" },
-    { item: "Hotels", link: "/Hotels" },
-    { item: "Activities", link: "/Activities" },
-    { item: "Contacts", link: "/Contacts" },
-    { item: "About", link: "/About" },
+    { item: "الرئيسية", link: "/" },
+    { item: "الفئات", link: "/Categories" },
+    { item: "الفنادق", link: "/Hotels" },
+    { item: "الفعاليات", link: "/Activities" },
+    { item: "تواصل ", link: "/Contacts" },
+    { item: " نحن", link: "/About" },
   ];
 
   const newNavItems = listItems.map((newNavItem, index) => (
@@ -117,7 +117,7 @@ export default function Navbar(props) {
         href="/"
         sx={{
           height: "98%",
-          width: "250px",
+          width: "300px",
           background: `url(${Logo})`,
           backgroundSize: "100% 100%",
           border: "none",
@@ -136,6 +136,8 @@ export default function Navbar(props) {
             display: "flex",
             flexDirection: "row",
             justifyContent: "end",
+            width: 'fitContent'
+
           }}
         >
           {newNavItems}

@@ -22,17 +22,18 @@ function HotelDetails() {
   
     return (
       <div >
-        <SliderForPages/>
+        
         <Section header={hotel.hotel} >
+        <SliderForPages/>
             <Stack>
-                <Typography variant='h3' p={{xs:'0 30px',md:"0 100px"}} lineHeight={1.5}>
+                <Typography variant='h3' p={{xs:'30px',md:"30px"}} lineHeight={1.5}>
                     {hotel.description}
                 </Typography>
             </Stack>
             <Stack direction={{xs:'column',md:'row'}} alignItems={{xs:'center',md:'flex-start'}} justifyContent={'center'} gap={{xs:5,md:30}} mt={3}>
                 <Box width={400}>
                     {/* <Typography variant='h3' borderBottom='3px solid #005A5A' color={'#005A5A'} p='10px 0' ><strong>Price:</strong> 2000 /person</Typography> */}
-                    <Typography variant='h3' borderBottom='3px solid #005A5A' color={'#005A5A'} p='10px 0' >Location:</Typography>
+                    <Typography variant='h3' borderBottom='3px solid #005A5A' color={'#005A5A'} p='10px 0' >موقع الفندق:</Typography>
                     <Typography variant='h3' borderBottom='3px solid #005A5A' color={'#005A5A'} p='10px 0' >{hotel.location}</Typography>
 
                 </Box>
@@ -46,10 +47,15 @@ function HotelDetails() {
             <Stack alignItems={'center'} justifyContent={'center'} mt={3} >
                 <Button sx={{height:60, width:200, backgroundColor:"#cdc392", color:'#005A5A', fontSize: 30, borderBottom:'5px solid #005A5A'}}
                 onClick={handleOpenForm}>
-                    Book
+                    احجز الآن
                 </Button>
             </Stack>
         </Section>
+        <Stack>
+                <Typography variant='h3' p={{xs:'30px',md:"30px"}} lineHeight={1.5}>
+                أو تواصل معنا عبر الواتس آب للإستفسار أكثر
+                </Typography>
+        </Stack>
      
         
         <Modal open={isFormVisible} onClose={handleCloseForm}>

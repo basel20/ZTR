@@ -20,19 +20,19 @@ export default function CategoriesSection() {
   
 
   const Categories = [
-    { cat: "Hotels", img: img4, link: "/hotels" },
-    { cat: "Activities", img: img6, link: "/activities" },
-    { cat: "Parks", img: img3, link: "/parks" },
-    { cat: "Malls", img: img1, link: "/malls" },
-    { cat: "Resturants", img: img2, link: "/resturants" },
-    { cat: "Transfer", img: img5, link: "/transfer" },
-    { cat: "Tickets", img: img8, link: "/tickets" },
-    { cat: "Other", img: img7, link: "/other" }
+    { cat: "فنادق", img: img4, link: "/hotels" },
+    { cat: "فعاليات", img: img6, link: "/activities" },
+    { cat: "متنزهات", img: img3, link: "/parks" },
+    { cat: "مراكز التسوق", img: img1, link: "/malls" },
+    { cat: "مطاعم", img: img2, link: "/resturants" },
+    { cat: "توصيل", img: img5, link: "/transfer" },
+    { cat: "تذاكر", img: img8, link: "/tickets" },
+    { cat: "أخرى", img: img7, link: "/other" }
   ];
 
   return (
     <div id="categories">
-    <Section header="Categories" >
+    <Section header="كل الخدمات" >
     
       <Stack
       width='100%'
