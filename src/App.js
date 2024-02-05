@@ -31,8 +31,8 @@ function App() {
           <Route path="/activities" element={<Activities />} />
           <Route path="/activities/:id" element={<ActivityDetails />} />
           <Route path="/resturants" element={<Resturants />} />
-          <Route path="/ContactsPage" element={<ContactPage />} />
-          <Route path="/Abotus" element={<AboutPage />} />
+          <Route path="/Contacts" element={<ContactPage />} />
+          <Route path="/About" element={<AboutPage />} />
           <Route path="/details" element={<Details />} />
         </Routes>
         {/* </Layout> */}

@@ -19,6 +19,7 @@ const BookingForm = ({ hotelName, onClose }) => {
     try {
       await emailjs.send('service_0v3br49', 'template_u4j941f', {
         to_name: 'Masar', // Replace with the recipient's name
+        resevition:`${hotelName}`,
         from_name: name,
         from_email: email,
         phone,
@@ -44,7 +45,7 @@ const BookingForm = ({ hotelName, onClose }) => {
         <TextField name="email" label="Email" type="email" variant="outlined" fullWidth required />
         <TextField name="phone" label="Phone Number - WhatsApp" variant="outlined" fullWidth required />
         <TextField
-            name="description"
+          name="description"
           label="Description"
           multiline
           rows={4}

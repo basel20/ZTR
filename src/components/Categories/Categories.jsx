@@ -5,6 +5,10 @@ import img1 from "./shopping.svg";
 import img2 from "./restaurant.svg";
 import img3 from "./park.svg";
 import img4 from "./hotel.svg";
+import img5 from "./car.svg";
+import img6 from "./activities.svg";
+import img7 from "./dots.svg";
+import img8 from "./tickets.svg";
 
 
 import { useNavigate } from "react-router-dom";
@@ -17,13 +21,13 @@ export default function CategoriesSection() {
 
   const Categories = [
     { cat: "Hotels", img: img4, link: "/hotels" },
-    { cat: "Activities", img: img3, link: "/activities" },
+    { cat: "Activities", img: img6, link: "/activities" },
     { cat: "Parks", img: img3, link: "/parks" },
     { cat: "Malls", img: img1, link: "/malls" },
     { cat: "Resturants", img: img2, link: "/resturants" },
-    { cat: "Transfer", img: img4, link: "/transfer" },
-    { cat: "Tickets", img: img1, link: "/tickets" },
-    { cat: "Other", img: img4, link: "/other" }
+    { cat: "Transfer", img: img5, link: "/transfer" },
+    { cat: "Tickets", img: img8, link: "/tickets" },
+    { cat: "Other", img: img7, link: "/other" }
   ];
 
   return (
@@ -53,7 +57,7 @@ export default function CategoriesSection() {
                 
               }}
             >
-            <img src={item.img} alt=""/>
+            <img src={item.img} height='90%' alt=""/>
 
 
               <Button
@@ -66,7 +70,9 @@ export default function CategoriesSection() {
                   justifyContent: "center",
                   borderRadius:'0', 
                   opacity:'0.8',
-                }}
+                  '&:hover':{
+                    backgroundColor: '#669c9c'
+                }}}
                 onClick={() => navigate(item.link)}
               >
                 <Typography fontSize={{xs:'18px', md:'24px'}} textAlign="left" color="#fff" sx={{filter:"brightness(150%)"}} fontFamily={"Bai Jamjuree', sans-serif"}>

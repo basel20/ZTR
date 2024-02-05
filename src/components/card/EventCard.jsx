@@ -28,7 +28,10 @@ export default function EventCard({event, img, link }) {
                   alignItems: {xs:'center',md:"left"},
                   justifyContent: {xs:'center',md:"left"},
                   pl: "20px",
-                  borderRadius:'0'
+                  borderRadius:'0',
+                  '&:hover':{
+                    backgroundColor: '#669c9c'
+                }
                   
                 }}
                 onClick={() => navigate(link)}

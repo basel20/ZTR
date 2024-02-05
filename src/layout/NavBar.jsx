@@ -14,10 +14,10 @@ export default function Navbar(props) {
 
   const [isLang, setIsLang] = useState(false);
 
-  const scrollToCategories = (e) => {
-    e.preventDefault()
-    document.getElementById('categories').scrollIntoView();
-  }
+ //{ const scrollToCategories = (e) => {
+   // e.preventDefault()
+   // document.getElementById('categories').scrollIntoView();
+  //}}
 
   function toggleLang() {
     setIsLang(!isLang);

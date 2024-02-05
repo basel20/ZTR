@@ -1,7 +1,6 @@
 import React from "react";
 
 import Section from "../../components/section/Section";
-import ExtractBtn from "../../components/ExtractBtn";
 import { Grid} from "@mui/material";
 
 import EventCard from '../../components/card/EventCard';

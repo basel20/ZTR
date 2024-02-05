@@ -12,7 +12,7 @@ export default function ServicesSection(){
     
     return(
         <Section header='Our Services'>
-            <Stack width={{md:'100%'}} height={{xs:'250px',md:'300px'}} direction={{ md:'row'}} alignItems='center' justifyContent='center' borderTop={'5px solid #005A5A'} borderBottom={'5px solid #005A5A'}>
+            <Stack width={{xs:'100%',md:'100%'}} height={{xs:'300px',md:'300px'}} direction={{ md:'row'}} alignItems='center' justifyContent='center' borderTop={'5px solid #005A5A'} borderBottom={'5px solid #005A5A'}>
                 <Box   sx={{width:{ xs:'100%',md:'50%'},height:{xs:'96%',md:'98%'}, display:'flex', flexDirection:'column',justifyContent:'center', pl:{md:'5%',lg:'10%'}}} 
                 borderTop={'5px solid #b9b083'} borderBottom={'5px solid #b9b083'}>
 

@@ -15,10 +15,8 @@ const AboutPage= () => {
             <Stack>
                 <Section header={t("About us" )}>
                     <Typography fontSize='24px' textAlign={i18n.language === 'en'? 'left':'right'} lineHeight='45px' p={{xs:'0 30px',md:"0 100px"}} fontWeight={500} color={theme.palette.text.primary}>
-                    {t("The aim of the work is Creation of a tourism web application to promote the tourism potential of Yemen. The application will help attract tourists to Yemen by providing information about cultural attractions tourist routes natural beauties And other attractions worth visiting.")}
+{t("The aim of the work is Creation of a tourism web application to promote the tourism potential of Yemen. The application will help attract tourists to Yemen by providing information about cultural attractions tourist routes natural beauties And other attractions worth visiting.")}
 <br/>
-
-
 {t("The main idea of the application is to focus on tourism in one country (Yemn)")}
 <br/>
  {t("Orientation to places popular with the local population, because site creators were born and live in Yemen and know this country well")}<br/>
