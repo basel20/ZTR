@@ -10,7 +10,7 @@ export default function Hotels() {
 
 
   return (
-    <Section header="Hotels" >
+    <Section header="الفنادق" >
       <Grid
         width="100%"
         display="grid"

@@ -22,7 +22,7 @@ export default function EventsSection() {
 
  
   return (
-    <Section header="Events" >
+    <Section header="الاكثر طلبا" >
       <Grid
         width="100%"
         display="grid"
@@ -32,7 +32,7 @@ export default function EventsSection() {
         {Events.map((item, index)=><EventCard key={index} event={item.event} img={item.img} link={item.link}/>)}
           
       </Grid>
-      <ExtractBtn link="/CitiesPage" text="More Events" />
+      <ExtractBtn link="/CitiesPage" text="كل الفعاليات " />
     </Section>
   );
 }

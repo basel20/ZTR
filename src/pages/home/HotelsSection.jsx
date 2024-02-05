@@ -13,7 +13,7 @@ export default function HotelsSection() {
   
   
   return (
-    <Section header="Featured Hotels" >
+    <Section header="الفنادق المميزة" >
       <Grid
         width="100%"
         display="grid"
@@ -23,7 +23,7 @@ export default function HotelsSection() {
         {FeaturedHotels.map((item, index)=><EventCard key={index} event={item.hotel} img={item.img} link={item.link}/>)}
           
       </Grid>
-      <ExtractBtn link="/hotels" text="More Hotels" />
+      <ExtractBtn link="/hotels" text="جميع الفنادق" />
     </Section>
   );
 }
