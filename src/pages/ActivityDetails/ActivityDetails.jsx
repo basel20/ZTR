@@ -4,11 +4,11 @@ import Section from '../../components/section/Section';
 import { Stack, Typography, Box, Button, Modal  } from '@mui/material';
 import BookingForm from '../../components/BookingForm'; 
 import { useParams } from 'react-router-dom';
-import { AllHotels } from '../../data/data';
+import { AllActivities } from '../../data/data';
 
 function ActivityDetails() {
     const { id } = useParams();
-    const hotel = AllHotels.filter((item => item.id === id))[0]
+    const Activity = AllActivities.filter((item => item.id === id))[0]
 
     const [isFormVisible, setFormVisible] = useState(false);
 
@@ -23,19 +23,17 @@ function ActivityDetails() {
     return (
       <div >
         <SliderForPages/>
-        <Section header={hotel.hotel} >
+        <Section header={Activity.hotel} >
             <Stack>
                 <Typography variant='h3' p={{xs:'0 30px',md:"0 100px"}} lineHeight={1.5}>
-                    {hotel.description}
+                    {Activity.description}
                 </Typography>
             </Stack>
             <Stack direction={{xs:'column',md:'row'}} alignItems={{xs:'center',md:'flex-start'}} justifyContent={'center'} gap={{xs:5,md:30}} mt={3}>
-                <Box width={400}>
-                    {/* <Typography variant='h3' borderBottom='3px solid #005A5A' color={'#005A5A'} p='10px 0' ><strong>Price:</strong> 2000 /person</Typography> */}
+                {/* <Box width={400}>
                     <Typography variant='h3' borderBottom='3px solid #005A5A' color={'#005A5A'} p='10px 0' >Location:</Typography>
                     <Typography variant='h3' borderBottom='3px solid #005A5A' color={'#005A5A'} p='10px 0' >{hotel.location}</Typography>
-
-                </Box>
+                </Box> */}
 
                 {/* <Box width={250}>
                 <Typography variant='h3' borderBottom='3px solid #005A5A' color={'#005A5A'} p='10px 0' >Avaliable Times:</Typography>
@@ -54,7 +52,7 @@ function ActivityDetails() {
         
         <Modal open={isFormVisible} onClose={handleCloseForm}>
         <Box sx={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: 400, bgcolor: 'background.paper', border: '2px solid #000', p: 2 }}>
-          <BookingForm hotelName={hotel.hotel} onClose={handleCloseForm} />
+          <BookingForm hotelName={Activity.hotel} onClose={handleCloseForm} />
         </Box>
       </Modal>
       
