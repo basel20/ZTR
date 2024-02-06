@@ -83,7 +83,7 @@ export default function Footer(){
                 <IconButton onClick={() => openNewTab("https://www.snapchat.com/add/masar_moscow")} sx={{backgroundColor:'#CDC392'}}>
                     <Box sx={{height: {xs:'35px',md:"50px"}, width: {xs:'35px',md:"50px"}, background: `url(${Snapchat})`, backgroundSize: "100% 100%",}}></Box>
                 </IconButton>
-                <IconButton sx={{backgroundColor:'#CDC392'}}>
+                <IconButton onClick={() => openNewTab("https://www.instagram.com/masar_moscow_?igsh=MXFueWhnMnFkMDVzcg==")} sx={{backgroundColor:'#CDC392'}}>
                     <InstagramIcon sx={footerStyles.iconStyle}/>
                 </IconButton>
                 </Box>
