@@ -4,7 +4,8 @@ import theme from "../theme/theme";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { Link } from "react-router-dom";
-import Logo from './masar2.svg'
+import Logo from './masar3.png'
+import LogoSm from './masar2.svg'
 import LanguageIcon from '@mui/icons-material/Language';
 import i18n from "../components/Trans/i18";
 
@@ -71,12 +72,13 @@ export default function Navbar(props) {
   ];
 
   const newNavItems = listItems.map((newNavItem, index) => (
-    <ListItem key={index} sx={navStyles.listItem}>
+    <ListItem key={index} sx={navStyles.listItem} textAlign="center">
       <ListItemButton
         to={newNavItem.link}
         sx={navStyles.listText}
         component={Link}
         onClick={() => setDrawerOpen(false)}
+        textAlign="center"
       >
         {newNavItem.item}
       </ListItemButton>
@@ -95,7 +97,7 @@ export default function Navbar(props) {
       position="sticky"
       sx={{borderBottom:'5px solid #005A5A'}}
     > 
-    <Box display={{ xs: "flex", md: "none" }} alignItems="center">
+    <Box display={{ xs: "flex", md: "none" }} alignItems="center" >
       <IconButton
         size="large"
         edge="start"
@@ -105,9 +107,9 @@ export default function Navbar(props) {
       >
         <MenuIcon sx={{ color: '#005A5A' }}/>
       </IconButton>
-      <IconButton onClick={() => changeLanguage(isLang ? "en" : "ar")}>
+      {/* <IconButton onClick={() => changeLanguage(isLang ? "en" : "ar")}>
           <LanguageIcon sx={{ color: '#005A5A' }} />
-        </IconButton>
+        </IconButton> */}
       </Box>
 
       
@@ -142,21 +144,23 @@ export default function Navbar(props) {
         >
           {newNavItems}
         </List>
-        <IconButton onClick={() => changeLanguage(isLang ? "en" : "ar")}>
+        {/* <IconButton onClick={() => changeLanguage(isLang ? "en" : "ar")}>
           <LanguageIcon sx={{color:'#005A5A'}}/>
-        </IconButton>
+        </IconButton> */}
       </Box>
 
       <Drawer
         anchor="right"
         open={drawerOpen}
         onClose={() => setDrawerOpen(false)}
+        
       >
         <Stack
           direction="row"
-          justifyContent="flex-end"
+          justifyContent="center"
           alignItems="center"
           p="20px"
+          width="200px"
         >
           <IconButton
             size="large"
@@ -169,7 +173,7 @@ export default function Navbar(props) {
             <CloseIcon />
           </IconButton>
         </Stack>
-        <List>{newNavItems}</List>
+        <List >{newNavItems}</List>
         
       </Drawer>
 

@@ -6,6 +6,10 @@ import Logo from '../../layout/masar2.svg'
 import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
 import { textAlign } from "@mui/system";
 import clients from './servicesSVG/clients.svg'
+import dicount from './servicesSVG/discount.svg'
+import gaurantee from './servicesSVG/gaurantee.svg'
+import guide from './servicesSVG/guide.svg'
+import ticket from './servicesSVG/ticket.svg'
 
 
 export default function ServicesSection(){
@@ -13,9 +17,30 @@ export default function ServicesSection(){
     const Services = [
         {
             id: 1,
-            name: "",
-            icon: ""
-        }
+            name: "نفخر بخدمتنا لأكثر من ألف عميل خلال 2023 ",
+            icon: clients
+        },
+        {
+            id: 2,
+            name: "نوفر خصومات لحجوازات الفنادق",
+            icon: dicount
+        },
+        {
+            id: 3,
+            name: "حجوزات مضمونة وخدمات ممتازة",
+            icon: gaurantee
+        },
+        {
+            id: 4,
+            name: "لدينا كادر من المرشدين السياحيين المتحدثين بالعربية",
+            icon: guide
+        },
+        {
+            id: 4,
+            name: "نقدم حجوزات لجميع الفعاليات السياحية",
+            icon: ticket
+        },
+
     ]
 
     
@@ -29,18 +54,21 @@ export default function ServicesSection(){
                     borderTop={'5px solid #005A5A'}
                     borderBottom={'5px solid #005A5A'}
                     py={4}
+                    gap={{xs: "35px", md: "5px"}}
                 >
-                    {[1, 2, 3, 4].map((index) => (
-                    <Box key={index} display="flex" flexDirection="column" alignItems="center" mx={2}>
-                        <img src={clients} width="40px" height="40px" alt={`Icon ${index}`} mb={2} />
+                    {Services.map((item) => (
+                    <Box key={item.id} display="flex" flexDirection="column" alignItems="center" mx={4} 
+                        >
+                        <img src={item.icon} width="100px" height="100px" alt={`Icon ${item.name}`} mb={3} />
                         <Typography
                         fontSize={{ xs: '18px', md: '20px' }}
                         textAlign="center"
                         lineHeight={{ xs: '24px', md: '28px' }}
                         fontWeight={700}
                         color="#005A5A"
+                        mt="10px"
                         >
-                        Card {index}
+                        {item.name}
                         </Typography>
                     </Box>
                     ))}

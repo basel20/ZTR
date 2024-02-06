@@ -15,6 +15,10 @@ import snowmobile from './Activities/snowmobile.jpeg'
 import ATVs from './Activities/ATV.png'
 import Bigfoot from './Activities/bigfooot.jpg'
 
+import bulshoi from './Restaurants/bolshoi.jpg'
+import turandot from './Restaurants/turandot.png'
+import pushkin from './Restaurants/bushkin.jpeg'
+
 export const FeaturedHotels = [
   {
     id: "stregis",
@@ -122,6 +126,34 @@ export const AllHotels = [
 ];
 
 
+export const FeaturedActivities = [
+  {
+    id: "husky",
+    name: "رحلة التزلج على الهاسكي",
+    description: "استمتع برحلات مثيرة عبر المناظر الثلجية التي تجرها كلاب هاسكي ودودة. اختبر التشويق والمغامرة وتواصل مع الطبيعة بطريقة فريدة",
+    img: husky,
+    // imgList: [featuredHotel1, 'additional-image1.jpg', 'additional-image2.jpg'],
+    link: "/activities/husky",
+  },
+  {
+    id: "snowmobile",
+    name: "الدراجات الثلجية",
+    description: "استكشف تضاريس ثلجية واسعة بقوة وحرية موتور الجليد. اكتشف مناظر شتوية خلابة واشعر باندفاع الأدرينالين وأنت تنطلق عبر الثلج",
+    img: snowmobile,
+    // imgList: [featuredHotel2, 'additional-image3.jpg', 'additional-image4.jpg'],
+    link: "/activities/snowmobile",
+  },
+  {
+    id: "tiger",
+    name: "جلسة التصوير مع النمر",
+    description: "اصنع ذكريات لا تُنسى مع لقاء ومشاركة تصوير مقرب مع نمر مهيب. التقط صورًا مذهلة في بيئة آمنة",
+    img: tiger,
+    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+    link: "/activities/tiger",
+  }
+];
+
+
 export const AllActivities = [
   {
     id: "husky",
@@ -190,4 +222,32 @@ export const AllActivities = [
     // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
     link: "/hotels/radison",
   },
+];
+
+
+export const FeaturedRestaurants = [
+  {
+    id: "bulshoi",
+    name: "مطعم البولشوي", // Restaurant name: Bolshoi
+    description: "مطعم فاخر يقدم المأكولات الروسية التقليدية في أجواء أنيقة.",
+    img: bulshoi,
+    // imgList: [featuredRestaurant1, 'additional-image1.jpg', 'additional-image2.jpg'],
+    link: "/restaurants/bulshoi", 
+},
+{
+    id: "turandot",
+    name: "مطعم توراندوت", // Restaurant name: Turandot
+    description: "مطعم فاخر يقدم المأكولات العالمية في أجواء رائعة مستوحاة من قصص ألف ليلة وليلة.", 
+    img: turandot,
+    // imgList: [featuredRestaurant2, 'additional-image3.jpg', 'additional-image4.jpg'],
+    link: "/restaurants/turandot", 
+},
+{
+    id: "pushkin",
+    name: "مقهى بوشكين",  
+    description: "مقهى دافئ يقدم المأكولات الروسية اللذيذة في أجواء مريحة.", 
+    img: pushkin,
+    // imgList: [featuredRestaurant3, 'additional-image5.jpg', 'additional-image6.jpg'],
+    link: "/restaurants/pushkin", 
+},
 ];

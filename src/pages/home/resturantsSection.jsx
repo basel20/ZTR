@@ -7,15 +7,10 @@ import img2 from "./event2.jpeg";
 import img3 from "./event3.jpeg";
 
 import EventCard from '../../components/card/EventCard';
-
+import { FeaturedRestaurants } from "../../data/data";
 
 export default function ResturantsSection() {
-  
-  const Resturants = [
-    { resturant: "resturant1", img: img1, link: "" },
-    { resturant: "resturant2", img: img2, link: "" },
-    { resturant: "resturant3", img: img3, link: "" },
-  ];
+
 
  
   return (
@@ -26,7 +21,7 @@ export default function ResturantsSection() {
         direction={{xs:'column',md:"row"}}
         gridTemplateColumns={{xs:'1fr',md:"1fr 1fr 1fr"}}
       >
-        {Resturants.map((item, index)=><EventCard key={index} event={item.resturant} img={item.img} link={item.link}/>)}
+        {FeaturedRestaurants.map((item)=><EventCard key={item.id} event={item.name} img={item.img} link={item.link}/>)}
           
       </Grid>
       <ExtractBtn link="/resturants" text="المزيد من المطاعم" />

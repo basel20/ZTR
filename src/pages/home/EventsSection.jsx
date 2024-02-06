@@ -8,17 +8,11 @@ import img2 from "./event2.jpeg";
 import img3 from "./event3.jpeg";
 
 import EventCard from '../../components/card/EventCard';
-
+import { FeaturedActivities } from "../../data/data";
 
 
 export default function EventsSection() {
   
-
-  const Events = [
-    { event: "Event1", img: img1, link: "" },
-    { event: "Event2", img: img2, link: "" },
-    { event: "Event3", img: img3, link: "" },
-  ];
 
  
   return (
@@ -29,7 +23,7 @@ export default function EventsSection() {
         direction={{xs:'column',md:"row"}}
         gridTemplateColumns={{xs:'1fr',md:"1fr 1fr 1fr"}}
       >
-        {Events.map((item, index)=><EventCard key={index} event={item.event} img={item.img} link={item.link}/>)}
+        {FeaturedActivities.map((item)=><EventCard key={item.id} event={item.name} img={item.img} link={item.link}/>)}
           
       </Grid>
       <ExtractBtn link="/activities" text="كل الفعاليات " />
