@@ -32,7 +32,7 @@ export default function EventsSection() {
         {Events.map((item, index)=><EventCard key={index} event={item.event} img={item.img} link={item.link}/>)}
           
       </Grid>
-      <ExtractBtn link="/CitiesPage" text="كل الفعاليات " />
+      <ExtractBtn link="/activities" text="كل الفعاليات " />
     </Section>
   );
 }

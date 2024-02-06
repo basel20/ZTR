@@ -10,7 +10,7 @@ export default function Activities() {
 
 
   return (
-    <Section header="Adventures" >
+    <Section header="الفعاليات" >
       <Grid
         width="100%"
         display="grid"

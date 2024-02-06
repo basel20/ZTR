@@ -1,4 +1,5 @@
 
+import React, { useRef } from 'react';
 import ContactSection from './contactSection';
 import HotelsSection from './HotelsSection';
 import SliderForPages from '../../components/slider/slider';

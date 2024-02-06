@@ -19,7 +19,7 @@ export default function ResturantsSection() {
 
  
   return (
-    <Section header="Resturants" >
+    <Section header="أشهر المطاعم" >
       <Grid
         width="100%"
         display="grid"
@@ -29,7 +29,7 @@ export default function ResturantsSection() {
         {Resturants.map((item, index)=><EventCard key={index} event={item.resturant} img={item.img} link={item.link}/>)}
           
       </Grid>
-      <ExtractBtn link="/CitiesPage" text="More Resturants" />
+      <ExtractBtn link="/resturants" text="المزيد من المطاعم" />
     </Section>
   );
 }
