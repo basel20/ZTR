@@ -51,8 +51,8 @@ export default function ServicesSection(){
                     direction={{ xs: 'column', md: 'row' }}
                     justifyContent="center"
                     alignItems={{ xs: 'center', md: 'center' }}
-                    borderTop={'5px solid #005A5A'}
-                    borderBottom={'5px solid #005A5A'}
+                    borderTop={'5px solid #b9b083'}
+                    borderBottom={'5px solid #b9b083'}
                     py={4}
                     gap={{xs: "35px", md: "5px"}}
                 >

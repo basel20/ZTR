@@ -27,7 +27,7 @@ export default function EventCard({event, img, link }) {
                   display: "flex",
                   alignItems: {xs:'center',md:"right"},
                   justifyContent: {xs:'center',md:"right"},
-                  pl: "20px",
+                  pr: "20px",
                   borderRadius:'0',
                   '&:hover':{
                     backgroundColor: '#669c9c'

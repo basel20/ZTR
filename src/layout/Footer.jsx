@@ -56,7 +56,11 @@ export default function Footer(){
             }    
     };
 
-    const listItems = [{item:'Home'},{item:'Categories'},{item:'Events'},{item:'Contacts'}]
+    const listItems = [
+        {item: "الرئيسية", link: "/" },
+        { item: "الفئات", link: "/Categories" },
+        { item: "تواصل ", link: "/Contacts" },
+        { item: " نحن", link: "/About" }]
 
     const newNavItems = listItems.map((newNavItem) => 
                  <ListItem sx={footerStyles.listItem}> 
@@ -88,7 +92,7 @@ export default function Footer(){
                 </IconButton>
                 </Box>
                 <Typography variant={{xs:'h3',md:'h2'}} pt={1}><strong> Take your first step to a great trip</strong></Typography>
-                <List sx={{display:'flex', flexDirection:'row', justifyContent:'flex-start', }}>
+                <List sx={{display:'flex', flexDirection:'row', justifyContent:'flex-start', pb:'20px' }}>
                     {newNavItems}
                 </List>
                 &copy; Copyright 2022

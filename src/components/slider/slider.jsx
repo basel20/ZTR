@@ -106,7 +106,7 @@ const SliderForPages = ({Slides}) => {
         return (
           <Slide
             sx={{
-              background: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(${slide.img})`,
+              background: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)),url(${slide.img})`,
               ...position,
             }}
           ></Slide>

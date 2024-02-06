@@ -43,6 +43,34 @@ import national4 from './Hotels/national4.jpg'
 import national5 from './Hotels/national5.jpg'
 import national6 from './Hotels/national6.jpg'
 
+import carlton1 from './Hotels/carlton1.png'
+import carlton2 from './Hotels/carlton2.jpeg'
+import carlton3 from './Hotels/carlton3.jpeg'
+import carlton4 from './Hotels/carlton4.jpg'
+import carlton5 from './Hotels/carlton5.jpeg'
+import carlton6 from './Hotels/carlton6.jpg'
+
+import radison0 from './Hotels/radison0.avif'
+import radison1 from './Hotels/radison1.avif'
+import radison2 from './Hotels/radison2.avif'
+import radison3 from './Hotels/radison3.avif'
+import radison4 from './Hotels/radison4.avif'
+import radison5 from './Hotels/radison5.avif'
+
+import ararat0 from './Hotels/ararat.jpg'
+import ararat1 from './Hotels/ararat1.jpg'
+import ararat2 from './Hotels/ararat2.jpg'
+import ararat3 from './Hotels/ararat3.webp'
+import ararat4 from './Hotels/ararat4.jpg'
+import ararat5 from './Hotels/ararat5.jpg'
+
+import metropol0 from './Hotels/metropol.jpg'
+import metropol1 from './Hotels/metropol1.jpg'
+import metropol2 from './Hotels/metropol2.jpg'
+import metropol3 from './Hotels/metropol3.jpg'
+import metropol4 from './Hotels/metropol4.jpg'
+
+
 export const FeaturedHotels = [
   {
     id: "stregis",
@@ -78,7 +106,7 @@ export const AllHotels = [
   {
     id: "stregis",
     hotel: "فندق سانت ريجيس موسكو نيكولسكايا",
-    description: "يُعدّ فندق سانت ريجيس موسكو خيارًا فخمًا في قلب المدينة، على بعد خطوات من الساحة الحمراء والكرملين. يتميز بتصميم داخلي أنيق، وخدمات راقية، ومرافق شاملة مثل مطاعم وبار ومركز للياقة البدنية ومنتجع صحي.",
+    description: `يُعدّ فندق سانت ريجيس موسكو خيارًا فخمًا في قلب المدينة، على بعد خطوات من الساحة الحمراء والكرملين. يتميز بتصميم داخلي أنيق، وخدمات راقية، ومرافق شاملة مثل مطاعم وبار ومركز للياقة البدنية ومنتجع صحي.`,
     location: "Russia, Moscow, Nikolskaya, 12",
     img: featuredHotel1,
     imgList: [{id:1, img:stregis1}, {id:2, img:stregis2}, {id:3, img:stregis3}, {id:4, img:stregis4}],
@@ -87,10 +115,10 @@ export const AllHotels = [
   {
     id: "ararat",
     hotel: "فندق آرارات بارك حياة",
-    description: "يُعدّ فندق آرارات بارك حياة موسكو خيارًا فخمًا في قلب المدينة، يتميز بتصميم داخلي بسيط وفخم، وخدمات راقية، ومرافق شاملة مثل مسبح داخلي وخدمة واي فاي مجانية.",
+    description: "يقع هذا الفندق الراقي على بُعد 4 دقائق سيرًا على الأقدام من 'مسرح البولشوي' الشهير و14 دقيقة سيرًا على الأقدام من أبراج 'كاتدرائية القديس باسيل' الملونة. تتميز الغرف الأنيقة بإطلالات خلابة على المدينة وتتوفر فيها خدمة Wi-Fi مجانية وأجهزة تلفزيون بشاشات مسطحة وقواعد إرساء لأجهزة iPod، فضلاً عن بارات صغيرة وآلات لتحضير الشاي والقهوة. بالإضافة إلى ما سبق، تضم الغرف الأعلى درجة مساحات جلوس فخمة. تحتوي بعض الأجنحة على أحواض جاكوزي وتراسات، في حين يتألف البعض الآخر من طابقين. خدمة الغرف متاحة 24/7. يوجد مطعم أرمني أنيق وبار سوشي وبار كوكتيل أنيق مع تراس. يوجد أيضًا مقهى وبار رياضي. وتشمل وسائل الراحة الأخرى منتجعًا صحيًا فاخرًا يضم مسبحًا داخليًا وصالة للياقة البدنية.",
     location: "4 Neglinnaya Street, 109012 Moscow",
     img: featuredHotel2,
-    imgList: [{id:1, img:stregis1}, {id:2, img:stregis2}, {id:3, img:stregis3}, {id:4, img:stregis4}],
+    imgList: [{id:0, img:ararat0},{id:12, img:ararat1}, {id:3, img:ararat2}, {id:4, img:ararat3}, {id:5, img:ararat4}, {id:6, img:ararat5}],
     link: "/hotels/ararat",
   },
   {
@@ -108,7 +136,7 @@ export const AllHotels = [
     description: "يقع هذا الفندق الفاخر على طراز الفن الحديث في مبنى كبير يضم ردهة مركزية، ويبعد 4 دقائق سيرًا على الأقدام عن كل من محطة المترو ومسرح البولشوي و15 دقيقة سيرًا على الأقدام عن الكرملين في موسكو. تحتوي الغرف الفاخرة والمفروشة بالتحف على ميني بارات وخدمة الواي فاي المجانية وأجهزة تلفزيون بشاشات مسطحة. وتوفر بعضها إطلالات على المدينة. وتتميز الأجنحة بغرف معيشة وآلات نسبريسو، بينما تضم ​​الأجنحة الأعلى درجة حمّامات ساونا. خدمة الغرف متاحة 24/7.  يضم الفندق مطعمًا راقيًا وعريقًا وبارًا/صالة جلوس أنيقة تقدم كوكتيلات على طراز التاروت، وقاعة حفلات كبيرة في ردهة ذات سقف من الزجاج الملون. تتوفر وجبة الإفطار مقابل رسوم.",
     img: metropol,
     location: "Teatral'nyy Proyezd, 2, Moscow, 109012",
-     imgList: [{id:1, img:stregis1}, {id:2, img:stregis2}, {id:3, img:stregis3}, {id:4, img:stregis4}],
+     imgList: [{id:0, img:metropol0},{id:12, img:metropol1}, {id:3, img:metropol2}, {id:4, img:metropol3}, {id:5, img:metropol4}],
     link: "/hotels/metropol",
   },
   {
@@ -132,19 +160,19 @@ export const AllHotels = [
   {
     id: "carlton",
     hotel: "فندق كارلتون موسكو",
-    description: "Unparalleled luxury and breathtaking views.",
+    description: "يقع هذا الفندق الفاخر في مبنى كلاسيكي جديد على بعد 11 دقيقة سيرًا على الأقدام من مسرح البولشوي وأقل من كيلومتر واحد من الكرملين بموسكو وكيلومترين من كاتدرائية القديس بطرس. كاتدرائية باسيل.  تتوفر في الغرف الأنيقة، التي يطلّ بعضها على المدينة، خدمة Wi-Fi مجانية وأجهزة تلفزيون بشاشات مسطحة وآلات نسبريسو، بالإضافة إلى حمامات رخامية. تضيف الأجنحة الفخمة مناطق معيشة منفصلة. يضم بعضها غرفًا لتناول الطعام و/أو أحواض جاكوزي و/أو مطابخ. خدمة الغرف متاحة 24/7.  تشمل وسائل الراحة مطعمين أنيقين وصالة جلوس راقية وبارًا فخمًا على السطح مع ترّاس موسمي وإطلالات على المدينة. ويضم الفندق أيضًا مركزًا للياقة البدنية ومنتجعًا صحيًا مع مسبح داخلي. تتوفر مواقف للسيارات (مقابل رسوم) ووجبة الإفطار.",
     img: carlton,
-    location: "Okhotny Ryad, Moscow",
-     imgList: [{id:1, img:stregis1}, {id:2, img:stregis2}, {id:3, img:stregis3}, {id:4, img:stregis4}],
+    location: "Tverskaya St, 3, Moscow, 125009",
+     imgList: [{id:1, img:carlton1}, {id:2, img:carlton2}, {id:3, img:carlton3}, {id:4, img:carlton4}, {id:5, img:carlton5}, {id:6, img:carlton6}],
     link: "/hotels/carlton",
   },
   {
     id: "radison",
     hotel: "فندق راديسون كوليكشن موسكو",
-    description: "Unparalleled luxury and breathtaking views.",
+    description: "يطل هذا الفندق الفخم على 'نهر موسكو'، ويقع على بُعد 4 كيلومتر من 'الساحة الحمراء' التاريخية والكرملين و13 دقيقة سيرًا على الأقدام من محطة مترو. تتوفر في الغرف الفاخرة خدمة Wi-Fi مجانية وأجهزة تلفزيون بشاشات مسطحة، بالإضافة إلى حمامات ذات أرضيات مدفأة وأحواض استحمام ولوازم استحمام راقية. بالإضافة إلى ما سبق، تضم الغرف الأعلى درجة آلات إسبرسو ومناطق للجلوس وإطلالات على النهر. وتتيح غرف كلوب إمكانية الدخول إلى صالة خاصة. تشمل الأجنحة المؤلفة من غرفة نوم واحدة أو اثنتين غرف معيشة فاخرة ومطابخ ومساحات لتناول الطعام و/أو أحواض جاكوزي. خدمة الغرف متاحة 24/7. يوجد 5 مطاعم فاخرة و4 بارات. 2 مع الكاريوكي. تشمل وسائل الراحة مسبحًا داخليًا ومنتجعًا صحيًا وناديًا رياضيًا. يتم تقديم دعم التأشيرة.",
     img: radison,
-    location: "Okhotny Ryad, Moscow",
-     imgList: [{id:1, img:stregis1}, {id:2, img:stregis2}, {id:3, img:stregis3}, {id:4, img:stregis4}],
+    location: "2/1, Kutuzovskiy Avenue, Bld. 1, Moscow, 121248",
+     imgList: [{id:1, img:radison0},{id:2, img:radison1}, {id:3, img:radison2}, {id:4, img:radison3}, {id:5, img:radison4}, {id:6, img:radison5}, ],
     link: "/hotels/radison",
   },
 ];

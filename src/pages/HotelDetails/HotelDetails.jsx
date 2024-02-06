@@ -26,7 +26,7 @@ function HotelDetails() {
         <Section header={hotel.hotel} >
         <SliderForPages Slides={hotel.imgList}/>
             <Stack>
-                <Typography variant='h3' p={{xs:'30px',md:"30px"}} lineHeight={1.5}>
+                <Typography variant='h3' p={{xs:'30px',md:"30px 100px"}} lineHeight={1.5}>
                     {hotel.description}
                 </Typography>
             </Stack>

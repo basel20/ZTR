@@ -31,7 +31,7 @@ export default function Navbar(props) {
 
   const navStyles = {
     listText: {
-      fontSize: "16px",
+      fontSize: "20px",
       textTransform: "uppercase",
       fontWeight: "600",
       color: "#005A5A",

@@ -18,9 +18,10 @@ export default function ContactSection(){
                     </Typography>
                 </Box>
                 <Box sx={{width:{ xs:'100%',md:'50%'}, display:'flex', justifyContent:'center', alignItems:'center', gap:'20px'}}>
-                <Phone sx={{fontSize:{xs:'34px',md:'66px'}, color:'#fff', pt:'5px'}}/>
+                
                 <Typography fontSize={{xs:'24px',md:'54px'}} textAlign='center' lineHeight='75px' fontWeight={700} color='#005A5A'>
-                    (801) 776 441 777</Typography></Box>
+                    (801) 776 441 777</Typography>
+                <Phone sx={{fontSize:{xs:'34px',md:'66px'}, color:'#fff', pt:'5px'}}/></Box>
             </Stack>
         </Section>
     )
