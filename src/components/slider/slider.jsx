@@ -46,7 +46,7 @@ const SliderIconButton = styled((props) => (
 }));
 
 
-const SliderForPages = () => {
+const SliderForPages = ({Slides}) => {
 
   const [index, setIndex] = useState(2);
 

@@ -51,36 +51,36 @@ const themeSittings = () => {
       },
     },
     typography: {
-      fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
+      fontFamily: ["Cairo", " sans-serif"].join(","),
       fontSize: 18,
       h1: {
-        fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
+        fontFamily: ["Cairo", " sans-serif"].join(","),
         fontSize: 40,
       },
       h2: {
-        fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
+        fontFamily: ["Cairo", " sans-serif"].join(","),
         fontSize: 32,
       },
       h3: {
-        fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
+        fontFamily: ["Cairo", " sans-serif"].join(","),
         fontSize: 24,
       },
       h4: {
-        fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
+        fontFamily: ["Cairo", " sans-serif"].join(","),
         fontSize: 20,
       },
       h5: {
-        fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
+        fontFamily: ["Cairo", " sans-serif"].join(","),
         fontSize: 16,
       },
       h6: {
-        fontFamily: ["Bai Jamjuree", " sans-serif"].join(","),
+        fontFamily: ["Cairo", " sans-serif"].join(","),
         fontSize: 14,
       },
       cardTitle: {
         color: "#FFFFFF",
         fontWeight: 500,
-        fontFamily: "Bai Jamjuree",
+        fontFamily: "Cairo",
         fontStyle: "normal",
         fontSize: 34,
       },

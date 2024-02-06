@@ -15,6 +15,30 @@ import snowmobile from './Activities/snowmobile.jpeg'
 import ATVs from './Activities/ATV.png'
 import Bigfoot from './Activities/bigfooot.jpg'
 
+import stregis1 from './Hotels/stregis1.jpg'
+import stregis2 from './Hotels/stregis2.jpeg'
+import stregis3 from './Hotels/stregis3.jpg'
+import stregis4 from './Hotels/stregis4.jpg'
+
+import fourseason1 from './Hotels/fourseason.jpg'
+import fourseason2 from './Hotels/fourseason2.jpg'
+import fourseason3 from './Hotels/fourseason3.jpeg'
+import fourseason4 from './Hotels/fourseason4.jpeg'
+import fourseason5 from './Hotels/fourseason5.jpg'
+
+import kempinski0 from './Hotels/kempinski0.avif'
+import kempinski1 from './Hotels/kempinski1.avif'
+import kempinski2 from './Hotels/kempinski2.avif'
+import kempinski3 from './Hotels/kempinski3.avif'
+import kempinski4 from './Hotels/kempinski4.avif'
+
+import national1 from './Hotels/national1.jpg'
+import national2 from './Hotels/national2.jpg'
+import national3 from './Hotels/national3.jpg'
+import national4 from './Hotels/national4.jpg'
+import national5 from './Hotels/national5.jpg'
+import national6 from './Hotels/national6.jpg'
+
 export const FeaturedHotels = [
   {
     id: "stregis",
@@ -22,7 +46,7 @@ export const FeaturedHotels = [
     description: "Luxury at its finest with world-class amenities.",
     location: "Nikolskaya Street, Moscow",
     img: featuredHotel1,
-    // imgList: [featuredHotel1, 'additional-image1.jpg', 'additional-image2.jpg'],
+    imgList: [{id:1, img:stregis1}, {id:2, img:stregis2}, {id:3, img:stregis3}, {id:4, img:stregis4}],
     link: "/hotels/stregis",
   },
   {
@@ -31,7 +55,7 @@ export const FeaturedHotels = [
     description: "A blend of modern elegance and historic charm.",
     location: "Krasnopresnenskaya embankment, Moscow",
     img: featuredHotel2,
-    // imgList: [featuredHotel2, 'additional-image3.jpg', 'additional-image4.jpg'],
+    imgList: [stregis1, stregis2, stregis3, stregis4],
     link: "/hotels/ararat",
   },
   {
@@ -40,7 +64,7 @@ export const FeaturedHotels = [
     description: "Unparalleled luxury and breathtaking views.",
     img: featuredHotel3,
     location: "Okhotny Ryad, Moscow",
-    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+    imgList: [{id:1, img:fourseason1}, {id:2, img:fourseason2}, {id:3, img:fourseason3}, {id:4, img:fourseason4}, {id:5, img:fourseason5}],
     link: "/hotels/fourseason",
   },
 ];
@@ -53,7 +77,7 @@ export const AllHotels = [
     description: "يُعدّ فندق سانت ريجيس موسكو خيارًا فخمًا في قلب المدينة، على بعد خطوات من الساحة الحمراء والكرملين. يتميز بتصميم داخلي أنيق، وخدمات راقية، ومرافق شاملة مثل مطاعم وبار ومركز للياقة البدنية ومنتجع صحي.",
     location: "Russia, Moscow, Nikolskaya, 12",
     img: featuredHotel1,
-    // imgList: [featuredHotel1, 'additional-image1.jpg', 'additional-image2.jpg'],
+    imgList: [{id:1, img:stregis1}, {id:2, img:stregis2}, {id:3, img:stregis3}, {id:4, img:stregis4}],
     link: "/hotels/stregis",
   },
   {
@@ -62,43 +86,43 @@ export const AllHotels = [
     description: "يُعدّ فندق آرارات بارك حياة موسكو خيارًا فخمًا في قلب المدينة، يتميز بتصميم داخلي بسيط وفخم، وخدمات راقية، ومرافق شاملة مثل مسبح داخلي وخدمة واي فاي مجانية.",
     location: "4 Neglinnaya Street, 109012 Moscow",
     img: featuredHotel2,
-    // imgList: [featuredHotel2, 'additional-image3.jpg', 'additional-image4.jpg'],
+    imgList: [{id:1, img:stregis1}, {id:2, img:stregis2}, {id:3, img:stregis3}, {id:4, img:stregis4}],
     link: "/hotels/ararat",
   },
   {
     id: "fourseason",
     hotel: "فندق فور سيزونز",
-    description: "Unparalleled luxury and breathtaking views.",
+    description: "يقع هذا الفندق الفاخر في مبنى مذهل مستوحى من ثلاثينيات القرن العشرين، على بُعد دقيقتين سيرًا على الأقدام من أقرب محطة مترو أنفاق و10 دقائق سيرًا على الأقدام من الساحة الحمراء وكيلومتر واحد من الكرملين.  تتوفر في الغرف الأنيقة خدمة Wi-Fi مجانية وأجهزة تلفزيون بشاشات مسطحة. بالإضافة إلى ما سبق، تضم الغرف الأعلى درجة مساحات للجلوس و/أو شرفات. تحتوي الأجنحة على غرف معيشة مع مدافئ، بينما تتميز الأجنحة الفخمة الأعلى درجة بتراسات وغرف طعام وأرائك تتحوّل إلى أسرّة و/أو غرف ساونا. خدمة الغرف متاحة 24/7. تشمل وسائل الراحة مطعمًا إيطاليًا ومطعمًا صغيرًا عصريًا ومقهى مريحًا، فضلاً عن بارين. ويضم الفندق أيضًا منتجعًا صحيًا وناديًا رياضيًا متاحًا على مدار الساعة ومسبحًا داخليًا بسقف زجاجي، فضلاً عن مغطس مياه ساخنة وحمّام ساونا.",
     img: featuredHotel3,
-    location: "Okhotny Ryad, Moscow",
-    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+    location: "Ulitsa Okhotnyy Ryad, 2, Moscow",
+     imgList: [{id:1, img:fourseason1}, {id:2, img:fourseason2}, {id:3, img:fourseason3}, {id:4, img:fourseason4}, {id:5, img:fourseason5}],
     link: "/hotels/fourseason",
   },
   {
     id: "metropol",
     hotel: "فندق متروبول موسكو",
-    description: "Unparalleled luxury and breathtaking views.",
+    description: "يقع هذا الفندق الفاخر على طراز الفن الحديث في مبنى كبير يضم ردهة مركزية، ويبعد 4 دقائق سيرًا على الأقدام عن كل من محطة المترو ومسرح البولشوي و15 دقيقة سيرًا على الأقدام عن الكرملين في موسكو. تحتوي الغرف الفاخرة والمفروشة بالتحف على ميني بارات وخدمة الواي فاي المجانية وأجهزة تلفزيون بشاشات مسطحة. وتوفر بعضها إطلالات على المدينة. وتتميز الأجنحة بغرف معيشة وآلات نسبريسو، بينما تضم ​​الأجنحة الأعلى درجة حمّامات ساونا. خدمة الغرف متاحة 24/7.  يضم الفندق مطعمًا راقيًا وعريقًا وبارًا/صالة جلوس أنيقة تقدم كوكتيلات على طراز التاروت، وقاعة حفلات كبيرة في ردهة ذات سقف من الزجاج الملون. تتوفر وجبة الإفطار مقابل رسوم.",
     img: metropol,
-    location: "Okhotny Ryad, Moscow",
-    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+    location: "Teatral'nyy Proyezd, 2, Moscow, 109012",
+     imgList: [{id:1, img:stregis1}, {id:2, img:stregis2}, {id:3, img:stregis3}, {id:4, img:stregis4}],
     link: "/hotels/metropol",
   },
   {
     id: "kempinski",
     hotel: "فندق بالتشوغ كمبينسكي موسكو",
-    description: "Unparalleled luxury and breathtaking views.",
+    description: "يعود هذا الفندق الفاخر إلى عام 1898، ويطل على نهر موسكفا، ويبعد 9 دقائق سيرًا على الأقدام عن مترو موسكو و15 دقيقة سيرًا على الأقدام عن كاتدرائية القديس باسيل في الساحة الحمراء. توفر الغرف الأنيقة ذات الأسقف العالية خدمة الواي فاي المجانية وأجهزة تلفزيون بشاشات مسطحة وقواعد للآي بود. ويضم بعضها مناطق للجلوس و/أو يطل على الكرملين. تضيف جميع الأجنحة غرف معيشة منفصلة، بينما يتميز بعضها بتصميمات داخلية مخصصة صممها أفراد العائلة المالكة الأوروبية. يضم الفندق مطعمًا فاخرًا، بالإضافة إلى صالة جلوس في قاعة الانتظار تقدم الشاي بعد الظهر وبارًا/مطعمًا مع ترّاس. وتشمل وسائل الراحة الأخرى منتجعًا صحيًا أنيقًا يضم مسبحًا داخليًا ومركزًا للياقة البدنية وصالونًا، فضلاً عن 12 مساحة للاجتماعات.",
     img: kempinski,
-    location: "Okhotny Ryad, Moscow",
-    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+    location: "Balchug St, 1, Moscow, 115035",
+     imgList: [{id:1, img:kempinski0}, {id:2, img:kempinski1}, {id:3, img:kempinski2}, {id:4, img:kempinski3}, {id:5, img:kempinski4}],
     link: "/hotels/kempinski",
   },
   {
     id: "national",
     hotel: "فندق ناشيونال موسكو",
-    description: "The National Hotel combines rich history, palatial architecture and high art in the heart of Moscow. Built in 1903 by the famous architect Alexander Ivanov, this 5-star hotel is a magnificent example piece of imperial architecture in the historic centre of Moscow. The hotel overlooks legendary Red Square, while the Kremlin, the Bolshoi Theatre, St. Basil‘s Cathedral and the Old Arbat are just a few steps away.",
+    description: "يقع هذا الفندق التاريخي الفاخر في مبنى كبير يعود إلى عام 1903، ويبعد كيلومترين عن 'الساحة الحمراء' و4 كيلومتر عن 'كرملين موسكو'. تتميز الغرف المشرقة بمفروشات تعود إلى القرن التاسع عشر وتحتوي على أجهزة تلفزيون بشاشات مسطحة وخدمة الواي فاي المجانية. بالإضافة إلى ما سبق، تضم الغرف الأعلى درجة والأجنحة المليئة بالتحف مساحات منفصلة للجلوس و/أو إطلالات على الكرملين. خدمة الغرف متاحة 24/7. تشمل وسائل الراحة مطعمَين راقيَين وبارًا راقيًا في ساحة فناء مغلقة ذات سقف زجاجي. يضم الفندق أيضًا ناديًا رياضيًا ومسبحًا داخليًا ومغطس مياه ساخنة، فضلاً عن مساحة للاجتماعات والفعاليات.",
     img: national,
-    location: "Okhotny Ryad, Moscow",
-    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+    location: "15/1 Mokhovaya Str. Bld. 1, Moscow, 125009",
+     imgList: [{id:1, img:national1}, {id:2, img:national2}, {id:3, img:national3}, {id:4, img:national4}, {id:5, img:national5}, {id:6, img:national6}],
     link: "/hotels/national",
   },
   {
@@ -107,7 +131,7 @@ export const AllHotels = [
     description: "Unparalleled luxury and breathtaking views.",
     img: carlton,
     location: "Okhotny Ryad, Moscow",
-    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+     imgList: [{id:1, img:stregis1}, {id:2, img:stregis2}, {id:3, img:stregis3}, {id:4, img:stregis4}],
     link: "/hotels/carlton",
   },
   {
@@ -116,7 +140,7 @@ export const AllHotels = [
     description: "Unparalleled luxury and breathtaking views.",
     img: radison,
     location: "Okhotny Ryad, Moscow",
-    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+     imgList: [{id:1, img:stregis1}, {id:2, img:stregis2}, {id:3, img:stregis3}, {id:4, img:stregis4}],
     link: "/hotels/radison",
   },
 ];
@@ -128,7 +152,7 @@ export const AllActivities = [
     hotel: "Husky trip",
     description: "Luxury at its finest with world-class amenities.",
     img: husky,
-    // imgList: [featuredHotel1, 'additional-image1.jpg', 'additional-image2.jpg'],
+    imgList: [stregis1, stregis2, stregis3, stregis4],
     link: "/activities/husky",
   },
   {
@@ -136,7 +160,7 @@ export const AllActivities = [
     hotel: "photo session with a bear",
     description: "A blend of modern elegance and historic charm.",
     img: bear1,
-    // imgList: [featuredHotel2, 'additional-image3.jpg', 'additional-image4.jpg'],
+    imgList: [stregis1, stregis2, stregis3, stregis4],
     link: "/hotels/bear",
   },
   {
@@ -144,7 +168,7 @@ export const AllActivities = [
     hotel: "photo session with a tiger",
     description: "Unparalleled luxury and breathtaking views.",
     img: tiger,
-    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+     imgList: [stregis1, stregis2, stregis3, stregis4],
     link: "/activities/tiger",
   },
   {
@@ -152,7 +176,7 @@ export const AllActivities = [
     hotel: "Snowmobiles",
     description: "Unparalleled luxury and breathtaking views.",
     img: snowmobile,
-    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+     imgList: [stregis1, stregis2, stregis3, stregis4],
     link: "/activities/snowmobiles",
   },
   {
@@ -160,7 +184,7 @@ export const AllActivities = [
     hotel: "ATVs",
     description: "Unparalleled luxury and breathtaking views.",
     img: ATVs,
-    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+     imgList: [stregis1, stregis2, stregis3, stregis4],
     link: "/activities/ATVs",
   },
   {
@@ -169,7 +193,7 @@ export const AllActivities = [
     description: "The National Hotel combines rich history, palatial architecture and high art in the heart of Moscow. Built in 1903 by the famous architect Alexander Ivanov, this 5-star hotel is a magnificent example piece of imperial architecture in the historic centre of Moscow. The hotel overlooks legendary Red Square, while the Kremlin, the Bolshoi Theatre, St. Basil‘s Cathedral and the Old Arbat are just a few steps away.",
     img: Bigfoot,
     location: "Okhotny Ryad, Moscow",
-    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+     imgList: [stregis1, stregis2, stregis3, stregis4],
     link: "/activities/Bigfoot",
   },
   {
@@ -178,7 +202,7 @@ export const AllActivities = [
     description: "Unparalleled luxury and breathtaking views.",
     img: carlton,
     location: "Okhotny Ryad, Moscow",
-    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+     imgList: [stregis1, stregis2, stregis3, stregis4],
     link: "/hotels/carlton",
   },
   {
@@ -187,7 +211,7 @@ export const AllActivities = [
     description: "Unparalleled luxury and breathtaking views.",
     img: radison,
     location: "Okhotny Ryad, Moscow",
-    // imgList: [featuredHotel3, 'additional-image5.jpg', 'additional-image6.jpg'],
+     imgList: [stregis1, stregis2, stregis3, stregis4],
     link: "/hotels/radison",
   },
 ];
