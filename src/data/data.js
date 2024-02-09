@@ -9,7 +9,7 @@ import carlton from "./Hotels/carlton.jpeg"
 import radison from "./Hotels/radisson.jpg"
 
 import husky from './Activities/haski.jpg'
-import bear1 from './Activities/bear.jpg'
+import bear from './Activities/bear.jpg'
 import tiger from './Activities/tiger.jpg'
 import snowmobile from './Activities/snowmobile.jpeg'
 import ATVs from './Activities/ATV.png'
@@ -18,6 +18,8 @@ import Bigfoot from './Activities/bigfooot.jpg'
 import bulshoi from './Restaurants/bolshoi.jpg'
 import turandot from './Restaurants/turandot.png'
 import pushkin from './Restaurants/bushkin.jpeg'
+
+//hotels
 
 import stregis1 from './Hotels/stregis1.jpg'
 import stregis2 from './Hotels/stregis2.jpeg'
@@ -70,6 +72,8 @@ import metropol2 from './Hotels/metropol2.jpg'
 import metropol3 from './Hotels/metropol3.jpg'
 import metropol4 from './Hotels/metropol4.jpg'
 
+//Resturants
+
 import Pushkin1 from './Restaurants/Pushkin1.jpg'
 import Pushkin2 from './Restaurants/Pushkin2.jpg'
 import Pushkin3 from './Restaurants/Pushkin3.jpeg'
@@ -96,6 +100,42 @@ import campus from './Restaurants/campus.jpg'
 import campus1 from './Restaurants/campus1.jpg'
 import campus2 from './Restaurants/campus2.jpg'
 import campus3 from './Restaurants/campus3.jpg'
+
+//Activites
+
+import husky1 from './Activities/husky1.jpg'
+import husky2 from './Activities/husky2.jpg'
+import husky3 from './Activities/husky3.jpg'
+import husky4 from './Activities/husky4.jpg'
+import husky5 from './Activities/husky5.jpg'
+import husky6 from './Activities/husky6.jpg'
+
+import bear1 from './Activities/bear1.jpg'
+import bear2 from './Activities/bear2.jpg'
+import bear3 from './Activities/bear3.jpg'
+import bear4 from './Activities/bear4.jpg'
+import bear5 from './Activities/bear5.jpg'
+import bear6 from './Activities/bear6.jpg'
+
+import tiger1 from './Activities/tiger1.jpg'
+import tiger2 from './Activities/tiger2.jpg'
+import tiger3 from './Activities/tiger3.jpg'
+import tiger4 from './Activities/tiger4.jpg'
+import tiger5 from './Activities/tiger5.jpg'
+
+import snowmobiles1 from './Activities/snowmobiles1.jpg'
+import snowmobiles2 from './Activities/snowmobiles2.jpg'
+import snowmobiles3 from './Activities/snowmobiles3.jpg'
+import snowmobiles4 from './Activities/snowmobiles4.jpg'
+import snowmobiles5 from './Activities/snowmobiles5.jpg'
+
+import tanks1 from './Activities/tanks1.jpg'
+import tanks2 from './Activities/tanks2.jpg'
+import tanks3 from './Activities/tanks3.jpg'
+import tanks4 from './Activities/tanks4.jpg'
+import tanks5 from './Activities/tanks5.jpg'
+import tanks6 from './Activities/tanks6.jpg'
+import tanks7 from './Activities/tanks7.jpg'
 
 
 
@@ -237,70 +277,69 @@ export const FeaturedActivities = [
 export const AllActivities = [
   {
     id: "husky",
-    hotel: "Husky trip",
-    description: "Luxury at its finest with world-class amenities.",
+    name: "التزلج على كلاب الهاسكي",
+    description: "انطلق في رحلة شتوية لا تُنسى مع كلاب الهاسكي في موسكو!\n  تخيل نفسك محاطًا ببساط أبيض من الثلج، بينما تقود مركبة تجرها كلاب الهاسكي القوية عبر غابات كثيفة، والجو بارد منعش، والشمس ترسل خيوطها الذهبية عبر الأشجار. انطلق في مغامرة مثيرة على متن زلاجة تجرها كلاب الهاسكي، واستمتع بجمال المناظر الطبيعية الخلابة في موسكو.\n  تعرف على هذه الكلاب المذهلة، وشاهد قدرتها الفائقة على التحمل والسرعة، بينما تقودك عبر مسارات ثلجية مُغطاة. استمتع بتجربة فريدة من نوعها، مليئة بالنشاط والإثارة، وتعلم مهارات جديدة من مُحترفي قيادة زلاجات الهاسكي. عش تجربة ثقافية غنية، وتعرف على ثقافة شعب الشمال، وتذوق أطباقهم التقليدية، وشاهد عروضهم الفولكلورية.\n التزلج على كلاب الهاسكي هو أكثر من مجرد نشاط ترفيهي، إنه رحلة لا تُنسى مليئة بالمغامرة والجمال والثقافة.\n احجز رحلتك الآن، ولا تفوّت فرصة عيش تجربة فريدة من نوعها في قلب موسكو! لا تتردد في خوض هذه التجربة المميزة، فهي ستبقى محفورة في ذاكرتك إلى الأبد!",
     img: husky,
-    imgList: [stregis1, stregis2, stregis3, stregis4],
+    imgList: [{id:1, img:husky1}, {id:2, img:husky2},  {id:3, img:husky4}, {id:4, img:husky5}, {id:5, img:husky6}],
     link: "/activities/husky",
   },
   {
     id: "bear",
-    hotel: "photo session with a bear",
-    description: "A blend of modern elegance and historic charm.",
+    name: "لتصور واللعب مع الدب",
+    description: "مغامرة لا تُنسى: التصوير واللعب مع الدب الروسي في موسكو!\n هل تبحث عن تجربة فريدة من نوعها في موسكو؟ هل ترغب في التقاط صور رائعة مع أحد أقوى الحيوانات في العالم؟ هل تحلم بلعب مع دب روسي ضخم؟ \nلا تبحث أكثر! انضم إلى مغامرة لا تُنسى مع الدب الروسي في موسكو! تخيل نفسك تقف وجهًا لوجه مع دب روسي ضخم، بينما تلتقط صورًا رائعة تخطف الأنفاس. استمتع بلحظات مليئة بالإثارة بينما تلعب مع الدب، وتشاهده يُظهر مهاراته المذهلة. تعلم من مُحترفي كيفية التعامل مع هذه الحيوانات الضخمة، وكيفية التقاط صور آمنة وجميلة. عش تجربة ثقافية غنية، وتعرف على ثقافة شعب الشمال، وتذوق أطباقهم التقليدية، وشاهد عروضهم الفولكلورية. \nالتصوير واللعب مع الدب الروسي هو أكثر من مجرد نشاط ترفيهي، إنه رحلة لا تُنسى مليئة بالمغامرة والجمال والثقافة. \nاحجز رحلتك الآن، ولا تفوّت فرصة عيش تجربة فريدة من نوعها في قلب موسكو! نقطة الأمان يتم تنظيم هذه الرحلات من قبل مُحترفين ذوي خبرة، ويتم اتخاذ جميع احتياطات السلامة لضمان سلامة المشاركين.",
     img: bear1,
-    imgList: [stregis1, stregis2, stregis3, stregis4],
-    link: "/hotels/bear",
+    imgList: [{id:1, img:bear1}, {id:2, img:bear2},  {id:3, img:bear3}, {id:4, img:bear4}, {id:5, img:bear5}, {id:6, img:bear6}],
+    link: "/activities/bear",
   },
   {
     id: "tiger",
-    hotel: "photo session with a tiger",
-    description: "Unparalleled luxury and breathtaking views.",
+    name: "التصور واللعب مع النمر الروسي السيبيري",
+    description: "مغامرة لا تُنسى في قلب موسكو: التقاط صورة مع النمر الروسي السيبيري!\n هل تبحث عن تجربة تُطلق العنان لمغامر داخلك وتُبهر أصدقائك وعائلتك؟ التقط صورة مع نمر مهيب في موسكو  عش لحظات استثنائية تُخلّدها صورة تُصبح ذكرى خالدة. \nانغمس في عالم النمور، تلك المخلوقات الجبارة التي تُثير الإعجاب والرهبة. رافق طاقم من الخبراء المهرة الذين سيضمنون سلامتك وراحتك. تعرّف على معلومات مُثيرة عن النمور وخصائصها وسلوكها\n واجه نمرًا شجاعًا، وانظر في عينيه الجريئتين. اشعر بمزيج من الإثارة والرهبة بينما تُخلّد هذه اللحظات الفريدة. عيش تجربة مُثيرة تُحفز مشاعرك وتُطلق العنان لروح المغامرة لديك. هدية مميزة لك تمكنك من اصطحب صورة تُصبح هدية مميزة لأصدقائك وعائلتك. أظهر شجاعتك وشغفك باكتشاف تجارب جديدة من خلال صورة تُبهر الجميع",
     img: tiger,
-     imgList: [stregis1, stregis2, stregis3, stregis4],
+    imgList: [{id:1, img:tiger1}, {id:2, img:tiger2},  {id:3, img:tiger3}, {id:4, img:tiger4}, {id:5, img:tiger5}],
     link: "/activities/tiger",
   },
   {
     id: "snowmobiles",
-    hotel: "Snowmobiles",
-    description: "Unparalleled luxury and breathtaking views.",
+    name: "الدرجات الثلجية",
+    description: "انطلق في مغامرة ثلجية لا تُنسى في موسكو مع تجربة ركوب الدرجات الثلجية! استمتع بتجربة مُفعمة بالإثارة والتشويق على متن دراجة ثلجية قوية، انطلق عبر المناظر الطبيعية الخلابة لموسكو، من منظور جديد تمامًا.\n مع درجات الحرارة المنخفضة والثلوج المتساقطة، تصبح موسكو وجهة مثالية لمحبي المغامرات الشتوية. ستمنحك ركوب الدرجات الثلجية في روسيا وموسكو بشكل خاص ملامسة المناضر الطبيعية الخلابة وتكتشف جمال موسكو الشتوي من منظور جديد تمامًا، بينما تتجول عبر الغابات الثلجية إثارة وتشويق ستستمتع بتجربة مليئة بالتشويق على متن دراجة ثلجية قوية، بينما تشق طريقك عبر التضاريس المتنوعة، وتواجه التحديات التي تقدمها لك الطبيعة. نشاط بدني: ركوبك الدراجات الثلجية هو رياضة ممتازة للحفاظ على لياقتك البدنية، حيث تتطلب تركيزًا وتوازنًا وقوة بدنية.\n ترفيه عائلي يعد ركوب الدراجات الثلجية هو نشاط ممتع للجميع، من الصغار إلى الكبار، حيث يمكن للعائلة بأكملها الاستمتاع بتجربة فريدة من نوعها. لا تفوت فرصة تجربة ركوب الدراجات الثلجية في موسكو، فهي مغامرة لا تُنسى ستبقى في ذاكرتك إلى الأبد ،  التقط الكثير من الصور لتخليد ذكريات رحلتك.\n هل أنت مستعد لتجربة ركوب الدراجات الثلجية في موسكو؟ احجز رحلتك اليوم",
     img: snowmobile,
-     imgList: [stregis1, stregis2, stregis3, stregis4],
+     imgList: [{id:1, img:snowmobiles1}, {id:2, img:snowmobiles2},  {id:3, img:snowmobiles3}, {id:4, img:snowmobiles4}, {id:5, img:snowmobiles5}],
     link: "/activities/snowmobiles",
   },
   {
     id: "ATVs",
-    hotel: "ATVs",
+    name: "ATVs",
     description: "Unparalleled luxury and breathtaking views.",
     img: ATVs,
      imgList: [stregis1, stregis2, stregis3, stregis4],
     link: "/activities/ATVs",
   },
   {
+    id: "tanks",
+    name: "الالعاب الحربية وركوب الدبابة ",
+    description: "عيش تجربة عسكرية لا تُنسى في موسكو! هل تبحث عن مغامرة فريدة من نوعها؟ هل ترغب في اختبار مهاراتك في الرماية والالات الحربية والعسكرية وربكوب الدبابات الحربية ؟\n إذا كان الأمر كذلك، فإن تجربة الألعاب الحربية والرماية وركوب الدبابات الروسية في موسكو هي الخيار الأمثل لك! مع مجموعة متنوعة من الأنشطة والسيناريوهات، ستجد نفسك منغمسًا في عالم من الإثارة والتشويق.\n تجربة عسكرية واقعية: استمتع بتجربة عسكرية واقعية باستخدام أسلحة حقيقية ودبابات روسية حديثة بالاضافة تجربة الاكل العسكري الميداني الروسي . اختبار مهاراتك: اختبر مهاراتك في الرماية وقيادة الدبابات في بيئة آمنة ومُسيطر عليها. العمل الجماعي: تواصل مع لاعبين آخرين واعمل معًا لإنجاز المهام. الترفيه العائلي: نشاط ممتع للجميع، من الصغار إلى الكبار، حيث يمكن للعائلة بأكملها الاستمتاع بتجربة فريدة من نوعها. لا تفوت فرصة تجربة الألعاب الحربية والرماية وركوب الدبابات الروسية في موسكو، فهي مغامرة لا تُنسى ستبقى في ذاكرتك إلى الأبد!\n نصائح لجعل تجربتك أكثر متعة:تأكد من ارتداء ملابس مريحة ومناسبة للنشاطات الخارجية. احجز جولة الألعاب الحربية مسبقًا اتبع تعليمات السلامة بدقة. استمتع بتجربة فريدة من نوعها!\n هل أنت مستعد لتجربة الألعاب الحربية والرماية وركوب الدبابات الروسية في موسكو؟ احجز رحلتك اليوم!",
+    img: tanks3,
+    imgList: [{id:1, img:tanks1}, {id:2, img:tanks2},  {id:3, img:tanks3}, {id:4, img:tanks4}, {id:5, img:tanks5}, {id:6, img:tanks5}, {id:7, img:tanks5}],
+    link: "/activities/tanks",
+  },
+  {
     id: "Bigfoot",
-    hotel: "Bigfoot",
-    description: "The National Hotel combines rich history, palatial architecture and high art in the heart of Moscow. Built in 1903 by the famous architect Alexander Ivanov, this 5-star hotel is a magnificent example piece of imperial architecture in the historic centre of Moscow. The hotel overlooks legendary Red Square, while the Kremlin, the Bolshoi Theatre, St. Basil‘s Cathedral and the Old Arbat are just a few steps away.",
+    name: "The Bigfoot, Moscow ",
+    description: "Unparalleled luxury and breathtaking views.",
     img: Bigfoot,
     location: "Okhotny Ryad, Moscow",
      imgList: [stregis1, stregis2, stregis3, stregis4],
-    link: "/activities/Bigfoot",
-  },
-  {
-    id: "carlton",
-    hotel: "The Carlton, Moscow ",
-    description: "Unparalleled luxury and breathtaking views.",
-    img: carlton,
-    location: "Okhotny Ryad, Moscow",
-     imgList: [stregis1, stregis2, stregis3, stregis4],
-    link: "/hotels/carlton",
+    link: "/activities/bigfoot",
   },
   {
     id: "radison",
-    hotel: "Radisson Collection Moscow Hotel ",
+    name: "Radisson Collection Moscow name ",
     description: "Unparalleled luxury and breathtaking views.",
     img: radison,
     location: "Okhotny Ryad, Moscow",
      imgList: [stregis1, stregis2, stregis3, stregis4],
-    link: "/hotels/radison",
+    link: "/activities/radison",
   },
 ];
 

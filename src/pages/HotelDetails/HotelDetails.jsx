@@ -22,7 +22,6 @@ function HotelDetails() {
 
     const split=hotel.description.split('\n')
 
-    console.log(split)
   
     return (
       <div >

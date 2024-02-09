@@ -20,14 +20,19 @@ function ActivityDetails() {
       setFormVisible(false);
     };
   
+    const split=Activity.description.split('\n')
+
     return (
       <div >
-        <SliderForPages/>
-        <Section header={Activity.hotel} >
+       
+        <Section header={Activity.name} >
+        <SliderForPages Slides={Activity.imgList}/>
             <Stack>
-                <Typography variant='h3' p={{xs:'0 30px',md:"0 100px"}} lineHeight={1.5}>
-                    {Activity.description}
+              {split.map((text)=>
+                <Typography variant='h3' p={{xs:'30px',md:"30px 100px"}} sx={{overflowY:'auto'}} lineHeight={1.5}>
+                    {text}
                 </Typography>
+                )}
             </Stack>
             <Stack direction={{xs:'column',md:'row'}} alignItems={{xs:'center',md:'flex-start'}} justifyContent={'center'} gap={{xs:5,md:30}} mt={3}>
                 {/* <Box width={400}>
@@ -52,7 +57,7 @@ function ActivityDetails() {
         
         <Modal open={isFormVisible} onClose={handleCloseForm}>
         <Box sx={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: 400, bgcolor: 'background.paper', border: '2px solid #000', p: 2 }}>
-          <BookingForm name={Activity.hotel} onClose={handleCloseForm} />
+          <BookingForm name={Activity.name} onClose={handleCloseForm} />
         </Box>
       </Modal>
       

@@ -17,7 +17,7 @@ export default function Activities() {
         direction={{xs:'column',md:"row"}}
         gridTemplateColumns={{xs:'1fr',md:"1fr 1fr 1fr"}}
       >
-        {AllActivities.map((item, index)=><EventCard key={index} event={item.hotel} img={item.img} link={item.link}/>)}
+        {AllActivities.map((item, index)=><EventCard key={index} event={item.name} img={item.img} link={item.link}/>)}
           
       </Grid>
       {/* <ExtractBtn link="/CitiesPage" text="More Hotels" /> */}
