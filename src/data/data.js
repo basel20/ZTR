@@ -70,6 +70,34 @@ import metropol2 from './Hotels/metropol2.jpg'
 import metropol3 from './Hotels/metropol3.jpg'
 import metropol4 from './Hotels/metropol4.jpg'
 
+import Pushkin1 from './Restaurants/Pushkin1.jpg'
+import Pushkin2 from './Restaurants/Pushkin2.jpg'
+import Pushkin3 from './Restaurants/Pushkin3.jpeg'
+import Pushkin4 from './Restaurants/Pushkin4.jpg'
+
+import Turandot1 from './Restaurants/Turandot1.jpg'
+
+import loomi1 from './Restaurants/loomi1.jpg'
+import loomi2 from './Restaurants/loomi2.jpg'
+import loomi3 from './Restaurants/loomi3.jpg'
+
+import cihan from './Restaurants/cihan.jpg'
+import cihan1 from './Restaurants/cihan1.jpg'
+import cihan2 from './Restaurants/cihan2.jpg'
+import cihan3 from './Restaurants/cihan3.jpg'
+import cihan4 from './Restaurants/cihan4.jpg'
+import cihan5 from './Restaurants/cihan5.jpg'
+
+import maroon1 from './Restaurants/maroon1.jpg'
+import maroon2 from './Restaurants/maroon2.png'
+import maroon3 from './Restaurants/maroon3.jfif'
+
+import campus from './Restaurants/campus.jpg'
+import campus1 from './Restaurants/campus1.jpg'
+import campus2 from './Restaurants/campus2.jpg'
+import campus3 from './Restaurants/campus3.jpg'
+
+
 
 export const FeaturedHotels = [
   {
@@ -106,7 +134,7 @@ export const AllHotels = [
   {
     id: "stregis",
     hotel: "فندق سانت ريجيس موسكو نيكولسكايا",
-    description: `يُعدّ فندق سانت ريجيس موسكو خيارًا فخمًا في قلب المدينة، على بعد خطوات من الساحة الحمراء والكرملين. يتميز بتصميم داخلي أنيق، وخدمات راقية، ومرافق شاملة مثل مطاعم وبار ومركز للياقة البدنية ومنتجع صحي.`,
+    description: "This upscale hotel is a 4-minute walk from the famous 'Bolshoi Theater' and a 14-minute walk from the colorful towers of 'St Basil's Cathedral'. \n The elegant rooms feature stunning city views, free Wi-Fi, flat-screen TVs and iPod docks, as well as minibars and tea and coffee makers.",
     location: "Russia, Moscow, Nikolskaya, 12",
     img: featuredHotel1,
     imgList: [{id:1, img:stregis1}, {id:2, img:stregis2}, {id:3, img:stregis3}, {id:4, img:stregis4}],
@@ -115,10 +143,10 @@ export const AllHotels = [
   {
     id: "ararat",
     hotel: "فندق آرارات بارك حياة",
-    description: "يقع هذا الفندق الراقي على بُعد 4 دقائق سيرًا على الأقدام من 'مسرح البولشوي' الشهير و14 دقيقة سيرًا على الأقدام من أبراج 'كاتدرائية القديس باسيل' الملونة. تتميز الغرف الأنيقة بإطلالات خلابة على المدينة وتتوفر فيها خدمة Wi-Fi مجانية وأجهزة تلفزيون بشاشات مسطحة وقواعد إرساء لأجهزة iPod، فضلاً عن بارات صغيرة وآلات لتحضير الشاي والقهوة. بالإضافة إلى ما سبق، تضم الغرف الأعلى درجة مساحات جلوس فخمة. تحتوي بعض الأجنحة على أحواض جاكوزي وتراسات، في حين يتألف البعض الآخر من طابقين. خدمة الغرف متاحة 24/7. يوجد مطعم أرمني أنيق وبار سوشي وبار كوكتيل أنيق مع تراس. يوجد أيضًا مقهى وبار رياضي. وتشمل وسائل الراحة الأخرى منتجعًا صحيًا فاخرًا يضم مسبحًا داخليًا وصالة للياقة البدنية.",
+    description: "يقع هذا الفندق الراقي على بُعد 4 دقائق سيرًا على الأقدام من 'مسرح البولشوي' الشهير و14 دقيقة سيرًا على الأقدام من أبراج 'كاتدرائية القديس باسيل' الملونة. \n تتميز الغرف الأنيقة بإطلالات خلابة على المدينة وتتوفر فيها خدمة Wi-Fi مجانية وأجهزة تلفزيون بشاشات مسطحة وقواعد إرساء لأجهزة iPod، فضلاً عن بارات صغيرة وآلات لتحضير الشاي والقهوة. بالإضافة إلى ما سبق، تضم الغرف الأعلى درجة مساحات جلوس فخمة. تحتوي بعض الأجنحة على أحواض جاكوزي وتراسات، في حين يتألف البعض الآخر من طابقين. خدمة الغرف متاحة 24/7.\n يوجد مطعم أرمني أنيق وبار سوشي وبار كوكتيل أنيق مع تراس. يوجد أيضًا مقهى وبار رياضي. وتشمل وسائل الراحة الأخرى منتجعًا صحيًا فاخرًا يضم مسبحًا داخليًا وصالة للياقة البدنية.",
     location: "4 Neglinnaya Street, 109012 Moscow",
     img: featuredHotel2,
-    imgList: [{id:0, img:ararat0},{id:12, img:ararat1}, {id:3, img:ararat2}, {id:4, img:ararat3}, {id:5, img:ararat4}, {id:6, img:ararat5}],
+    imgList: [{id:1, img:ararat0},{id:2, img:ararat1}, {id:3, img:ararat2}, {id:4, img:ararat3}, {id:5, img:ararat4}, {id:6, img:ararat5}],
     link: "/hotels/ararat",
   },
   {
@@ -136,7 +164,7 @@ export const AllHotels = [
     description: "يقع هذا الفندق الفاخر على طراز الفن الحديث في مبنى كبير يضم ردهة مركزية، ويبعد 4 دقائق سيرًا على الأقدام عن كل من محطة المترو ومسرح البولشوي و15 دقيقة سيرًا على الأقدام عن الكرملين في موسكو. تحتوي الغرف الفاخرة والمفروشة بالتحف على ميني بارات وخدمة الواي فاي المجانية وأجهزة تلفزيون بشاشات مسطحة. وتوفر بعضها إطلالات على المدينة. وتتميز الأجنحة بغرف معيشة وآلات نسبريسو، بينما تضم ​​الأجنحة الأعلى درجة حمّامات ساونا. خدمة الغرف متاحة 24/7.  يضم الفندق مطعمًا راقيًا وعريقًا وبارًا/صالة جلوس أنيقة تقدم كوكتيلات على طراز التاروت، وقاعة حفلات كبيرة في ردهة ذات سقف من الزجاج الملون. تتوفر وجبة الإفطار مقابل رسوم.",
     img: metropol,
     location: "Teatral'nyy Proyezd, 2, Moscow, 109012",
-     imgList: [{id:0, img:metropol0},{id:12, img:metropol1}, {id:3, img:metropol2}, {id:4, img:metropol3}, {id:5, img:metropol4}],
+     imgList: [{id:1, img:metropol0},{id:2, img:metropol1}, {id:3, img:metropol2}, {id:4, img:metropol3}, {id:5, img:metropol4}],
     link: "/hotels/metropol",
   },
   {
@@ -283,6 +311,7 @@ export const FeaturedRestaurants = [
     name: "مطعم البولشوي", // Restaurant name: Bolshoi
     description: "مطعم فاخر يقدم المأكولات الروسية التقليدية في أجواء أنيقة.",
     img: bulshoi,
+    location: "Okhotny Ryad, Moscow",
     // imgList: [featuredRestaurant1, 'additional-image1.jpg', 'additional-image2.jpg'],
     link: "/restaurants/bulshoi", 
 },
@@ -291,6 +320,7 @@ export const FeaturedRestaurants = [
     name: "مطعم توراندوت", // Restaurant name: Turandot
     description: "مطعم فاخر يقدم المأكولات العالمية في أجواء رائعة مستوحاة من قصص ألف ليلة وليلة.", 
     img: turandot,
+    location: "Okhotny Ryad, Moscow",
     // imgList: [featuredRestaurant2, 'additional-image3.jpg', 'additional-image4.jpg'],
     link: "/restaurants/turandot", 
 },
@@ -299,7 +329,74 @@ export const FeaturedRestaurants = [
     name: "مقهى بوشكين",  
     description: "مقهى دافئ يقدم المأكولات الروسية اللذيذة في أجواء مريحة.", 
     img: pushkin,
+    location: "Okhotny Ryad, Moscow",
     // imgList: [featuredRestaurant3, 'additional-image5.jpg', 'additional-image6.jpg'],
     link: "/restaurants/pushkin", 
+},
+];
+
+export const AllRestaurants = [
+  {
+    id: "bolshoi",
+    name: "مطعم البولشوي", // Restaurant name: Bolshoi
+    description: "مطعم فاخر يقدم المأكولات الروسية التقليدية في أجواء أنيقة.",
+    img: bulshoi,
+    location: "Petrovka Ulitsa, 3/6, стр. 2, Moscow, 125009",
+    imgList: [{id:1, img:turandot},{id:2, img:Turandot1}],
+    link: "/resturants/bolshoi", 
+},
+{
+    id: "turandot",
+    name: "مطعم توراندوت", // Restaurant name: Turandot
+    description: "مطعم فخم يتميز بالمفروشات الحريرية والثريات ويقدم قائمة طعام فرنسية ويابانية وصينية \n  خيارات الخدمة: به منطقة جلوس خارجية · به مدفأة · يقدم كوكتيلات رائعة", 
+    img: turandot,
+    location: "Tverskoy Blvd, 26, Стр. 3, Moscow, 125009",
+    imgList: [{id:1, img:turandot},{id:2, img:Turandot1}],
+    link: "/resturants/turandot", 
+},
+{
+    id: "pushkin",
+    name: "مقهى بوشكين",  
+    description: "غرفة طعام مليئة بالتحف في منزل أحد النبلاء مع خدمة رسمية وقائمة طعام روسية نموذجية \n خيارات الخدمة: الحجز مطلوب · يقدم طعام الساعة السعيدة · يقدم كوكتيلات رائعة", 
+    img: pushkin,
+    location: "Tverskoy Blvd, 26А, Moscow, 125009",
+    imgList: [{id:1, img:pushkin},{id:2, img:Pushkin2}, {id:3, img:Pushkin3}, {id:4, img:Pushkin4}],
+    link: "/resturants/pushkin", 
+},
+{
+  id: "loomi",
+  name: "مطعم لومي",  
+  description:"مطعم بمطبخ داخلي وأجواء وطريقة جديدة توفر القليل من الشمس في موسكو - كل ذلك من لومي.\n تعود هذه القصة إلى أنواع معينة من 'اللوميه'، مثل الليمون الأخضر، أو الليمون الحامض، أو الليمون الأسود الداكن. حسنًا، ليس باللون الأسود تمامًا، – في Loomi يمكن أن نتعرف على خيارات مختلفة لهذا المنتج، واستمر في التحقق من أن هذا المنتج أكبر ستو – الطبقة العليا الأصلية, نهاية جيدة, أي مبلغ ينفق على المحلول أو اللوم, يتم تنفيذه من جميع أنواع القروض المتدفقة هذه الأجهزة الحديثة ",
+  img: pushkin,
+  location: " Neglinnaya St, 8, Moscow, 107031",
+  imgList: [{id:1, img:loomi1},{id:2, img:loomi2}, {id:3, img:loomi3}],
+  link: "/resturants/loomi", 
+},
+{
+  id: "cihan",
+  name: "مطعم سيهان",  
+  description:"مطعم سيهان - هو المكان الأفضل للضيوف من ذوي الدخل المتوسط والمنتجعات الفاخرة والمعاملات المصرفية المتميزة في موسكو رائع.\n   مطعم أركاديا نوفيكوفا التركي – هو مفهوم فن الطهي الذي يعزز الاستقبال الأصيل، محبوب من مختلف الأنواع هذه الأصناف واتجاهات الطهي المعاصرة؛ بعد أن تم تصميم هذين النوعين من التجارب والتجارب برسالة تجديد رائعة; اخترنا شخصيات جديدة لمطعم روسي – رئيس الطهاة جيهانا دينيزا.",
+  img: cihan,
+  location: "New Arbat Ave, д.21, Moscow, 119019",
+  imgList: [{id:1, img:cihan1},{id:2, img:cihan2},{id:3, img:cihan3},{id:4, img:cihan4},{id:5, img:cihan5}],
+  link: "/resturants/cihan", 
+},
+{
+  id: "maroon",
+  name: "مطعم مارون",  
+  description: "البازار القديم في وسط موسكو. إنك في مطعم مارون تتجول في البازار الخارجي بفضل ما تتمتع به من صحة وأجواء وفلسفة هـ. تبييض الدم. \nتشكل منطقة البار أحواض السمك المغذية في مجموعة كبيرة من الخيوط العملاقة التي تتفوق على جميع الوصفات الرائعة الأخرى مطابخ مفعمة بالحيوية قائمة طعام مارون من منطقة تذوق الطعام التقليدية في روسيا، مثل المغرب وليفان وسوريا.", 
+  img: maroon1,
+  location: " Kutuzovsky Ave, 2/1, стр.6, Moscow, 121248",
+  imgList: [{id:1, img:maroon1},{id:2, img:maroon2},{id:3, img:maroon3},],
+  link: "/resturants/maroon", 
+},
+{
+  id: "campus",
+  name: "مطعم كامبوس",  
+  description: "مقهى دافئ يقدم المأكولات الروسية اللذيذة في أجواء مريحة.", 
+  img: campus,
+  location: "Москва, ул. Первомайская д.94",
+  imgList: [{id:1, img:campus1},{id:2, img:campus2},{id:3, img:campus3}],
+  link: "/resturants/campus", 
 },
 ];

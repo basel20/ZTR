@@ -5,33 +5,33 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { Link } from "react-router-dom";
 import Logo from './masar3.png'
-import LogoSm from './masar2.svg'
-import LanguageIcon from '@mui/icons-material/Language';
-import i18n from "../components/Trans/i18";
+//import LogoSm from './masar2.svg'
+//import LanguageIcon from '@mui/icons-material/Language';
+//import i18n from "../components/Trans/i18";
 
 export default function Navbar(props) {
 
   const [drawerOpen, setDrawerOpen] = useState(false);
 
-  const [isLang, setIsLang] = useState(false);
+  //const [isLang, setIsLang] = useState(false);
 
  //{ const scrollToCategories = (e) => {
    // e.preventDefault()
    // document.getElementById('categories').scrollIntoView();
   //}}
 
-  function toggleLang() {
-    setIsLang(!isLang);
-  }
+  //function toggleLang() {
+  /// setIsLang(!isLang);
+  //}
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-    toggleLang();
-  };
+  //const changeLanguage = (lng) => {
+   //// i18n.changeLanguage(lng);
+    //toggleLang();
+  //};
 
   const navStyles = {
     listText: {
-      fontSize: "20px",
+      fontSize: "18px",
       textTransform: "uppercase",
       fontWeight: "600",
       color: "#005A5A",
@@ -43,7 +43,6 @@ export default function Navbar(props) {
     listItem: {
       display: "flex",
       flexDirection: "row",
-      justifyContent: "space-evenly",
       alignItems: "center",
       textAlign: "center",
       color: "#005A5A",
@@ -92,7 +91,7 @@ export default function Navbar(props) {
       direction="row"
       justifyContent="space-between"
       alignItems="center"
-      p={{xs:'0 20px',md:"0 80px"}}
+      p={{xs:'0 20px',md:"0 50px"}}
       bgcolor={props.color}
       position="sticky"
       sx={{borderBottom:'5px solid #005A5A'}}

@@ -19,6 +19,10 @@ function HotelDetails() {
     const handleCloseForm = () => {
       setFormVisible(false);
     };
+
+    const split=hotel.description.split('\n')
+
+    console.log(split)
   
     return (
       <div >
@@ -26,10 +30,13 @@ function HotelDetails() {
         <Section header={hotel.hotel} >
         <SliderForPages Slides={hotel.imgList}/>
             <Stack>
-                <Typography variant='h3' p={{xs:'30px',md:"30px 100px"}} lineHeight={1.5}>
-                    {hotel.description}
+            {split.map((text)=>
+                <Typography variant='h3' p={{xs:'30px',md:"30px 100px"}} sx={{overflowY:'auto'}} lineHeight={1.5}>
+                    {text}
                 </Typography>
+                )}
             </Stack>
+           
             <Stack direction={{xs:'column',md:'row'}} alignItems={{xs:'center',md:'flex-start'}} justifyContent={'center'} gap={{xs:5,md:30}} mt={3}>
                 <Box width={400}>
                     {/* <Typography variant='h3' borderBottom='3px solid #005A5A' color={'#005A5A'} p='10px 0' ><strong>Price:</strong> 2000 /person</Typography> */}
@@ -60,7 +67,7 @@ function HotelDetails() {
         
         <Modal open={isFormVisible} onClose={handleCloseForm}>
         <Box sx={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: 400, bgcolor: 'background.paper', border: '2px solid #000', p: 2 }}>
-          <BookingForm hotelName={hotel.hotel} onClose={handleCloseForm} />
+          <BookingForm name={hotel.hotel} onClose={handleCloseForm} />
         </Box>
       </Modal>
       

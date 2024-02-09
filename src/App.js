@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Footer from "./layout/Footer";
-import { ThemeProvider, CssBaseline } from "@mui/material";
+import { ThemeProvider, CssBaseline, Typography } from "@mui/material";
 import Home from "./pages/home/Home";
 import AboutPage from "./pages/About/About";
 import ContactPage from "./pages/Contacts/ConntactsPage";
@@ -16,13 +16,38 @@ import WhatsAppIconButton from "./components/WhatsAppIcon";
 import Activities from "./pages/Activities/Activities";
 import ActivityDetails from "./pages/ActivityDetails/ActivityDetails";
 import CategoriesPage from "./pages/Categories/Categories";
+import ResturantsDetails from './pages/ResturantsDetails/ResturantsDetails';
+import Logo from './logo.svg'
+
+import { Box, Container } from '@mui/material';
 // import 
 
 function App() {
 
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); // Adjust the time (in milliseconds) as needed
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="App">
-      <ThemeProvider theme={theme}>
+      {isLoading? (<Container sx={{display: 'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
+      <Box
+        disableRipple
+        href="/"
+        sx={{
+          height: {xs:"20%", md:'30%'},
+          width: {xs:"100%", md:'50%'},
+          background: `url(${Logo})`,
+          backgroundSize: "100% 100%",
+        }}
+      ></Box>
+      </Container>): (<ThemeProvider theme={theme}>
         <CssBaseline />
         <Navbar/>
         {/* <Layout> */}
@@ -34,6 +59,7 @@ function App() {
           <Route path="/activities/:id" element={<ActivityDetails />} />
           <Route path="/categories" element={<CategoriesPage />} />
           <Route path="/resturants" element={<Resturants />} />
+          <Route path="/resturants/:id" element={<ResturantsDetails />} />
           <Route path="/Contacts" element={<ContactPage />} />
           <Route path="/About" element={<AboutPage />} />
           <Route path="/details" element={<Details />} />
@@ -41,7 +67,8 @@ function App() {
         {/* </Layout> */}
         <WhatsAppIconButton />
         <Footer />
-      </ThemeProvider>
+      </ThemeProvider>)}
+
     </div>
   );
 }

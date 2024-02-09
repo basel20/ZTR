@@ -11,7 +11,10 @@ import { Slides } from "../../components/slider/images/data";
 
 import EventsSection from './EventsSection';
 
+
+
 function Home() {
+  
   
     return (
       <div >

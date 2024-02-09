@@ -3,7 +3,7 @@ import React from 'react';
 import { Stack, TextField, Button, Typography } from '@mui/material';
 import emailjs from 'emailjs-com';
 
-const BookingForm = ({ hotelName, onClose }) => {
+const BookingForm = ({ name, onClose }) => {
   
 
   const handleSubmit2 = async (e) => {
@@ -19,7 +19,7 @@ const BookingForm = ({ hotelName, onClose }) => {
     try {
       await emailjs.send('service_0v3br49', 'template_u4j941f', {
         to_name: 'Masar', // Replace with the recipient's name
-        resevition:`${hotelName}`,
+        resevition:`${name}`,
         from_name: name,
         from_email: email,
         phone,
@@ -40,7 +40,7 @@ const BookingForm = ({ hotelName, onClose }) => {
   return (
     <form onSubmit={handleSubmit2}>
       <Stack spacing={2} p={2}>
-        <Typography> Reserve your rooms in {hotelName} </Typography>
+        <Typography> Have a reservation in {name} </Typography>
         <TextField name="name" label="Name" variant="outlined" fullWidth required />
         <TextField name="email" label="Email" type="email" variant="outlined" fullWidth required />
         <TextField name="phone" label="Phone Number - WhatsApp" variant="outlined" fullWidth required />

@@ -32,7 +32,7 @@ export default function CategoriesSection() {
 
   return (
     <div id="categories">
-    <Section header="كل الخدمات" >
+    <Section header="خدماتنا" >
     
       <Stack
       width='100%'
