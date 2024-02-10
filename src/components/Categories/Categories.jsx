@@ -1,14 +1,14 @@
 import React from "react";
 import Section from "../section/Section";
 import { Box, Button, Stack, Typography } from "@mui/material";
-import img1 from "./shopping.svg";
-import img2 from "./restaurant.svg";
-import img3 from "./park.svg";
-import img4 from "./hotel.svg";
-import img5 from "./car.svg";
-import img6 from "./activities.svg";
-import img7 from "./dots.svg";
-import img8 from "./tickets.svg";
+import img1 from "./icons/shopping.svg";
+import img2 from "./icons/restaurant.svg";
+import img3 from "./icons/park.svg";
+import img4 from "./icons/hotel.svg";
+import img5 from "./icons/car.svg";
+import img6 from "./icons/activities.svg";
+import img7 from "./icons/dots.svg";
+import img8 from "./icons/tickets.svg";
 
 
 import { useNavigate } from "react-router-dom";
@@ -22,7 +22,7 @@ export default function CategoriesSection() {
   const Categories = [
     { cat: "فنادق", img: img4, link: "/hotels" },
     { cat: "فعاليات", img: img6, link: "/activities" },
-    { cat: "متنزهات", img: img3, link: "/parks" },
+    { cat: "وجهات سياحية", img: img3, link: "/places" },
     { cat: "مراكز التسوق", img: img1, link: "/malls" },
     { cat: "مطاعم", img: img2, link: "/resturants" },
     { cat: "توصيل", img: img5, link: "/transfer" },

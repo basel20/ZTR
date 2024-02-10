@@ -40,7 +40,7 @@ const BookingForm = ({ name, onClose }) => {
   return (
     <form onSubmit={handleSubmit2}>
       <Stack spacing={2} p={2}>
-        <Typography> Have a reservation in {name} </Typography>
+        <Typography> قم بالحجز في {name} </Typography>
         <TextField name="name" label="Name" variant="outlined" fullWidth required />
         <TextField name="email" label="Email" type="email" variant="outlined" fullWidth required />
         <TextField name="phone" label="Phone Number - WhatsApp" variant="outlined" fullWidth required />
@@ -53,8 +53,8 @@ const BookingForm = ({ name, onClose }) => {
           fullWidth
           required
         />
-        <Button type="submit" variant="contained" color="primary" sx={{borderBottom:'3px solid #005A5A'}}>
-          Submit
+        <Button type="submit" variant="contained" color="primary" sx={{borderBottom:'3px solid #005A5A', color:'#fff'}}>
+          تأكيد
         </Button>
       </Stack>
     </form>

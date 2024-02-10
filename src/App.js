@@ -18,8 +18,10 @@ import ActivityDetails from "./pages/ActivityDetails/ActivityDetails";
 import CategoriesPage from "./pages/Categories/Categories";
 import ResturantsDetails from './pages/ResturantsDetails/ResturantsDetails';
 import Logo from './logo.svg'
-
+import Places from './pages/Places/Places';
+import PlaceDetails from './pages/PlacesDetails/PlacesDetails';
 import { Box, Container } from '@mui/material';
+import ScrollToTop from './utils/ScrollToTop';
 // import 
 
 function App() {
@@ -49,6 +51,7 @@ function App() {
       ></Box>
       </Container>): (<ThemeProvider theme={theme}>
         <CssBaseline />
+        <ScrollToTop>
         <Navbar/>
         {/* <Layout> */}
         <Routes>
@@ -60,6 +63,8 @@ function App() {
           <Route path="/categories" element={<CategoriesPage />} />
           <Route path="/resturants" element={<Resturants />} />
           <Route path="/resturants/:id" element={<ResturantsDetails />} />
+          <Route path="/places" element={<Places />} />
+          <Route path="/places/:id" element={<PlaceDetails />} />
           <Route path="/Contacts" element={<ContactPage />} />
           <Route path="/About" element={<AboutPage />} />
           <Route path="/details" element={<Details />} />
@@ -67,6 +72,7 @@ function App() {
         {/* </Layout> */}
         <WhatsAppIconButton />
         <Footer />
+        </ScrollToTop>
       </ThemeProvider>)}
 
     </div>
