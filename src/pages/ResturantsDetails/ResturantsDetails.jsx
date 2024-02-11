@@ -5,6 +5,7 @@ import { Stack, Typography, Box, Button, Modal  } from '@mui/material';
 import BookingForm from '../../components/BookingForm'; 
 import { useParams } from 'react-router-dom';
 import { AllRestaurants } from '../../data/data';
+import Slider2 from '../../components/Slider2/Slider2';
 
 function ResturantsDetails() {
     const { id } = useParams();
@@ -28,7 +29,7 @@ function ResturantsDetails() {
       <div >
         
         <Section header={restaurant.name} >
-        <SliderForPages Slides={restaurant.imgList}/>
+        <Slider2 slides={restaurant.imgList} photo={restaurant.img}/>
             <Stack>
             {split.map((text)=>
                 <Typography variant='h3' p={{xs:'30px',md:"30px 100px"}} sx={{overflowY:'auto'}} lineHeight={1.5}>
@@ -67,7 +68,7 @@ function ResturantsDetails() {
         
         <Modal open={isFormVisible} onClose={handleCloseForm}>
         <Box sx={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: 400, bgcolor: 'background.paper', border: '2px solid #000', p: 2 }}>
-          <BookingForm name={restaurant.name} onClose={handleCloseForm} />
+          <BookingForm namePlace={restaurant.name} onClose={handleCloseForm} />
         </Box>
       </Modal>
       

@@ -35,6 +35,7 @@ const themeSittings = () => {
   const colors = tokens();
 
   return {
+    
     palette: {
       primary: {
         main: colors.primary[500],

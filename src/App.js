@@ -22,6 +22,7 @@ import Places from './pages/Places/Places';
 import PlaceDetails from './pages/PlacesDetails/PlacesDetails';
 import { Box, Container } from '@mui/material';
 import ScrollToTop from './utils/ScrollToTop';
+import Slider2 from './components/Slider2/Slider2';
 // import 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/hotels" element={<Hotels />} />
+          <Route path="/slider" element={<Slider2 />} />
           <Route path="/hotels/:id" element={<HotelDetails />} />
           <Route path="/activities" element={<Activities />} />
           <Route path="/activities/:id" element={<ActivityDetails />} />

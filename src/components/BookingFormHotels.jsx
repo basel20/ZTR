@@ -1,11 +1,12 @@
 // BookingForm.jsx
 import React from 'react';
-import { Stack, TextField, Button, Typography } from '@mui/material';
+import { Stack, TextField, Button, Typography, InputLabel } from '@mui/material';
 import emailjs from 'emailjs-com';
 
-const BookingForm = ({ namePlace, onClose }) => {
-  
 
+const BookingFormHotel = ({ namePlace, onClose }) => {
+
+ 
   const handleSubmit2 = async (e) => {
     e.preventDefault();
 
@@ -17,7 +18,6 @@ const BookingForm = ({ namePlace, onClose }) => {
     const people = formData.get('people');
     const date1= formData.get('date1');
     const date2= formData.get('date2');
-
 
     // Send email using EmailJS
     try {
@@ -36,7 +36,7 @@ const BookingForm = ({ namePlace, onClose }) => {
       console.log('Email sent successfully');
     } catch (error) {
       console.error('Error sending email:', error);
-      alert('Error sending email:');
+      alert('حدث خطأ أثناء إرسال البريد الإلكتروني. يرجى المحاولة مرة أخرى');
     }
 
     // Additional logic for WhatsApp (using Twilio) can be added here
@@ -45,29 +45,37 @@ const BookingForm = ({ namePlace, onClose }) => {
   };
 
   return (
+    
     <form onSubmit={handleSubmit2}>
-      <Stack spacing={2} p={2}>
-      <Typography> قم بالحجز في {namePlace} </Typography>
-        <TextField sx={{textAlign:'right'}} name="name" label="الاسم" variant="outlined" fullWidth required />
+      <Stack spacing={1} p={2}>
+        
+        <Typography> قم بالحجز في {namePlace} </Typography>
+        <TextField dir='rtl' sx={{textAlign:'right'}} name="name" label="الاسم" variant="outlined" fullWidth required InputLabelProps={{dir:'rtl'}}/>
         <TextField sx={{textAlign:'right'}} name="email" label="الايميل" type="email" variant="outlined" fullWidth required />
-        <TextField sx={{textAlign:'right'}} name="phone" label="رقم الهاتف- واتس اب" variant="outlined" fullWidth required />
+        <TextField sx={{textAlign:'right'}} name="phone" label="رقم الهاتف- وايس اب" variant="outlined" fullWidth required />
         <TextField sx={{textAlign:'right'}} name="people" label="عدد الاشخاص" variant="outlined" fullWidth required />
+        <InputLabel>من تاريخ- الى تاريخ</InputLabel>
+        <TextField sx={{textAlign:'right'}} name="date1"  type='date' variant="outlined" fullWidth required />
+        <TextField dir='rtl' sx={{textAlign:'right'}} name="date2"  type='date' variant="outlined" fullWidth required  />
         <TextField
           sx={{textAlign:'right'}}
           name="description"
           label="معلومات اضافية"
           multiline
-          rows={4}
+          rows={2}
           variant="outlined"
           fullWidth
           required
         />
+        
         <Button type="submit" variant="contained" color="primary" sx={{borderBottom:'3px solid #005A5A', color:'#fff'}}>
           تأكيد
         </Button>
       </Stack>
     </form>
+  
+   
   );
 };
 
-export default BookingForm;
+export default BookingFormHotel;

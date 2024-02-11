@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import SliderForPages from '../../components/slider/slider';
 import Section from '../../components/section/Section';
 import { Stack, Typography, Box, Button, Modal  } from '@mui/material';
-import BookingForm from '../../components/BookingForm'; 
+import BookingFormHotel from '../../components/BookingFormHotels'; 
 import { useParams } from 'react-router-dom';
 import { AllHotels } from '../../data/data';
+import Slider2 from '../../components/Slider2/Slider2';
 
 function HotelDetails() {
     const { id } = useParams();
@@ -27,10 +28,10 @@ function HotelDetails() {
       <div >
         
         <Section header={hotel.hotel} >
-        <SliderForPages Slides={hotel.imgList}/>
+        <Slider2 slides={hotel.imgList} photo={hotel.img}/>
             <Stack>
             {split.map((text)=>
-                <Typography variant='h3' p={{xs:'30px',md:"30px 100px"}} sx={{overflowY:'auto'}} lineHeight={1.5}>
+                <Typography variant='h3' p={{xs:'30px',md:"30px 120px"}} sx={{overflowY:'auto'}} lineHeight={1.5}>
                     {text}
                 </Typography>
                 )}
@@ -66,7 +67,7 @@ function HotelDetails() {
         
         <Modal open={isFormVisible} onClose={handleCloseForm}>
         <Box sx={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: 400, bgcolor: 'background.paper', border: '2px solid #000', p: 2 }}>
-          <BookingForm name={hotel.hotel} onClose={handleCloseForm} />
+          <BookingFormHotel namePlace={hotel.hotel} onClose={handleCloseForm} />
         </Box>
       </Modal>
       

@@ -5,6 +5,7 @@ import { Stack, Typography, Box, Button, Modal  } from '@mui/material';
 import BookingForm from '../../components/BookingForm'; 
 import { useParams } from 'react-router-dom';
 import { AllActivities } from '../../data/data';
+import Slider2 from '../../components/Slider2/Slider2';
 
 function ActivityDetails() {
     const { id } = useParams();
@@ -26,10 +27,10 @@ function ActivityDetails() {
       <div >
        
         <Section header={Activity.name} >
-        <SliderForPages Slides={Activity.imgList}/>
+        <Slider2 slides={Activity.imgList} photo={Activity.img}/>
             <Stack>
               {split.map((text)=>
-                <Typography variant='h3' p={{xs:'30px',md:"30px 100px"}} sx={{overflowY:'auto'}} lineHeight={1.5}>
+                <Typography variant='h3' p={{xs:'30px',md:"30px 140px"}} sx={{overflowY:'auto'}} lineHeight={1.5}>
                     {text}
                 </Typography>
                 )}
@@ -49,7 +50,7 @@ function ActivityDetails() {
             <Stack alignItems={'center'} justifyContent={'center'} mt={3} >
                 <Button sx={{height:60, width:200, backgroundColor:"#cdc392", color:'#005A5A', fontSize: 30, borderBottom:'5px solid #005A5A'}}
                 onClick={handleOpenForm}>
-                    Book
+                    احجز الآن
                 </Button>
             </Stack>
         </Section>
@@ -57,7 +58,7 @@ function ActivityDetails() {
         
         <Modal open={isFormVisible} onClose={handleCloseForm}>
         <Box sx={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: 400, bgcolor: 'background.paper', border: '2px solid #000', p: 2 }}>
-          <BookingForm name={Activity.name} onClose={handleCloseForm} />
+          <BookingForm namePlace={Activity.name} onClose={handleCloseForm} />
         </Box>
       </Modal>
       
