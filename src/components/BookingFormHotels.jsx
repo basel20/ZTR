@@ -1,12 +1,23 @@
 // BookingForm.jsx
 import React from 'react';
-import { Stack, TextField, Button, Typography, InputLabel } from '@mui/material';
+import { Stack, TextField, Button, Typography, InputLabel , Dialog, DialogTitle, DialogContent, DialogActions} from '@mui/material';
 import emailjs from 'emailjs-com';
 
 
 const BookingFormHotel = ({ namePlace, onClose }) => {
 
+  const [alertOpen, setAlertOpen] = React.useState(false);
+
+  const handleopenAlert = () => {
+    setAlertOpen(true);
+  };
  
+  const handleCloseAlert = () => {
+    setAlertOpen(false);
+  };
+
+  
+
   const handleSubmit2 = async (e) => {
     e.preventDefault();
 
@@ -32,8 +43,10 @@ const BookingFormHotel = ({ namePlace, onClose }) => {
         date2:date2,
         description,
       }, 'Sk5fGkT0aCETZxyIV');
-      alert('لقد تم ارسال طلبك, سيتم الرد عليك قريبا عبر الايميل او الوتس أب')
+      
       console.log('Email sent successfully');
+      handleopenAlert()
+      console.log(alertOpen)
     } catch (error) {
       console.error('Error sending email:', error);
       alert('حدث خطأ أثناء إرسال البريد الإلكتروني. يرجى المحاولة مرة أخرى');
@@ -72,6 +85,18 @@ const BookingFormHotel = ({ namePlace, onClose }) => {
           تأكيد
         </Button>
       </Stack>
+      <Dialog open={alertOpen} onClose={handleCloseAlert}>
+        <DialogTitle>تم الحجز بنجاح</DialogTitle>
+        <DialogContent>
+          <Typography>لقد تم إرسال طلب الحجز بنجاح.</Typography>
+          <Typography>سنقوم بالرد عليكم في أقرب وقت ممكن.</Typography>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={handleCloseAlert} color="primary">
+            موافق
+          </Button>
+        </DialogActions>
+      </Dialog>
     </form>
   
    

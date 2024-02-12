@@ -191,6 +191,12 @@ import carting3 from './Activities/carting3.jpg'
 import carting4 from './Activities/carting4.jpg'
 import carting5 from './Activities/carting5.jpg'
 
+import gazlan from './Activities/gazlan.jpg'
+import gazlan1 from './Activities/gazlan1.jpg'
+import gazlan2 from './Activities/gazlan2.jpg'
+import gazlan3 from './Activities/gazlan3.jpg'
+import gazlan4 from './Activities/gazlan4.jpg'
+
 
 //Places
 
@@ -462,12 +468,12 @@ export const AllActivities = [
     link: "/activities/carting",
   },
   {
-    id: "baloon",
-    name: "المنطاد ",
-    description:"",
-     img: baloon,
-    imgList: [{id:1, img:baloon1}, {id:2, img:baloon2},  {id:3, img:baloon3}, {id:4, img:baloon4}, {id:5, img:baloon5},],
-    link: "/activities/baloon",
+    id: "gazlan",
+    name: "مزارعة الغزلان ",
+    description:"تُرحّب بك حدائق موسكو الساحرة في رحلة شتوية لا مثيل لها! انطلق في مغامرة مثيرة على الجليد، وانزلق على مزلقة تجرها الغزلان الرشيقة، بينما تُحيط بك المناظر الطبيعية الخلابة.\n استمتع بتجربة تفاعلية:تواصل مع هذه المخلوقات اللطيفة، وقم بإطعامها من يديك، والتقط أجمل الصور التذكارية معها. انضم إلى الأنشطة الترفيهية المتنوعة. استمتع بتناول وجبة دافئة في أحد أكواخ الخشب، بينما تُطلّ على المناظر الطبيعية الخلابة.\n رحلة مثالية للعائلة بأكملها: توفر حدائق موسكو مساحة آمنة وممتعة للأطفال، حيث يمكنهم اللعب والمرح في بيئة طبيعية خلابة. تمتع بتجربة تفاعلية تعليمية، حيث يتعلم الأطفال عن الحيوانات والنباتات في بيئتها الطبيعية. اصنع ذكريات عائلية لا تُنسى مع أطفالك في هذه المغامرة الشتوية الاستثنائية.\n لا تفوّت هذه الفرصة المميزة! احجز رحلتك الآن إلى حدائق موسكو، واستمتع بتجربة شتوية ساحرة لا تُنسى!",
+     img: gazlan,
+    imgList: [{id:1, img:gazlan1}, {id:2, img:gazlan2},  {id:3, img:gazlan3}, {id:4, img:gazlan4},],
+    link: "/activities/gazlan",
   },
 ];
 
