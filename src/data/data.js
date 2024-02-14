@@ -72,6 +72,15 @@ import metropol2 from './Hotels/metropol2.jpg'
 import metropol3 from './Hotels/metropol3.jpg'
 import metropol4 from './Hotels/metropol4.jpg'
 
+import lotte from './Hotels/lotte.jpg'
+import lotte1 from './Hotels/lotte1.jpg'
+import lotte2 from './Hotels/lotte2.jpg'
+import lotte3 from './Hotels/lotte3.jpg'
+import lotte4 from './Hotels/lotte4.jpg'
+import lotte5 from './Hotels/lotte5.jpg'
+import lotte6 from './Hotels/lotte6.jpg'
+import lotte7 from './Hotels/lotte7.jpg'
+
 //Resturants
 
 import bulshoi1 from './Restaurants/bulshoi1.jfif'
@@ -233,6 +242,71 @@ import tretyakovgallery2 from './Places/tretyakovgallery2.jpg'
 import tretyakovgallery3 from './Places/tretyakovgallery3.jpg'
 import tretyakovgallery4 from './Places/tretyakovgallery4.jpg'
 
+import jorkypark1 from './Places/jorkypark1.jpg'
+import jorkypark2 from './Places/jorkypark2.jpg'
+import jorkypark from './Places/jorkypark.jpg'
+
+import sokolinkipark1 from './Places/sokolinkipark1.jpg'
+import sokolinkipark2 from './Places/sokolinkipark2.jpg'
+import sokolinkipark3 from './Places/sokolinkipark3.jpg'
+
+import ismilovskipark1 from './Places/ismilovskipark1.jpg'
+
+import tsaritsynopark1 from './Places/tsaritsynopark1.jpg'
+import tsaritsynopark2 from './Places/tsaritsynopark2.jpg'
+import tsaritsynopark3 from './Places/tsaritsynopark3.jpg'
+
+import alexandergarden1 from './Places/alexandergarden1.jpg'
+import alexandergarden2 from './Places/alexandergarden2.jpg'
+import alexandergarden3 from './Places/alexandergarden3.jpg'
+
+import mazyonpark1 from './Places/mazyonpark1.jpg'
+
+import zaryadipark1 from './Places/zaryadipark1.jpg'
+import zaryadipark2 from './Places/zaryadipark2.jpg'
+
+import vdnkh from './Places/vdnkh.jpg'
+import vdnkh1 from './Places/vdnkh1.jpg'
+import vdnkh2 from './Places/vdnkh2.jpg'
+import vdnkh3 from './Places/vdnkh3.jpg'
+import vdnkh4 from './Places/vdnkh4.jpg'
+
+
+// Molls 
+
+import tsoomoll1 from './Molls/tsoomoll1.jpg'
+import tsoomoll2 from './Molls/tsoomoll2.jpg'
+import tsoomoll3 from './Molls/tsoomoll3.jpg'
+import tsoomoll4 from './Molls/tsoomoll4.jpg'
+
+import gummoll1 from './Molls/gummoll1.jpg'
+import gummoll2 from './Molls/gummoll2.jpg'
+import gummoll3 from './Molls/gimmoll3.jpg'
+import gummoll4 from './Molls/gimmoll4.jpg'
+import gummoll5 from './Molls/gimmoll5.jpg'
+
+import aviamoll1 from './Molls/aviamoll1.avif'
+import aviamoll2 from './Molls/aviamoll2.avif'
+import aviamoll3 from './Molls/aviamoll3.avif'
+import aviamoll4 from './Molls/aviamoll4.avif'
+import aviamoll5 from './Molls/aviamoll5.avif'
+import aviamoll from './Molls/aviamoll1.avif'
+
+import evropeyskymoll1 from './Molls/evropeyskymoll1.jpg'
+import evropeyskymoll2 from './Molls/evropeyskymoll2.jpg'
+import evropeyskymoll3 from './Molls/evropeyskymoll3.jpg'
+import evropeyskymoll4 from './Molls/evropeyskymoll4.jpg'
+
+import ahotnymoll1 from './Molls/ahotnymoll1.jpg'
+import ahotnymoll2 from './Molls/ahotnymoll2.jpg'
+import ahotnymoll3 from './Molls/ahotnymoll3.jpg'
+import ahotnymoll4 from './Molls/ahotnymoll4.jpg'
+
+import avimoll1 from './Molls/avimoll1.jpg'
+import avimoll2 from './Molls/avimoll2.jpg'
+
+
+
 
 
 export const FeaturedHotels = [
@@ -337,6 +411,33 @@ export const AllHotels = [
     img: radison,
     location: "2/1, Kutuzovskiy Avenue, Bld. 1, Moscow, 121248",
      imgList: [{id:1, img:radison0},{id:2, img:radison1}, {id:3, img:radison2}, {id:4, img:radison3}, {id:5, img:radison4}, {id:6, img:radison5}, ],
+    link: "/hotels/radison",
+  },
+  {
+    id: "lotte",
+    hotel: "لوتيه",
+    description:"",
+    img: lotte,
+    location: "8 Bldg. 2, Novinskiy Blvd, Moscow, 121099",
+    imgList: [{id:1, img:lotte1},{id:2, img:lotte2}, {id:3, img:lotte3}, {id:4, img:lotte7}, {id:5, img:lotte5}, {id:6, img:lotte6}, ],
+    link: "/hotels/lotte",
+  },
+  {
+    id: "",
+    hotel: "",
+    description:"",
+    img: radison,
+    location: "2/1, Kutuzovskiy Avenue, Bld. 1, Moscow, 121248",
+    imgList: [{id:1, img:radison0},{id:2, img:radison1}, {id:3, img:radison2}, {id:4, img:radison3}, {id:5, img:radison4}, {id:6, img:radison5}, ],
+    link: "/hotels/radison",
+  },
+  {
+    id: "",
+    hotel: "",
+    description:"",
+    img: radison,
+    location: "2/1, Kutuzovskiy Avenue, Bld. 1, Moscow, 121248",
+    imgList: [{id:1, img:radison0},{id:2, img:radison1}, {id:3, img:radison2}, {id:4, img:radison3}, {id:5, img:radison4}, {id:6, img:radison5}, ],
     link: "/hotels/radison",
   },
 ];
@@ -575,9 +676,18 @@ export const AllRestaurants = [
 ];
 
 export const AllPlaces =[{
+  id: "vdnkh",
+  name: "بارك الفدنخا",  
+  description: "بارك VDNKh أو المعرض الرئيسي للبلاد - أكبر معرض ومتحف ومجمع ثقافي وترفيهي في العالم ، أحد الأماكن العامة الأكثر شعبية في موسكو. يمكن التعرف على 49 قطعة من المجمع المعماري الفريد باعتباره آثارًا للتراث الثقافي ، و VDNKh هي معلم من معالم البلاد بأكملها. تقام الرحلات ، والمهرجانات ، والحفلات الموسيقية ، والمعارض التجارية على مدار السنة في VDNKh ، ويتم افتتاح متاحف جديدة ، ويتم تنظيم برامج تعليمية مجانية .في فصل الشتاء ، تفتح حلبة التزلج الرئيسية في البلاد. بالنسبة للعديد من سكان موسكو وضيوف العاصمة ، تظل VDNKh مكانًا مفضلاً للمشي والتزلج على الجليد وركوب الدراجات. لأول مرة منذ 60 عامًا ، بدأت مرحلة جديدة في تاريخ VDNKh في عام 2016 - إعادة بناء واسعة النطاق للإقليم وتطوير المعرض. يجري تحسين مساحة 317 هكتارًا ، وترميم الأجنحة ، والنوافير ، وأحواض الزهور",
+  location: "Prospekt Mira, 119, Moscow",
+  img: vdnkh,
+  imgList: [{id:1, img:vdnkh1},{id:2, img:vdnkh2},{id:3, img:vdnkh3}, {id:4, img:vdnkh4}],
+  link: "/places/vdnkh"},
+{
   id: "balshoitheater",
   name: "بالشوي ثييتر",  
   description: "على الرغم من حقيقة ان هذا المكان لا يمكن تصنيفه كمتحف، لكن بالامكان القول أن زيارتك لموسكو لا يمكن أن تتم دون زيارة البالشوي تياتر، والذي يعتبر أيقونة من أيقونات الفن الحديثة والقديمة، حيث يهرع إليه الملايين سنويا لمشاهدة العروض بشكل أسبوعي أو شهري, يتميز المكان بطابع تاريخي جذاب، حيث يعتبره الكثير من الأدباء والفنانين أفضل مسرح في العالم.", 
+  location: "none",
   img: balshoitheater4,
   imgList: [{id:1, img:balshoitheater1},{id:2, img:balshoitheater2},{id:3, img:balshoitheater3}, {id:4, img:balshoitheater4}],
   link: "/places/balshoitheater"},
@@ -586,6 +696,7 @@ export const AllPlaces =[{
   id: "poshkinmusem",
   name: "متحف بوشكن",  
   description: "يعتبر متحف بوشكن حلقة وصل بين الهوية الروسية وهويات الدول الأخرى، حيث ان هذا المتحف الحكومي للفنون الجميلة يحتوي على واحدة من أكبر مجموعات الفن الأجنبي في روسيا من العصور القديمة حتى يومنا هذا. \nيقدم عرضه الحديث للزوار مجموعات الدراسة الواسعة للمتحف من النسخ المصبوغة باللون من الأعمال الفنية اليونانية الرومانية والعصور الوسطى وعصر النهضة. يضم المتحف أيضًا لوحات ونحتًا أصلية ورسومات وأمثلة على الفنون الزخرفية والتطبيقية. في القاعات في الطابق الأرضي يتم عرض الأعمال الفنية الأصلية من مصر القديمة واليونان القديمة وروما ، جنبًا إلى جنب مع اللوحات الأوروبية التي تمتد تاريخها من القرن الثامن إلى القرن الثامن عشر.", 
+  location: "none",
   img: poshkinmusem,
   imgList: [{id:1, img:poshkinmusem1},{id:2, img:poshkinmusem2},{id:3, img:poshkinmusem3}, {id:4, img:poshkinmusem4}],
   link: "/places/poshkinmusem"},
@@ -594,6 +705,7 @@ export const AllPlaces =[{
   id: "kalomnskoemusem",
   name: "متحف كالومنسكويه التاريخي",  
   description: "المتحف يوجد في منطقة هادئة ومفتوحة يتواجد فيما حوله بقايا لقرية أثرية من العصور الوسطى، هذه القرية السابقة وموقع الآثار كانت تضم مساكن الصيف للأمراء الكبار في موسكو ، وفيما بعد للقياصرة ، وهي الآن متحف ومحمية، يعتبر المتحف مكان ممتاز لعمل نزهة سريعة حول تاريخ الاباطرة الروس في عصر ما قبل الثورة البلشفيكيه، حيث لا زالت معظم الادوات المستخدمة في الحياة اليومية موجودة في هذا المكان.", 
+  location: "none",
   img: kalomnskoemusem1,
   imgList: [{id:1, img:kalomnskoemusem1},{id:2, img:kalomnskoemusem2},{id:3, img:kalomnskoemusem3},{id:4, img:kalomnskoemusem4}, ],
   link: "/places/kalomnskoemusem"},
@@ -601,6 +713,7 @@ export const AllPlaces =[{
   id: "weaponmusem",
   name: "متحف السلاح",  
   description: "يعتبر هذا المتحف قطعة تاريخية ثمينة لا تتجزء من الهوية الروسية القائمة على النضال والقتال لأجل الحرية، حيث يضم هذا المتحف في الكرملين مجموعة مذهلة من الكنوز من القرن الرابع إلى القرن العشرين ، بما في ذلك عروش وعربات القياصرة ، وأعمال الفضة والذهب في موسكو ، والأسلحة ، والجواهر ، و 'البيض' الروسي الثمين لعيد الفصح وغيرها من الفنون الزخرفية الروسية والأجنبية.", 
+  location: "none",
   img: weaponmusem4,
   imgList: [{id:1, img:weaponmusem1},{id:2, img:weaponmusem2},{id:3, img:weaponmusem3},{id:4, img:weaponmusem4},{id:5, img:weaponmusem5}],
   link: "/places/weaponmusem"},
@@ -608,6 +721,7 @@ export const AllPlaces =[{
   id: "spacemusem",
   name: "متحف الفضاء",  
   description: "كما يعرف الجميع، فروسيا هي اول دولة تصل إلى الفضاء، لذا  المتحف المركزي للطيران والفضاء يعد الفخر الأول لروسيا بإنجازاتها في مجال الفضاء والطيران. في المتحف تستطيع مشاهدة الادوات الاولى المستخدمة للصعود الى الفضاء، بما في ذلك الطرق والادوات التي سبقت رحلة جاجارين المشهورة.", 
+  location: "none",
   img: spacemusem,
   imgList: [{id:1, img:spacemusem1},{id:2, img:spacemusem2},{id:3, img:spacemusem3}],
   link: "/places/spacemusem"},
@@ -615,6 +729,116 @@ export const AllPlaces =[{
   id: "tretyakovgallery",
   name: "المعرض الوطني تريتياكوف",  
   description: "لمعرض الوطني تريتياكوف هو الخزانة الوطنية للفن الروسي, حيث يحتوي على أكثر من 180,000 عمل من الرسم والنحت والرسومات التي أنشأها أجيال من الفنانين الروس، يعتبر المتخف قِبلة لكل محبي الفن في العالم، حيث يزوره ما يقارب عشرة الف سائح سنويا في محاولة لاستيعاب ما يختزنه الفن الروسي من خبايا وجمال.", 
+  location: "none",
   img: tretyakovgallery,
   imgList: [{id:1, img:tretyakovgallery1},{id:2, img:tretyakovgallery2},{id:3, img:tretyakovgallery3},{id:4, img:tretyakovgallery4}],
-  link: "/places/tretyakovgallery"}]
+  link: "/places/tretyakovgallery"},
+{
+  id: "jorkypark",
+  name: "حديقة جوركي",  
+  description:".هل تريد تجربه ممتعة ومثيره للسعادة والاسترخاء والهدوء والتواصل العميق مع الطبيعة.  هل تريد فرصه للترويح عن النفس والابتعاد عن ضغوط الحياة اليومية. هل مللت من الجلوس في البيت وتريد ممارسة انشطة مثل المشي وركوب الدراجات والتجديف والتخييم ومشاهدة الطيور والصور والرسم والاستمتاع بالهواء النقي والجو المنعش. نقترح لك الذهاب إلى  حديقة جوركي\nهى واحدة من أكبر وأشهر المُنتزهات المفتوحة في مدينة موسكو على الإطلاق، فهى تطل على نهر موسكو مباشرةً وتصل مساحتها إلى 300 فدان،كما أنها تتميز بموقعها فى وسط العاصمة وسهولة الوصول إليها، فالبقرب منها يوجد محطتين للمترو هما: بارك كولتوري، أوكتاريسكايا، وهى حديقة تتميز بمساحات خضراء واسعة بها العديد من الأشجار النادرة والمعمرة،كما يوجد عدد من المباني القديمة الجميلة التي يرجع تاريخ بنائها إلى  القرنين الثامن والتاسع عشر، تتوسطها بحيرة، يمكن الاستمتاع بالتنزه على أحد المراكب الصغيرة فى البحيرة،أو الجلوس على أحد الكافيهات والاستمتاع بالمنظرالخلاب.\n بالإضافة إلى انه يمكن ممارسة رياضة ركوب الدراجات، فهناك طرق خاصة معدة لركوب الدراجات داخل الحديقة،و يمكن إستأجارها بكل سهولة حيث يوجد الكثير منها عند المدخل الرئيسي للحديقة،ولهواة السينما والمسرح يمكن الاستمتاع بمشاهدة عروض صيفية فى أحد مدرجات الحديقة فى الهواء الطلق بين أحضان الطبيعة الخلابة، كما توجد  نافورة ضخمة ترقص على أنغام الموسيقى العالمية،أما هواة الرومانسية يستطيعوا التجوال بالقرب من نهر موسكو بلا نهاية بطول الحديقة ،وعندما تشعر بالجوع ففيها العديد من الكافيهات التى تقدم جميع أنواع الوجبات السريعة والمثلجات اللذيذة . ",
+  location: "Krymsky Val, 9, Moscow",
+  img: jorkypark,
+  imgList: [{id:1, img:jorkypark1},{id:2, img:jorkypark2},{id:3, img:jorkypark}],
+  link: "/places/jorkypark"},
+{
+  id: "sokolinkipark",
+  name: "حديقة سوكولنيكي",  
+  description: "سوكولنيكي تعتبر من الاماكن الرائعه حيث يمكنك الاسترخاء  فهى حديقة رائعة الجمال في مدينة موسكو يحبها المحليون والسياح على حد سواء، إذ استطاعت هذه الحديقة أن تخلق لنفسها شهرة واسعة وسمعة ممتازة لأنه بإمكان الزوار فيها القيام بالعديد من النشاطات منها :التنزه بالمساحات الطبيعية الخلابة الموجودة في الحديقة، وممارسة رياضات المشي لمسافات طويلة وركوب الدراجات، والسباحة بالمسابح المتوفرة، والقفز بملاعب الترامبولين الموجودة، غيرها الكثير، ويتوفر بالحديقة العديد من المرافق منها الكثير من الكافيتيريات والمطاعم، وبعض ملاعب الأطفال، الأمر الذي يجعل من بيئة الحديقة مناسبة للعائلات والأطفال.\nبارك “سوكولنيكي” (موسكو) لديها 13 بحيرة :الكلب،الذهب،دير عظيم،الغزلان الصغيرة،مايو،مايسكي العلوي،بجعة، ثعبان، الجحيم الدموي ،الفظ، القيعان من الشياطين،العلوي بوتيايفسكي، مزينة في أزقة القرن التاسع عشر،يتم زرع أنواع معينة من الأشجار: على طول الأول والثالث – البتولا، على طول الثاني والسادس – الدردار، على طول الرابع – القيقب، على طول الخامس – الرماد، وعلى طول قصاصات مايو – الأرزة",
+  img: sokolinkipark1,
+  location: "Sokolnichesky Val street, 1, building 1. Moscow",
+  imgList: [{id:1, img:sokolinkipark1},{id:2, img:sokolinkipark2},{id:3, img:sokolinkipark3},],
+  link: "/places/sokolinkipark"},
+{
+  id: "ismilovskipark",
+  name: "إزمايلوفسكي بارك",  
+  description: "بارك في شرق موسكو ، تصل مساحته إلى 15الف كيلومتر مربع، مجهز بعدد كبير من الملاعب الرياضية، الجميع يأتى إليها ليس فقط لممارسة الرياضة ، ولكن أيضًا لقضاء وقت ممتع مع الأطفال والأقارب والأصدقاء خصوصاً في الصيف ،حيث يمكن السباحة في المسبح الموجود داخل الحديقة،أقرب محطات المترو : “بارتيزانسكايا” ، “إزمايلوفسكايا”، و بالقرب من حديقة إزميلوفسكي يقع “سوق إسماعيلوفو” وهو واحداً من من أشهر الأسواق لشراء التحف والمنتجات التقليدية الروسية القديمة والحديثة والهدايا التذكارية خان الخليلي الروسي ، و أقرب محطة مترو “بارتيزانسكايا “",
+  img: ismilovskipark1,
+  location: "Big Circle alley, 7, Moscow",
+  imgList: [{id:1, img:ismilovskipark1},],
+  link: "/places/ismilovskipark"},
+{
+  id: "tsaritsynopark",
+  name: "محمية متحف تساريتسينو",  
+  description: "هو متحف قصر ومحمية في جنوب موسكو. تم تأسيسها عام 1775 كمقر صيفي للإمبراطورة كاثرين الثانية، لكن البناء ظل غير مكتمل. في معظم تاريخها، كانت حديقة نصف مهجورة بها آثار خلابة",
+  img: tsaritsynopark1,
+  location: "Dol'skaya Ulitsa, 1, Moscow",
+  imgList: [{id:1, img:tsaritsynopark1},{id:2, img:tsaritsynopark2},{id:3, img:tsaritsynopark3},],
+  link: "/places/tsaritsynopark"},
+{
+  id: "alexandergarden",
+  name: "حديقة ألكسندر",  
+  description: "كانت حدائق ألكسندر واحدة من أولى الحدائق العامة الحضرية في موسكو، روسيا. تضم الحديقة ثلاث حدائق منفصلة،   تمتد  على طول سور الكرملين الغربي لمسافة 865 مترًا بين مبنى موسكو مانيج والكرملين",
+  img: alexandergarden1,
+  location: "none",
+  imgList: [{id:1, img:alexandergarden1},{id:2, img:alexandergarden2},{id:3, img:alexandergarden3}],
+  link: "/places/alexandergarden"},
+{
+  id: "mazyonpark",
+  name: "منتزه مزيون",  
+  description: "بارك منتزه مزيون هو متحفًا فريدًا للنحت في الهواء الطلق،حيث يوجد أكثر من 1000 منحوتة  والتى تعد إرثا من الحقبة السوفيتية وفترة الاشتراكية، فى بارك منتزه مزيون توجد  مساحة عرض غير عادية، ومنصة لعروض الأفلام النادرة ، وعروض مسرحية ومهرجانات موسيقية ، ومركز للتعليم وورشة عمل إبداعية ضخمة، وأصبح جسر المشاة كريسمسكايا الذي تم تجديده جزءًا من المتنزه وتحول أيضًا إلى واحدة من أكثر مناطق المدينة شعبية،ويمكن مشاهدة المراكب العائمة عن قرب لصغر عرض نهر موسكو عند حديقة مزيون و تمثال الامبراطور بطرس الاول والذى يرتفع إلى 100 م فى نهر موسكو",
+  img: mazyonpark1,
+  location: "Krymsky Val, 2, Moscow",
+  imgList: [{id:1, img:mazyonpark1},],
+  link: "/places/mazyonpark"},
+{
+  id: "zaryadipark",
+  name: "بارك زا-ريادي",  
+  description: "مفضلة لأهل موسكو ، ويحرص على زيارتها كل من يصل إلى العاصمة الروسية للسياحة أو في زيارة عمل ويعود أصل تسمية الحديقة إلى كلمة «زا – ريادامي»، أي المنطقة الواقعة خلف صفوف المحال التجارية التي كانت منتشرة وسط موسكو، تحولت إلى منطقة يقطنها كبار التجار والنبلاء، وأقامت عائلة رمانوف القيصرية مقرا لها هناك، كما ظهرت بعض الكنائس التي بقي معظمها حتى يومنا هذا شاهدا على تاريخ المنطقة، ويعود الفضل في ذلك إلى ميناء أقيم على نهر موسكو، ساهم حينها في تنشيط المنطقة تجارياً، ولم يتراجع الاهتمام بتلك المنطقة في الحقبة السوفياتية، نظرا لقربها من الكرملين وإطلالتها المميزة الجميلة على نهر موسكو.\n تأسست على أنقاض فندق «روسيا» الضخم، والذى تم هدمه فى فى 2014 وتحول المكان إلى واحدة من أجمل وأكبر الحدائق العامة فى قلب موسكو، وتزامن إفتتاحه مع  احتفالات «يوم المدينة» الذي يصادف 8 سبتمبر من كل عام، تم افتتاح منطقة ترفيهية كبيرة في قلب روسيا في عام 2017، منتزه فريد  من جميع النواحي ، ينتشر على مساحة 12 هكتارًا ويجمع 4 مناطق مميزة للمناظر الطبيعية المميزة لروسيا: التندرا ، السهوب ، الغابات ، المستنقعات، ظهر جسر شاهق يبلغ طوله 70 مترًا وواحدًا من أفضل منصات العرض في العاصمة فوق نهر موسكفا من هنا يمكنك أن ترى مركز موسكو بالكامل تقريبًا ، هذه واحدة من أفضل الحدائق في موسكو والعالم.",
+  img: zaryadipark1,
+  location: "Moscow, Varvarka street household 6, building 1",
+  imgList: [{id:1, img:zaryadipark1},{id:2, img:zaryadipark2},],
+  link: "/places/zaryadipark"},]
+
+
+
+export const AllMolls = [
+  {
+    id: "tsoomoll",
+    name: "مول تسوم",  
+    description:"يقع في شارع بتروفكا على بعد خطوات من الساحة الحمراء، وبجانب مسرح البولشوى ،ويعتبر الكثيرون مركز تسوم  للتسوق واحدا من الأماكن الأكثر جاذبية للتسوق، حيث تتضمن علامات تجارية عالمية، وقد صمم مركز تسوم وفق التصميم المعماري الروسي الكلاسيكي.",
+    img: tsoomoll1,
+    location: " Petrovka Ulitsa, 2, Moscow, 125009",
+    imgList: [{id:1, img:tsoomoll1},{id:2, img:tsoomoll2},{id:3, img:tsoomoll3},{id:4, img:tsoomoll4},],
+    link: "/molls/tsoomoll"},
+  {
+    id: "gummoll",
+    name: "جوم مول",  
+    description:"مركز تسوق تاريخى أسطوري محبوب وقريب من قلوب الروس، يجذب السائحين إليه،ويقع على الجانب الشرقى للساحة الحمراء أشهر المواقع التاريخية في روسيا، ويمتد على مسافة 250 مترًا في مواجهة سورالكرملين ، و هو ليس مجرد مركز تجارى عادى،إنه نصب تذكاري معماري،وجزء لا يتجزأ من التاريخ الروسي، وأحد الرموز السياحية الهامة فى قلب موسكو،تباع فيه أشهر العلامات التجارية و الأكثر شهرة فى العالم من الملابس والأحذية للنساء والرجال والأطفال باهظة الثمن،و الساعات والفراء والسلع المنزلية وهو منطقة استرخاء مريحة مع المطاعم والمقاهي التاريخية والحديثة أيضا،ومعرض فني،ومكان للأحداث الثقافية، يوجد به صيدلية وفرع بنك ومتجر للزهور وسينما،تباع فيه العطور ومستحضرات التجميل الفاخرة ،و الساعات والفراء و السلع المنزلية، دارت حوله القصص والأساطير",
+    img: gummoll1,
+    location: "Red Square, 3, Moscow, 109012",
+    imgList: [{id:1, img:gummoll1},{id:2, img:gummoll2},{id:3, img:gummoll3},{id:4, img:gummoll4}, {id:5, img:gummoll5}],
+    link: "/molls/gummoll"},
+  {
+    id: "aviamoll",
+    name: "آفيا بارك مول",  
+    description:"آفيا بارك مول: أكبر مركز للتسوق في أوروبا،يضم كامل وسائل الترفيه والمحلات التجارية والمطاعم  ،أ كثر من 50 مقهى ومطعم مختلف، وأكثر من 250 محل تجاري،  يقع مكان المول منطقة قريبة جدا من وسط المدينة وسهل الوصول اليه",
+    img: aviamoll,
+    location: "Khodynskiy Bul'var, 4, Moscow, 125167",
+    imgList: [{id:1, img:aviamoll1},{id:2, img:aviamoll2},{id:3, img:aviamoll3},{id:4, img:aviamoll4}, {id:5, img:aviamoll5}],
+    link: "/molls/aviamoll"},
+    {
+    id: "evropeyskymoll",
+    name: "مول إفروبيسكي",  
+    description:"يعتبر أحد مراكز التسوق والترفيه الشهيرة  في موسكو نظراً لموقعه ولسهولة الوصول إليه بالقرب من محطة سكة حديد كييف  القريبة من شارع أربات القديم ، والذى يمر منه معظم السياح و قربه من المترو مناسب جداً، ثلاثة مخارج من محطة مترو كيفيسكايا كل ذلك يؤدي إلى مركز التسوق، يحتوي مول إفروبيسكي ٢٥٠ محل موزعة على ٦ أدوار ، وعند زيارتكم إلى مول إفروبيسكي تشعر وكأنك في أوروبا، فمن حولك المباني الحديثة ، وداخل المول ساعة النافورة الشهيرة ، المصاعد الشفافة ، المنصات ذات الطابقين ومواقف السيارات المريحة ،بالإضافة إلى الفود الكورت فى الدور الخامس الذى يحتوى على مجموعة من المطاعم الاوزبيكية والروسية والاوروبية والتى ترضى جميع الأذواق",
+    img: evropeyskymoll1,
+    location: " Kiyevsky Station Square, 2, Moscow, 121059",
+    imgList: [{id:1, img:evropeyskymoll1},{id:2, img:evropeyskymoll2},{id:3, img:evropeyskymoll3},{id:4, img:evropeyskymoll4}],
+    link: "/molls/evropeyskymoll"},
+    {
+    id: "ahotnymoll",
+    name: "مول أوخوتني رياد",  
+    description:"شهر مراكز التسوق في موسكو، يقع في وسط المدينة أمام الميدان الأحمر، يتكون هذا المركز من ٣ طوابق تحت سطح الأرض و يضم أكثر من 100 متجر من ضمنهم أشهر الماركات و منفذ للخدمات",
+    img: ahotnymoll1,
+    location: "Manege Sq, 1, стр. 2, Moscow, 125009",
+    imgList: [{id:1, img:ahotnymoll1},{id:2, img:ahotnymoll2},{id:3, img:ahotnymoll3},{id:4, img:ahotnymoll4}],
+    link: "/molls/ahotnymoll"},
+    {
+    id: "avimoll",
+    name: "أفي مول",  
+    description:"يحتوي هذا المركز التجاري على الكثير من العلامات التجارية الروسية والعالمية للاختيار من بينها ويقع فى قلب منطقة موسكو الحديثة حيث توجد أبراج وناطحات سحاب بها شقق سكنية ومطاعم وفنادق وأفيمول سيتي",
+    img: avimoll1,
+    location: "Presnenskaya Naberezhnaya, 2, Moscow, 123112",
+    imgList: [{id:1, img:avimoll1},{id:2, img:avimoll2},],
+    link: "/molls/avimoll"}
+]

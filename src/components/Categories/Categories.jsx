@@ -23,7 +23,7 @@ export default function CategoriesSection() {
     { cat: "فنادق", img: img4, link: "/hotels" },
     { cat: "فعاليات", img: img6, link: "/activities" },
     { cat: "وجهات سياحية", img: img3, link: "/places" },
-    { cat: "مراكز التسوق", img: img1, link: "/malls" },
+    { cat: "مراكز التسوق", img: img1, link: "/molls" },
     { cat: "مطاعم", img: img2, link: "/resturants" },
     { cat: "توصيل", img: img5, link: "/transfer" },
     { cat: "تذاكر", img: img8, link: "/tickets" },

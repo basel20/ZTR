@@ -3,12 +3,12 @@ import Section from '../../components/section/Section';
 import { Stack, Typography, Box, Button, Modal  } from '@mui/material';
 import BookingForm from '../../components/BookingForm'; 
 import { useParams } from 'react-router-dom';
-import { AllPlaces } from '../../data/data';
+import { AllMolls } from '../../data/data';
 import Slider2 from '../../components/Slider2/Slider2';
 
-function PlaceDetails() {
+function MollDetails() {
     const { id } = useParams();
-    const Place = AllPlaces.filter((item => item.id === id))[0]
+    const Moll = AllMolls.filter((item => item.id === id))[0]
 
     const [isFormVisible, setFormVisible] = useState(false);
 
@@ -20,13 +20,13 @@ function PlaceDetails() {
       setFormVisible(false);
     };
   
-    const split=Place.description.split('\n')
+    const split=Moll.description.split('\n')
 
     return (
       <div >
        
-        <Section header={Place.name} >
-        <Slider2 slides={Place.imgList} photo={Place.img}/>
+        <Section header={Moll.name} >
+        <Slider2 slides={Moll.imgList} photo={Moll.img}/>
             <Stack>
               {split.map((text)=>
                 <Typography variant='h3' p={{xs:'30px',md:"30px 140px"}} sx={{overflowY:'auto'}} lineHeight={1.5}>
@@ -37,7 +37,7 @@ function PlaceDetails() {
             <Stack direction={{xs:'column',md:'row'}} alignItems={{xs:'center',md:'flex-start'}} justifyContent={'center'} gap={{xs:5,md:30}} mt={3}>
                 <Box width={400}>
                     <Typography variant='h3' borderBottom='3px solid #005A5A' color={'#005A5A'} p='10px 0' >Location:</Typography>
-                    <Typography variant='h3' borderBottom='3px solid #005A5A' color={'#005A5A'} p='10px 0' >{Place.location}</Typography>
+                    <Typography variant='h3' borderBottom='3px solid #005A5A' color={'#005A5A'} p='10px 0' >{Moll.location}</Typography>
                 </Box> 
 
                 {/* <Box width={250}>
@@ -57,7 +57,7 @@ function PlaceDetails() {
         
         <Modal open={isFormVisible} onClose={handleCloseForm}>
         <Box sx={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: 400, bgcolor: 'background.paper', border: '2px solid #000', p: 2 }}>
-          <BookingForm namePlace={Place.name} onClose={handleCloseForm} />
+          <BookingForm namePlace={Moll.name} onClose={handleCloseForm} />
         </Box>
       </Modal>
       
@@ -65,4 +65,4 @@ function PlaceDetails() {
     ); 
   }
   
-  export default PlaceDetails;
+  export default MollDetails;
