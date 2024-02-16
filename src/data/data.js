@@ -20,6 +20,7 @@ import turandot from './Restaurants/turandot.png'
 import pushkin from './Restaurants/bushkin.jpeg'
 
 //hotels
+import hotel from './Hotels/hotel.jfif'
 
 import stregis1 from './Hotels/stregis1.jpg'
 import stregis2 from './Hotels/stregis2.jpeg'
@@ -80,6 +81,22 @@ import lotte4 from './Hotels/lotte4.jpg'
 import lotte5 from './Hotels/lotte5.jpg'
 import lotte6 from './Hotels/lotte6.jpg'
 import lotte7 from './Hotels/lotte7.jpg'
+
+import continental from './Hotels/continental.jpg'
+import continental1 from './Hotels/continental1.jpg'
+import continental2 from './Hotels/continental2.jpg'
+import continental3 from './Hotels/continental3.jpg'
+import continental4 from './Hotels/continental4.jpg'
+import continental5 from './Hotels/continental5.png'
+import continental6 from './Hotels/continental6.jpg'
+
+import swissotel from './Hotels/swissotel.jpg'
+import swissotel1 from './Hotels/swissotel1.jpg'
+import swissotel2 from './Hotels/swissotel2.jpg'
+import swissotel3 from './Hotels/swissotel3.jpg'
+import swissotel4 from './Hotels/swissotel4.jpg'
+import swissotel5 from './Hotels/swissotel5.jpg'
+import swissotel6 from './Hotels/swissotel6.jpg'
 
 //Resturants
 
@@ -306,8 +323,13 @@ import avimoll1 from './Molls/avimoll1.jpg'
 import avimoll2 from './Molls/avimoll2.jpg'
 
 
+//tranfers
 
+import car from './Cars/car.jpeg'
 
+//tickets 
+
+import ticket from './ticket.webp'
 
 export const FeaturedHotels = [
   {
@@ -416,30 +438,38 @@ export const AllHotels = [
   {
     id: "lotte",
     hotel: "لوتيه",
-    description:"",
+    description:"يقع هذا الفندق الراقي في مبنى حديث على بعد 7 دقائق سيرًا على الأقدام من محطة سمولينسكايا و3 كيلومتر من حديقة حيوان موسكو و4 كيلومتر من متنزه غوركي.\n تتوفر في الغرف الأنيقة خدمة الواي فاي المجانية وأجهزة تلفزيون بشاشات مسطحة ومشغلات DVD. بالإضافة إلى ما سبق، تضم الغرف الأعلى درجة مساحات للجلوس وحمامات رخامية، بينما تتميز الأجنحة بغرف معيشة وأحواض جاكوزي وإمكانية الدخول إلى صالة النادي. تحتوي الشقق الفخمة المكونة من غرفة نوم واحدة على مطابخ ولوازم استحمام فاخرة. خدمة الغرف متاحة.\n مواقف السيارات مجانية. يتم تقديم وجبة الإفطار (مقابل رسوم). يتوفر باران، أحدهما يضم تراسًا على السطح، فضلاً عن مطاعم إيطالية ويابانية. وتشمل وسائل الراحة الأخرى منتجعًا صحيًا فاخرًا ومسبحًا داخليًا وناديًا رياضيًا.",
     img: lotte,
     location: "8 Bldg. 2, Novinskiy Blvd, Moscow, 121099",
     imgList: [{id:1, img:lotte1},{id:2, img:lotte2}, {id:3, img:lotte3}, {id:4, img:lotte7}, {id:5, img:lotte5}, {id:6, img:lotte6}, ],
     link: "/hotels/lotte",
   },
   {
-    id: "",
-    hotel: "",
-    description:"",
-    img: radison,
-    location: "2/1, Kutuzovskiy Avenue, Bld. 1, Moscow, 121248",
-    imgList: [{id:1, img:radison0},{id:2, img:radison1}, {id:3, img:radison2}, {id:4, img:radison3}, {id:5, img:radison4}, {id:6, img:radison5}, ],
-    link: "/hotels/radison",
+    id: "continental",
+    hotel: "كونتنتال",
+    description:"يقع هذا الفندق الفاخر في مبنى حديث مهيب قبالة متحف الدولة المركزي للتاريخ المعاصر في روسيا. ويبعد مسافة 3 دقائق سيرًا على الأقدام عن أقرب محطة مترو و15 دقيقة سيرًا على الأقدام عن الكرملين.\n تتميز الغرف والأجنحة المحافظة بديكور دافئ وتتوفر فيها خدمة Wi-Fi مجانية وأجهزة تلفزيون بشاشات مسطحة وبارات صغيرة. تحتوي بعض الغرف على شرفات خاصة، بينما تضيف الأجنحة مناطق جلوس منفصلة. وتوفّر الغرف الأعلى درجة إمكانية الدخول إلى صالة النادي التي تقدم وجبة فطور وشاي بعد الظهر وخدمة الكوكتيل المسائية مجانًا.\nتشمل وسائل الراحة مطعمًا راقيًا وبارًا عصريًا لمشروبات الكوكتيل وصالة للياقة البدنية ومركزًا للأعمال.",
+    img: continental,
+    location: "Tverskaya St, 22, Moscow, 125009",
+    imgList: [{id:1, img:continental1},{id:2, img:continental2}, {id:3, img:continental3}, {id:4, img:continental4}, {id:5, img:continental5}, {id:6, img:continental6}, ],
+    link: "/hotels/continental",
   },
   {
-    id: "",
-    hotel: "",
-    description:"",
-    img: radison,
-    location: "2/1, Kutuzovskiy Avenue, Bld. 1, Moscow, 121248",
-    imgList: [{id:1, img:radison0},{id:2, img:radison1}, {id:3, img:radison2}, {id:4, img:radison3}, {id:5, img:radison4}, {id:6, img:radison5}, ],
-    link: "/hotels/radison",
+    id: "swissotel",
+    hotel: "سويس اوتيل",
+    description:"يقع هذا الفندق الراقي في مبنى شاهق يطل على 'نهر موسكو'، ويبعد 3 كيلومتر عن 'الساحة الحمراء' الشهيرة و4 كيلومتر عن 'مسرح البولشوي'.\n تتوفر في الغرف الأنيقة خدمة Wi-Fi وآلات لتحضير القهوة ومكاتب. وتتميز غرف كلوب بإمكانية الدخول إلى صالة تقدّم وجبات فطور ووجبات خفيفة مجانًا. وتشمل الأجنحة مطابخ صغيرة وغرف ساونا وأحواض جاكوزي و/أو تراسات. \nيضم الفندق مطعمًا أنيقًا مع ترّاس. وتشمل وسائل الراحة الأخرى بارًا لتقديم مشروبات الكوكتيل في الطابق 34 يتميّز بإطلالات شاملة وبارًا مريحًا في قاعة الانتظار ونادٍ رياضيًا ومنتجعًا صحيًا مع مسبح داخلي. يتوفر الإفطار (مقابل رسوم).",
+    img: swissotel,
+    location: "Kosmodamianskaya Nab.52 bld 6, Moscow, 115054",
+    imgList: [{id:1, img:swissotel1},{id:2, img:swissotel2}, {id:3, img:swissotel3}, {id:4, img:swissotel4}, {id:5, img:swissotel5}, {id:6, img:swissotel6}, ],
+    link: "/hotels/swissotel",
   },
+  {
+    id:"more",
+    hotel:"المزيد من الفنادق",
+    description:"نستطيع توفير حجوزات و غرف في فنادق ذات تقييم 3 و 4 نجوم , و كذلك حجوز في شقق فندقية. \n للحجز او الاستفسار يرجى التواصل معنا عبر الايميل او الوتس أب .",
+    img:hotel,
+    imgList: [{id:1, img:swissotel1},{id:2, img:swissotel2}, {id:3, img:swissotel3}, {id:4, img:swissotel4}, {id:5, img:swissotel5}, {id:6, img:swissotel6}, ],
+    link:"#"
+  }
 ];
 
 
@@ -842,3 +872,56 @@ export const AllMolls = [
     imgList: [{id:1, img:avimoll1},{id:2, img:avimoll2},],
     link: "/molls/avimoll"}
 ]
+
+
+export const AllTransfers = [{
+  id: "car1",
+  name: "مرسيدس اس كلاس 2022",
+  img:car
+},
+{
+  id: "car2",
+  name:  "مرسيدس اس كلاس 2022",
+  img:car
+},
+{
+  id: "car3",
+  name:  "مرسيدس اس كلاس 2022",
+  img:car
+},
+{
+  id: "car4",
+  name:  "مرسيدس اس كلاس 2022",
+  img:car
+},
+{
+  id: "car5",
+  name:  "مرسيدس اس كلاس 2022",
+  img:car
+},
+]
+
+export const AllTickets  = [{
+  id: "ticket1",
+  name: "تذاكر طيران دولية ",
+  img:ticket
+},
+{
+  id: "ticket2",
+  name:  "تذاكر طيران محلية",
+  img:ticket
+},
+{
+  id: "ticket3",
+  name:  "تذاكر سفر عبر القطار",
+  img:ticket
+},
+{
+  id: "ticket4",
+  name:  "تذاكر اخرى",
+  img:ticket
+},
+
+]
+
+

@@ -27,7 +27,7 @@ export default function CategoriesSection() {
     { cat: "مطاعم", img: img2, link: "/resturants" },
     { cat: "توصيل", img: img5, link: "/transfer" },
     { cat: "تذاكر", img: img8, link: "/tickets" },
-    { cat: "أخرى", img: img7, link: "/other" }
+    { cat: "أخرى", img: img7, link: "/others" }
   ];
 
   return (

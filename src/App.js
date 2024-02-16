@@ -25,6 +25,9 @@ import ScrollToTop from './utils/ScrollToTop';
 import Slider2 from './components/Slider2/Slider2';
 import Molls from './pages/Molls/Molls';
 import MollDetails from './pages/MollsDetails/MollDetails';
+import Transfers from './pages/transfers/transfers';
+import Tickets from './pages/Tickets/tickets';
+import Others from './pages/Others/others';
 // import 
 
 function App() {
@@ -71,6 +74,9 @@ function App() {
           <Route path="/places/:id" element={<PlaceDetails />} />
           <Route path="/molls" element={<Molls />} />
           <Route path="/molls/:id" element={<MollDetails />} />
+          <Route path="/transfer" element={<Transfers />} />
+          <Route path="/tickets" element={<Tickets />} />
+          <Route path="/others" element={<Others />} />
           <Route path="/Contacts" element={<ContactPage />} />
           <Route path="/About" element={<AboutPage />} />
           <Route path="/details" element={<Details />} />
