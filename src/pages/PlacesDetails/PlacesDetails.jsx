@@ -46,12 +46,6 @@ function PlaceDetails() {
                 <Typography variant='h4' borderBottom='3px solid #005A5A' color={'#a49c75'} p='10px 0' >13:00 - 20:00</Typography>
                 </Box> */}
             </Stack>
-            <Stack alignItems={'center'} justifyContent={'center'} mt={3} >
-                <Button sx={{height:60, width:200, backgroundColor:"#cdc392", color:'#005A5A', fontSize: 30, borderBottom:'5px solid #005A5A'}}
-                onClick={handleOpenForm}>
-                    احجز الآن
-                </Button>
-            </Stack>
         </Section>
      
         

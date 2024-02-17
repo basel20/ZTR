@@ -362,7 +362,7 @@ import kathrin6 from './Places/kathrin6.jpg'
 import tsoomoll1 from './Molls/tsoomoll1.jpg'
 import tsoomoll2 from './Molls/tsoomoll2.jpg'
 import tsoomoll3 from './Molls/tsoomoll3.jpg'
-import tsoomoll4 from './Molls/tsoomoll4.jpg'
+
 
 import gummoll1 from './Molls/gummoll1.jpg'
 import gummoll2 from './Molls/gummoll2.jpg'
@@ -381,6 +381,7 @@ import evropeyskymoll1 from './Molls/evropeyskymoll1.jpg'
 import evropeyskymoll2 from './Molls/evropeyskymoll2.jpg'
 import evropeyskymoll3 from './Molls/evropeyskymoll3.jpg'
 import evropeyskymoll4 from './Molls/evropeyskymoll4.jpg'
+import evropeyskymoll5 from './Molls/evropeyskymoll5.jpg'
 
 import ahotnymoll1 from './Molls/ahotnymoll1.jpg'
 import ahotnymoll2 from './Molls/ahotnymoll2.jpg'
@@ -389,6 +390,14 @@ import ahotnymoll4 from './Molls/ahotnymoll4.jpg'
 
 import avimoll1 from './Molls/avimoll1.jpg'
 import avimoll2 from './Molls/avimoll2.jpg'
+import avimoll3 from './Molls/avimoll3.jpg'
+import avimoll4 from './Molls/avimoll4.jpg'
+
+import vigas1 from './Molls/vigas1.jpg'
+import vigas2 from './Molls/vigas2.jpg'
+import vigas3 from './Molls/vigas3.jpg'
+import vigas4 from './Molls/vigas4.jpg'
+import vigas5 from './Molls/vigas5.jpg'
 
 
 //tranfers
@@ -961,7 +970,7 @@ export const AllMolls = [
     description:"يقع في شارع بتروفكا على بعد خطوات من الساحة الحمراء، وبجانب مسرح البولشوى ،ويعتبر الكثيرون مركز تسوم  للتسوق واحدا من الأماكن الأكثر جاذبية للتسوق، حيث تتضمن علامات تجارية عالمية، وقد صمم مركز تسوم وفق التصميم المعماري الروسي الكلاسيكي.",
     img: tsoomoll1,
     location: " Petrovka Ulitsa, 2, Moscow, 125009",
-    imgList: [{id:1, img:tsoomoll1},{id:2, img:tsoomoll2},{id:3, img:tsoomoll3},{id:4, img:tsoomoll4},],
+    imgList: [{id:1, img:tsoomoll1},{id:2, img:tsoomoll2},{id:3, img:tsoomoll3},],
     link: "/molls/tsoomoll"},
   {
     id: "gummoll",
@@ -985,7 +994,7 @@ export const AllMolls = [
     description:"يعتبر أحد مراكز التسوق والترفيه الشهيرة  في موسكو نظراً لموقعه ولسهولة الوصول إليه بالقرب من محطة سكة حديد كييف  القريبة من شارع أربات القديم ، والذى يمر منه معظم السياح و قربه من المترو مناسب جداً، ثلاثة مخارج من محطة مترو كيفيسكايا كل ذلك يؤدي إلى مركز التسوق، يحتوي مول إفروبيسكي ٢٥٠ محل موزعة على ٦ أدوار ، وعند زيارتكم إلى مول إفروبيسكي تشعر وكأنك في أوروبا، فمن حولك المباني الحديثة ، وداخل المول ساعة النافورة الشهيرة ، المصاعد الشفافة ، المنصات ذات الطابقين ومواقف السيارات المريحة ،بالإضافة إلى الفود الكورت فى الدور الخامس الذى يحتوى على مجموعة من المطاعم الاوزبيكية والروسية والاوروبية والتى ترضى جميع الأذواق",
     img: evropeyskymoll1,
     location: " Kiyevsky Station Square, 2, Moscow, 121059",
-    imgList: [{id:1, img:evropeyskymoll1},{id:2, img:evropeyskymoll2},{id:3, img:evropeyskymoll3},{id:4, img:evropeyskymoll4}],
+    imgList: [{id:1, img:evropeyskymoll1},{id:2, img:evropeyskymoll2},{id:3, img:evropeyskymoll3},{id:4, img:evropeyskymoll4},{id:5, img:evropeyskymoll5}],
     link: "/molls/evropeyskymoll"},
     {
     id: "ahotnymoll",
@@ -1001,8 +1010,16 @@ export const AllMolls = [
     description:"يحتوي هذا المركز التجاري على الكثير من العلامات التجارية الروسية والعالمية للاختيار من بينها ويقع فى قلب منطقة موسكو الحديثة حيث توجد أبراج وناطحات سحاب بها شقق سكنية ومطاعم وفنادق وأفيمول سيتي",
     img: avimoll1,
     location: "Presnenskaya Naberezhnaya, 2, Moscow, 123112",
-    imgList: [{id:1, img:avimoll1},{id:2, img:avimoll2},],
-    link: "/molls/avimoll"}
+    imgList: [{id:1, img:avimoll1},{id:2, img:avimoll2},{id:3, img:avimoll3},{id:4, img:avimoll4}],
+    link: "/molls/avimoll"},
+  {
+    id: "vigas",
+    name: "مركز فيغاس",  
+    description:" يقع مركز فيغاس للتسوق على الكيلو 66 من طريق موسكو الدائري، بجوار محطة مترو مياكينينو، ويقع أحد مخارج المترو مباشرة في مركز التسوق.  تتسع مواقف السيارات في مركز التسوق لأكثر من 3000 سيارة.  يوجد أكثر من 200 متجر في موقع مريح على مساحة 112.500 متر مربع.  يتم تقديم منتجاتها من قبل: M. video، Detsky Mir، Adidas، Puma وغيرها.",
+    img: vigas1,
+    location: "Mkad 24 Kilometr, вл.1, Moscow",
+    imgList: [{id:1, img:vigas1},{id:2, img:vigas2},{id:3, img:vigas3},{id:4, img:vigas4},{id:5, img:vigas5}],
+    link: "/molls/vigas"}
 ]
 
 
