@@ -14,7 +14,7 @@ export default function ContactPage(){
 
     const Contacts = [
         {icon:<EmailIcon sx={{fontSize:'56px'}}/>, name:'الايميل', info:'moscowmasar@gmail.com'},
-        {icon:<Phone sx={{fontSize:'56px'}}/>, name:'الهاتف', info:'+793776441777'},
+        {icon:<Phone sx={{fontSize:'56px'}}/>, name:'الهاتف', info:'+79932913981'},
         {icon:<LocationOnIcon sx={{fontSize:'56px'}}/>, name:'الموقع', info:'SPB,balshoi brasbekt'}
     ]
 
@@ -31,7 +31,9 @@ export default function ContactPage(){
         <CardContent sx={{height:'35%'}}>
             <Typography fontWeight={600} textAlign='right' color={theme.palette.primary.main} p='10px'>{item.icon}</Typography>
             <Typography fontSize='20px' fontWeight={600} textAlign='right' color={theme.palette.text.primary} p='5px 10px 5px 10px'>{item.name}</Typography>
+            <div dir="ltr">
             <Typography fontSize='20px' fontWeight={400} textAlign='right' color={theme.palette.text.primary} p='5px 10px'>{item.info}</Typography>
+            </div>
         </CardContent>
         </Card>
     )

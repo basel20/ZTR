@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Stack, Typography , Link} from "@mui/material";
 import {Phone} from "@mui/icons-material";
 
 
@@ -17,8 +17,10 @@ export default function ContactSection(){
                 </Box>
                 <Box sx={{width:{ xs:'100%',md:'50%'},height:'100%', display:'flex', justifyContent:'center', alignItems:'center', gap:'10px'}} borderTop={'5px solid #b9b083'} borderRight={'5px solid #b9b083'}>
                 <div dir="ltr">
+                <Link  href={`tel:${+79932913981}`} >
                 <Typography fontSize={{xs:'28px',md:'50px'}} textAlign='center' lineHeight='75px' fontWeight={600} color='#005A5A' >
-                   + (701) 776 441 777</Typography>
+                   +79932913981 </Typography>
+                </Link>
                 </div>
                 <Phone sx={{fontSize:{xs:'34px',md:'62px'}, color:'#b9b083', pt:'5px'}}/></Box>
             </Stack>

@@ -127,10 +127,10 @@ import maroon1 from './Restaurants/maroon1.jpg'
 import maroon2 from './Restaurants/maroon2.png'
 import maroon3 from './Restaurants/maroon3.jfif'
 
-import campus from './Restaurants/campus.jpg'
-import campus1 from './Restaurants/campus1.jpg'
-import campus2 from './Restaurants/campus2.jpg'
-import campus3 from './Restaurants/campus3.jpg'
+import campus1 from './Restaurants/campus1.webp'
+import campus2 from './Restaurants/campus2.webp'
+import campus3 from './Restaurants/campus3.webp'
+import campus4 from './Restaurants/campus4.webp'
 
 //Activites
 
@@ -261,13 +261,23 @@ import tretyakovgallery4 from './Places/tretyakovgallery4.jpg'
 
 import jorkypark1 from './Places/jorkypark1.jpg'
 import jorkypark2 from './Places/jorkypark2.jpg'
-import jorkypark from './Places/jorkypark.jpg'
+import jorkypark3 from './Places/jorkypark3.jpg'
+import jorkypark4 from './Places/jorkypark4.jpg'
+import jorkypark5 from './Places/jorkypark5.jpg'
+import jorkypark6 from './Places/jorkypark6.jpg'
+
 
 import sokolinkipark1 from './Places/sokolinkipark1.jpg'
 import sokolinkipark2 from './Places/sokolinkipark2.jpg'
 import sokolinkipark3 from './Places/sokolinkipark3.jpg'
+import sokolinkipark4 from './Places/sokolinkipark4.jpg'
+import sokolinkipark5 from './Places/sokolinkipark5.jpg'
+import sokolinkipark6 from './Places/sokolinkipark6.jpg'
 
 import ismilovskipark1 from './Places/ismilovskipark1.jpg'
+import ismilovskipark2 from './Places/ismilovskipark2.jpg'
+import ismilovskipark3 from './Places/ismilovskipark3.jpg'
+import ismilovskipark4 from './Places/ismilovskipark4.jpg'
 
 import tsaritsynopark1 from './Places/tsaritsynopark1.jpg'
 import tsaritsynopark2 from './Places/tsaritsynopark2.jpg'
@@ -276,17 +286,75 @@ import tsaritsynopark3 from './Places/tsaritsynopark3.jpg'
 import alexandergarden1 from './Places/alexandergarden1.jpg'
 import alexandergarden2 from './Places/alexandergarden2.jpg'
 import alexandergarden3 from './Places/alexandergarden3.jpg'
+import alexandergarden4 from './Places/alexandergarden4.jpg'
+import alexandergarden5 from './Places/alexandergarden5.jpg'
+import alexandergarden6 from './Places/alexandergarden6.jpg'
 
 import mazyonpark1 from './Places/mazyonpark1.jpg'
 
 import zaryadipark1 from './Places/zaryadipark1.jpg'
 import zaryadipark2 from './Places/zaryadipark2.jpg'
+import zaryadipark3 from './Places/zaryadipark3.jpg'
+import zaryadipark4 from './Places/zaryadipark4.jpg'
+import zaryadipark5 from './Places/zaryadipark5.jpg'
 
 import vdnkh from './Places/vdnkh.jpg'
 import vdnkh1 from './Places/vdnkh1.jpg'
 import vdnkh2 from './Places/vdnkh2.jpg'
 import vdnkh3 from './Places/vdnkh3.jpg'
 import vdnkh4 from './Places/vdnkh4.jpg'
+
+import irmitag1 from './Places/irmitag1.jpg'
+import irmitag2 from './Places/irmitag2.jpg'
+import irmitag3 from './Places/irmitag3.jpg'
+import irmitag4 from './Places/irmitag4.jpg'
+import irmitag5 from './Places/irmitag5.jpg'
+
+import papidi1 from './Places/papidi1.jpg'
+import papidi2 from './Places/papidi2.jpg'
+import papidi3 from './Places/papidi3.jpg'
+import papidi4 from './Places/papidi4.jpg'
+import papidi5 from './Places/papidi5.jpg'
+import papidi6 from './Places/papidi6.jpg'
+
+import aptekarsky1 from './Places/atekarsky1.jpg'
+import aptekarsky2 from './Places/aptekarsky2.jpg'
+import aptekarsky3 from './Places/aptekarsky3.jpg'
+import aptekarsky4 from './Places/aptekarsky4.jpg'
+import aptekarsky5 from './Places/aptekarsky5.jpg'
+import aptekarsky6 from './Places/aptekarsky6.jpg'
+
+import poman1 from './Places/poman1.jpg'
+import poman2 from './Places/poman2.jpg'
+import poman3 from './Places/poman3.jpg'
+import poman4 from './Places/poman4.jpg'
+import poman5 from './Places/poman5.jpg'
+
+import krasnaya1 from './Places/krasnaya1.jpg'
+import krasnaya2 from './Places/krasnaya2.jpg'
+import krasnaya3 from './Places/krasnaya3.jpg'
+import krasnaya4 from './Places/krasnaya4.jpg'
+import krasnaya5 from './Places/krasnaya5.jpg'
+
+import kolomniski1 from './Places/kolomniski1.jpg'
+import kolomniski2 from './Places/kolomniski2.jpg'
+import kolomniski3 from './Places/kolomniski3.jpg'
+import kolomniski4 from './Places/kolomniski4.jpg'
+import kolomniski5 from './Places/kolomniski5.jpg'
+import kolomniski6 from './Places/kolomniski6.jpg'
+
+import ostankino1 from './Places/ostankino1.jpg'
+import ostankino2 from './Places/ostankino2.jpg'
+import ostankino3 from './Places/ostankino3.jpg'
+import ostankino4 from './Places/ostankino4.jpg'
+import ostankino5 from './Places/ostankino5.jpg'
+
+import kathrin1 from './Places/kathrin1.jpg'
+import kathrin2 from './Places/kathrin2.jpg'
+import kathrin3 from './Places/kathrin3.jpg'
+import kathrin4 from './Places/kathrin4.jpg'
+import kathrin5 from './Places/kathrin5.jpg'
+import kathrin6 from './Places/kathrin6.jpg'
 
 
 // Molls 
@@ -698,9 +766,9 @@ export const AllRestaurants = [
   id: "campus",
   name: "مطعم كامبوس",  
   description: "مقهى دافئ يقدم المأكولات الروسية اللذيذة في أجواء مريحة.", 
-  img: campus,
-  location: "Москва, ул. Первомайская д.94",
-  imgList: [{id:1, img:campus1},{id:2, img:campus2},{id:3, img:campus3}],
+  img: campus1,
+  location: "г. Москва, Смоленский бульвар,д.3/5, стр. 1а",
+  imgList: [{id:1, img:campus1},{id:2, img:campus2},{id:3, img:campus3},{id:4, img:campus4}],
   link: "/resturants/campus", 
 },
 ];
@@ -713,6 +781,30 @@ export const AllPlaces =[{
   img: vdnkh,
   imgList: [{id:1, img:vdnkh1},{id:2, img:vdnkh2},{id:3, img:vdnkh3}, {id:4, img:vdnkh4}],
   link: "/places/vdnkh"},
+  {
+    id: "papidi",
+    name: "بارك بابيدا",  
+    description: "يعد متنزه النصر الواقع على تلة بوكلونايا أحد أكبر المجمعات التذكارية في روسيا والعالم، حيث تبلغ مساحته 135 هكتارًا، وهو مخصص للانتصار في الحرب الوطنية العظمى.",
+    location: "пл. Победы, 3, Moscow",
+    img: papidi1,
+    imgList: [{id:1, img:papidi1},{id:2, img:papidi2},{id:3, img:papidi3}, {id:4, img:papidi4}, {id:5, img:papidi5}, {id:6, img:papidi6}],
+    link: "/places/papidi"},
+    {
+    id: "aptekarsky",
+    name: "حديقة الخضروات الصيدلانية",  
+    description: "(حديقة الخضروات الصيدلانية) هي واحدة من أقدم الحدائق في موسكو والتي تقع بالقرب من مترو بروسبكت ميرا.  تم تسميتها فيما بعد بالحديقة النباتية لجامعة موسكو الحكومية.  افتتحت في القرن الثامن عشر وكانت عبارة عن حديقة بها أعشاب ونباتات طبية",
+    location: "Prospekt Mira, 26, строение 1, Moscow",
+    img: aptekarsky1,
+    imgList: [{id:1, img:aptekarsky1},{id:2, img:aptekarsky2},{id:3, img:aptekarsky3}, {id:4, img:aptekarsky4}, {id:5, img:aptekarsky5}, {id:6, img:aptekarsky6}],
+    link: "/places/aptekarsky"},
+    {
+  id: "irmitag",
+  name: "حديقة موسكو هيرميتاج",  
+  description: "حديقة موسكو هيرميتاج هي مكان ترفيهي شهير، وهي حديقة تقع في الجزء الأوسط من موسكو، روسيا في شارع كاريتني رياض.  وتشتهر بمعالمها الثقافية والمسارح المجاورة.  تشمل الأحداث المنتظمة الأوبرا والباليه والحفلات الموسيقية",
+  location: "Ulitsa Karetnyy Ryad, 3, Moscow",
+  img: irmitag1,
+  imgList: [{id:1, img:irmitag1},{id:2, img:irmitag2},{id:3, img:irmitag3}, {id:4, img:irmitag4},{id:5, img:irmitag5}],
+  link: "/places/irmitag"},
 {
   id: "balshoitheater",
   name: "بالشوي ثييتر",  
@@ -768,8 +860,8 @@ export const AllPlaces =[{
   name: "حديقة جوركي",  
   description:".هل تريد تجربه ممتعة ومثيره للسعادة والاسترخاء والهدوء والتواصل العميق مع الطبيعة.  هل تريد فرصه للترويح عن النفس والابتعاد عن ضغوط الحياة اليومية. هل مللت من الجلوس في البيت وتريد ممارسة انشطة مثل المشي وركوب الدراجات والتجديف والتخييم ومشاهدة الطيور والصور والرسم والاستمتاع بالهواء النقي والجو المنعش. نقترح لك الذهاب إلى  حديقة جوركي\nهى واحدة من أكبر وأشهر المُنتزهات المفتوحة في مدينة موسكو على الإطلاق، فهى تطل على نهر موسكو مباشرةً وتصل مساحتها إلى 300 فدان،كما أنها تتميز بموقعها فى وسط العاصمة وسهولة الوصول إليها، فالبقرب منها يوجد محطتين للمترو هما: بارك كولتوري، أوكتاريسكايا، وهى حديقة تتميز بمساحات خضراء واسعة بها العديد من الأشجار النادرة والمعمرة،كما يوجد عدد من المباني القديمة الجميلة التي يرجع تاريخ بنائها إلى  القرنين الثامن والتاسع عشر، تتوسطها بحيرة، يمكن الاستمتاع بالتنزه على أحد المراكب الصغيرة فى البحيرة،أو الجلوس على أحد الكافيهات والاستمتاع بالمنظرالخلاب.\n بالإضافة إلى انه يمكن ممارسة رياضة ركوب الدراجات، فهناك طرق خاصة معدة لركوب الدراجات داخل الحديقة،و يمكن إستأجارها بكل سهولة حيث يوجد الكثير منها عند المدخل الرئيسي للحديقة،ولهواة السينما والمسرح يمكن الاستمتاع بمشاهدة عروض صيفية فى أحد مدرجات الحديقة فى الهواء الطلق بين أحضان الطبيعة الخلابة، كما توجد  نافورة ضخمة ترقص على أنغام الموسيقى العالمية،أما هواة الرومانسية يستطيعوا التجوال بالقرب من نهر موسكو بلا نهاية بطول الحديقة ،وعندما تشعر بالجوع ففيها العديد من الكافيهات التى تقدم جميع أنواع الوجبات السريعة والمثلجات اللذيذة . ",
   location: "Krymsky Val, 9, Moscow",
-  img: jorkypark,
-  imgList: [{id:1, img:jorkypark1},{id:2, img:jorkypark2},{id:3, img:jorkypark}],
+  img: jorkypark1,
+  imgList: [{id:1, img:jorkypark1},{id:2, img:jorkypark2},{id:3, img:jorkypark3},{id:4, img:jorkypark4},{id:5, img:jorkypark5},{id:6, img:jorkypark6}],
   link: "/places/jorkypark"},
 {
   id: "sokolinkipark",
@@ -777,7 +869,7 @@ export const AllPlaces =[{
   description: "سوكولنيكي تعتبر من الاماكن الرائعه حيث يمكنك الاسترخاء  فهى حديقة رائعة الجمال في مدينة موسكو يحبها المحليون والسياح على حد سواء، إذ استطاعت هذه الحديقة أن تخلق لنفسها شهرة واسعة وسمعة ممتازة لأنه بإمكان الزوار فيها القيام بالعديد من النشاطات منها :التنزه بالمساحات الطبيعية الخلابة الموجودة في الحديقة، وممارسة رياضات المشي لمسافات طويلة وركوب الدراجات، والسباحة بالمسابح المتوفرة، والقفز بملاعب الترامبولين الموجودة، غيرها الكثير، ويتوفر بالحديقة العديد من المرافق منها الكثير من الكافيتيريات والمطاعم، وبعض ملاعب الأطفال، الأمر الذي يجعل من بيئة الحديقة مناسبة للعائلات والأطفال.\nبارك “سوكولنيكي” (موسكو) لديها 13 بحيرة :الكلب،الذهب،دير عظيم،الغزلان الصغيرة،مايو،مايسكي العلوي،بجعة، ثعبان، الجحيم الدموي ،الفظ، القيعان من الشياطين،العلوي بوتيايفسكي، مزينة في أزقة القرن التاسع عشر،يتم زرع أنواع معينة من الأشجار: على طول الأول والثالث – البتولا، على طول الثاني والسادس – الدردار، على طول الرابع – القيقب، على طول الخامس – الرماد، وعلى طول قصاصات مايو – الأرزة",
   img: sokolinkipark1,
   location: "Sokolnichesky Val street, 1, building 1. Moscow",
-  imgList: [{id:1, img:sokolinkipark1},{id:2, img:sokolinkipark2},{id:3, img:sokolinkipark3},],
+  imgList: [{id:1, img:sokolinkipark1},{id:2, img:sokolinkipark2},{id:3, img:sokolinkipark3},{id:4, img:sokolinkipark4},{id:5, img:sokolinkipark5},{id:6, img:sokolinkipark6}],
   link: "/places/sokolinkipark"},
 {
   id: "ismilovskipark",
@@ -785,7 +877,7 @@ export const AllPlaces =[{
   description: "بارك في شرق موسكو ، تصل مساحته إلى 15الف كيلومتر مربع، مجهز بعدد كبير من الملاعب الرياضية، الجميع يأتى إليها ليس فقط لممارسة الرياضة ، ولكن أيضًا لقضاء وقت ممتع مع الأطفال والأقارب والأصدقاء خصوصاً في الصيف ،حيث يمكن السباحة في المسبح الموجود داخل الحديقة،أقرب محطات المترو : “بارتيزانسكايا” ، “إزمايلوفسكايا”، و بالقرب من حديقة إزميلوفسكي يقع “سوق إسماعيلوفو” وهو واحداً من من أشهر الأسواق لشراء التحف والمنتجات التقليدية الروسية القديمة والحديثة والهدايا التذكارية خان الخليلي الروسي ، و أقرب محطة مترو “بارتيزانسكايا “",
   img: ismilovskipark1,
   location: "Big Circle alley, 7, Moscow",
-  imgList: [{id:1, img:ismilovskipark1},],
+  imgList: [{id:1, img:ismilovskipark1},{id:2, img:ismilovskipark2},{id:3, img:ismilovskipark3},{id:4, img:ismilovskipark4}],
   link: "/places/ismilovskipark"},
 {
   id: "tsaritsynopark",
@@ -801,7 +893,7 @@ export const AllPlaces =[{
   description: "كانت حدائق ألكسندر واحدة من أولى الحدائق العامة الحضرية في موسكو، روسيا. تضم الحديقة ثلاث حدائق منفصلة،   تمتد  على طول سور الكرملين الغربي لمسافة 865 مترًا بين مبنى موسكو مانيج والكرملين",
   img: alexandergarden1,
   location: "none",
-  imgList: [{id:1, img:alexandergarden1},{id:2, img:alexandergarden2},{id:3, img:alexandergarden3}],
+  imgList: [{id:1, img:alexandergarden1},{id:2, img:alexandergarden2},{id:3, img:alexandergarden3},{id:4, img:alexandergarden4},{id:5, img:alexandergarden5},{id:6, img:alexandergarden6}],
   link: "/places/alexandergarden"},
 {
   id: "mazyonpark",
@@ -817,8 +909,48 @@ export const AllPlaces =[{
   description: "مفضلة لأهل موسكو ، ويحرص على زيارتها كل من يصل إلى العاصمة الروسية للسياحة أو في زيارة عمل ويعود أصل تسمية الحديقة إلى كلمة «زا – ريادامي»، أي المنطقة الواقعة خلف صفوف المحال التجارية التي كانت منتشرة وسط موسكو، تحولت إلى منطقة يقطنها كبار التجار والنبلاء، وأقامت عائلة رمانوف القيصرية مقرا لها هناك، كما ظهرت بعض الكنائس التي بقي معظمها حتى يومنا هذا شاهدا على تاريخ المنطقة، ويعود الفضل في ذلك إلى ميناء أقيم على نهر موسكو، ساهم حينها في تنشيط المنطقة تجارياً، ولم يتراجع الاهتمام بتلك المنطقة في الحقبة السوفياتية، نظرا لقربها من الكرملين وإطلالتها المميزة الجميلة على نهر موسكو.\n تأسست على أنقاض فندق «روسيا» الضخم، والذى تم هدمه فى فى 2014 وتحول المكان إلى واحدة من أجمل وأكبر الحدائق العامة فى قلب موسكو، وتزامن إفتتاحه مع  احتفالات «يوم المدينة» الذي يصادف 8 سبتمبر من كل عام، تم افتتاح منطقة ترفيهية كبيرة في قلب روسيا في عام 2017، منتزه فريد  من جميع النواحي ، ينتشر على مساحة 12 هكتارًا ويجمع 4 مناطق مميزة للمناظر الطبيعية المميزة لروسيا: التندرا ، السهوب ، الغابات ، المستنقعات، ظهر جسر شاهق يبلغ طوله 70 مترًا وواحدًا من أفضل منصات العرض في العاصمة فوق نهر موسكفا من هنا يمكنك أن ترى مركز موسكو بالكامل تقريبًا ، هذه واحدة من أفضل الحدائق في موسكو والعالم.",
   img: zaryadipark1,
   location: "Moscow, Varvarka street household 6, building 1",
-  imgList: [{id:1, img:zaryadipark1},{id:2, img:zaryadipark2},],
-  link: "/places/zaryadipark"},]
+  imgList: [{id:1, img:zaryadipark1},{id:2, img:zaryadipark2},{id:3, img:zaryadipark3},{id:4, img:zaryadipark4},{id:5, img:zaryadipark5}],
+  link: "/places/zaryadipark"},
+{
+  id: "krasnaya",
+  name: "حديقة كراسنايا بريسنيا",  
+  description: "تأسست حديقة كراسنايا بريسنيا في عام 1932 في موقع ملكية ستودينتس وهي نصب تذكاري للتاريخ والهندسة المعمارية، ونصب تذكاري لفن المناظر الطبيعية ",
+  img: krasnaya1,
+  location: "Ulitsa Mantulinskaya, 5, Moscow",
+  imgList: [{id:1, img:krasnaya1},{id:2, img:krasnaya2},{id:3, img:krasnaya3},{id:4, img:krasnaya4},{id:5, img:krasnaya5},],
+  link: "/places/krasnaya"},
+{
+  id: "poman",
+  name: "حديقة بومان",  
+  description: " حديقة بومان للثقافة والترفيه هي عبارة عن مجمع حدائق ومتنزهات يقع في منطقة باسماني في موسكو، بين شارعي ستارايا باسمانايا ونوفايا باسمانايا.  تم افتتاح الحديقة في عام 1920، وتم تسميتها على اسم البلشفي الثوري نيكولاي بومان.   ",
+  img: poman1,
+  location: "Staraya Basmannaya Ulitsa, 15 а, стр 4, Moscow",
+  imgList: [{id:1, img:poman1},{id:2, img:poman2},{id:3, img:poman3},{id:4, img:poman4},{id:5, img:poman5},],
+  link: "/places/poman"},
+{
+  id: "kolomniski",
+  name: "حديقة كولومينسكوي",  
+  description: "كولومينسكوي هي ملكية ملكية سابقة تقع على بعد عدة كيلومترات إلى الجنوب الشرقي من وسط مدينة موسكو، روسيا، على الطريق القديم المؤدي إلى بلدة كولومنا.  تطل المنطقة ذات المناظر الخلابة التي تبلغ مساحتها 390 هكتارًا على ضفاف نهر موسكفا شديدة الانحدار.  أصبحت جزءًا من موسكو في الستينيات.   ",
+  img: kolomniski1,
+  location: "Andropova Ave, 39, Moscow",
+  imgList: [{id:1, img:kolomniski1},{id:2, img:kolomniski2},{id:3, img:kolomniski3},{id:4, img:kolomniski4},{id:5, img:kolomniski5},{id:6, img:kolomniski6}],
+  link: "/places/kolomniski"},
+{
+  id: "ostankino",
+  name: "حديقة أوستانكينو",  
+  description: " تعد أوستانكينو واحدة من أقدم حدائق موسكو، وتقع على أراضي القصر ومجموعة المنتزهات التي تعود إلى القرنين الثامن عشر والتاسع عشر.  يضم ملكية متحف",
+  img: ostankino1,
+  location: "ул, 1-Ya Ostankinskaya Ulitsa, 5, Moscow",
+  imgList: [{id:1, img:ostankino1},{id:2, img:ostankino2},{id:3, img:ostankino3},{id:4, img:ostankino4},{id:5, img:ostankino5},],
+  link: "/places/ostankino"},
+{
+  id: "kathrin",
+  name: "حديقة كاثرين",  
+  description: " تعد أوستانكينو واحدة من أقدم حدائق موسكو، وتقع على أراضي القصر ومجموعة المنتزهات التي تعود إلى القرنين الثامن عشر والتاسع عشر.  يضم ملكية متحف",
+  img: kathrin1,
+  location: "ул, 1-Ya Ostankinskaya Ulitsa, 5, Moscow",
+  imgList: [{id:1, img:kathrin1},{id:2, img:kathrin2},{id:3, img:kathrin3},{id:4, img:kathrin4},{id:5, img:kathrin5},{id:6, img:kathrin6}],
+  link: "/places/kathrin"},]
 
 
 

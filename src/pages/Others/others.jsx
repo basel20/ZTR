@@ -27,7 +27,7 @@ export default function Others(){
     
     return(
         <Section header=' المزيد من الخدمات'>
-            <Box mt={4} mb={10} textAlign="center">
+            {/*<Box mt={4} mb={10} textAlign="center">
                 <Stack
                     direction={{ xs: 'column', md: 'row' }}
                     justifyContent="center"
@@ -52,9 +52,10 @@ export default function Others(){
                     </Box>
                     ))}
                 </Stack>
-            </Box>
-
-            <ContactSection/>
+            </Box>*/}
+            <Typography variant="h2" color={'#005A5A'} fontWeight={600} p={{xs:'0 20px', md:'0 100px'}}>
+                نقوم بتوفير جميع الخدمات السياحية, للحجز او الاستفسار يرجى التواصل معناعبر الايميل او عبر حساباتنا عبر مواقع التواصل الاجتماعية.
+            </Typography>
                
         </Section>
     )
