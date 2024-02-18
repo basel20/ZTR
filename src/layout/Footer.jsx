@@ -87,11 +87,11 @@ export default function Footer(){
                 <IconButton onClick={() => openNewTab("https://www.snapchat.com/add/masar_moscow")} sx={{backgroundColor:'#CDC392'}}>
                     <Box sx={{height: {xs:'35px',md:"50px"}, width: {xs:'35px',md:"50px"}, background: `url(${Snapchat})`, backgroundSize: "100% 100%",}}></Box>
                 </IconButton>
-                <IconButton onClick={() => openNewTab("https://www.instagram.com/masar_moscow_?igsh=MXFueWhnMnFkMDVzcg==")} sx={{backgroundColor:'#CDC392'}}>
+                <IconButton onClick={() => openNewTab("https://www.instagram.com/masar.ru?igsh=MWNvbHNja2s3eWQ3Mg==")} sx={{backgroundColor:'#CDC392'}}>
                     <InstagramIcon sx={footerStyles.iconStyle}/>
                 </IconButton>
                 </Box>
-                <Typography variant={{xs:'h3',md:'h2'}} pt={1}><strong> Take your first step to a great trip</strong></Typography>
+                <Typography variant={{xs:'h3',md:'h2'}} pt={1}><strong> Take Your First Step To A Great Trip</strong></Typography>
                 <List sx={{display:'flex', flexDirection:'row', justifyContent:'flex-start', pb:'20px' }}>
                     {newNavItems}
                 </List>

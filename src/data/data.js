@@ -98,6 +98,8 @@ import swissotel4 from './Hotels/swissotel4.jpg'
 import swissotel5 from './Hotels/swissotel5.jpg'
 import swissotel6 from './Hotels/swissotel6.jpg'
 
+import morehotels from './Hotels/morehotels.jpg'
+
 //Resturants
 
 import bulshoi1 from './Restaurants/bulshoi1.jfif'
@@ -399,6 +401,31 @@ import vigas3 from './Molls/vigas3.jpg'
 import vigas4 from './Molls/vigas4.jpg'
 import vigas5 from './Molls/vigas5.jpg'
 
+import metrobolis1 from './Molls/metrobolis1.jpg'
+import metrobolis2 from './Molls/metrobolis2.jpg'
+import metrobolis3 from './Molls/metrobolis3.jpg'
+import metrobolis4 from './Molls/metrobolis4.jpg'
+import metrobolis5 from './Molls/metrobolis5.jpg'
+
+import rio1 from './Molls/rio1.jpg'
+import rio2 from './Molls/rio2.jpg'
+import rio3 from './Molls/rio3.jpg'
+import rio4 from './Molls/rio4.jpg'
+import rio5 from './Molls/rio5.jpg'
+
+import visna1 from './Molls/visna1.jpg'
+import visna2 from './Molls/visna2.jpg'
+import visna3 from './Molls/visna3.jpg'
+import visna4 from './Molls/visna4.jpg'
+import visna5 from './Molls/visna5.jpg'
+
+import gooda1 from './Molls/gooda1.jpg'
+import gooda2 from './Molls/gooda2.jpg'
+import gooda3 from './Molls/gooda3.jpg'
+import gooda4 from './Molls/gooda4.jpg'
+import gooda5 from './Molls/gooda5.jpg'
+
+
 
 //tranfers
 
@@ -406,7 +433,7 @@ import car from './Cars/car.jpeg'
 
 //tickets 
 
-import ticket from './ticket.webp'
+
 
 export const FeaturedHotels = [
   {
@@ -543,7 +570,7 @@ export const AllHotels = [
     id:"more",
     hotel:"المزيد من الفنادق",
     description:"نستطيع توفير حجوزات و غرف في فنادق ذات تقييم 3 و 4 نجوم , و كذلك حجوز في شقق فندقية. \n للحجز او الاستفسار يرجى التواصل معنا عبر الايميل او الوتس أب .",
-    img:hotel,
+    img:morehotels,
     imgList: [{id:1, img:swissotel1},{id:2, img:swissotel2}, {id:3, img:swissotel3}, {id:4, img:swissotel4}, {id:5, img:swissotel5}, {id:6, img:swissotel6}, ],
     link:"#"
   }
@@ -1019,7 +1046,39 @@ export const AllMolls = [
     img: vigas1,
     location: "Mkad 24 Kilometr, вл.1, Moscow",
     imgList: [{id:1, img:vigas1},{id:2, img:vigas2},{id:3, img:vigas3},{id:4, img:vigas4},{id:5, img:vigas5}],
-    link: "/molls/vigas"}
+    link: "/molls/vigas"},
+  {
+    id: "metrobolis",
+    name: "مول متروبوليس",  
+    description:" يوجد في متروبوليس أكثر من 250 متجرًا ومطعمًا و18 قاعة سينما.  يقع مركز التسوق بالقرب من محطة مترو Voykovskaya ويتمتع بإمكانية الوصول المباشر إلى المحطة ",
+    img: metrobolis1,
+    location: "none",
+    imgList: [{id:1, img:metrobolis1},{id:2, img:metrobolis2},{id:3, img:metrobolis3},{id:4, img:metrobolis4},{id:5, img:metrobolis5}],
+    link: "/molls/metrobolis"},
+  {
+    id: "rio",
+    name: "مركز ريو",  
+    description:" ",
+    img: rio1,
+    location: "Leninskiy Prospekt, 109, Moscow",
+    imgList: [{id:1, img:rio1},{id:2, img:rio2},{id:3, img:rio3},{id:4, img:rio4},{id:5, img:rio5}],
+    link: "/molls/rio"},
+{
+    id: "visna",
+    name: "مركز بوسكو فيسنا",  
+    description:" ",
+    img: visna1,
+    location: "New Arbat Ave, 19, Moscow",
+    imgList: [{id:1, img:visna1},{id:2, img:visna2},{id:3, img:visna3},{id:4, img:visna4},{id:5, img:visna5}],
+    link: "/molls/visna"},
+  {
+    id: "gooda",
+    name: "مركز فريمينا جودا",  
+    description:" ",
+    img: gooda1,
+    location: "Kutuzovsky Ave, 48, Moscow",
+    imgList: [{id:1, img:gooda1},{id:2, img:gooda2},{id:3, img:gooda3},{id:4, img:gooda4},{id:5, img:gooda5}],
+    link: "/molls/gooda"}
 ]
 
 
@@ -1050,27 +1109,7 @@ export const AllTransfers = [{
 },
 ]
 
-export const AllTickets  = [{
-  id: "ticket1",
-  name: "تذاكر طيران دولية ",
-  img:ticket
-},
-{
-  id: "ticket2",
-  name:  "تذاكر طيران محلية",
-  img:ticket
-},
-{
-  id: "ticket3",
-  name:  "تذاكر سفر عبر القطار",
-  img:ticket
-},
-{
-  id: "ticket4",
-  name:  "تذاكر اخرى",
-  img:ticket
-},
 
-]
+
 
 
