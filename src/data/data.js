@@ -9,18 +9,17 @@ import carlton from "./Hotels/carlton.jpeg"
 import radison from "./Hotels/radisson.jpg"
 
 import husky from './Activities/haski.jpg'
-import bear from './Activities/bear.jpg'
+
 import tiger from './Activities/tiger.jpg'
 import snowmobile from './Activities/snowmobile.jpeg'
 import ATVs from './Activities/ATV.png'
-import Bigfoot from './Activities/bigfooot.jpg'
+
 
 import bulshoi from './Restaurants/bolshoi.jpg'
 import turandot from './Restaurants/turandot.png'
 import pushkin from './Restaurants/bushkin.jpeg'
 
 //hotels
-import hotel from './Hotels/hotel.jfif'
 
 import stregis1 from './Hotels/stregis1.jpg'
 import stregis2 from './Hotels/stregis2.jpeg'
@@ -77,7 +76,6 @@ import lotte from './Hotels/lotte.jpg'
 import lotte1 from './Hotels/lotte1.jpg'
 import lotte2 from './Hotels/lotte2.jpg'
 import lotte3 from './Hotels/lotte3.jpg'
-import lotte4 from './Hotels/lotte4.jpg'
 import lotte5 from './Hotels/lotte5.jpg'
 import lotte6 from './Hotels/lotte6.jpg'
 import lotte7 from './Hotels/lotte7.jpg'
@@ -102,10 +100,10 @@ import morehotels from './Hotels/morehotels.jpg'
 
 //Resturants
 
-import bulshoi1 from './Restaurants/bulshoi1.jfif'
-import bulshoi2 from './Restaurants/bulshoi2.jfif'
-import bulshoi3 from './Restaurants/bulshoi3.jfif'
-import bulshoi4 from './Restaurants/bulshoi4.jfif'
+import bulshoi1 from './Restaurants/bulshoi1.png'
+import bulshoi2 from './Restaurants/bulshoi12.jpg'
+import bulshoi3 from './Restaurants/bulshoi3.jpg'
+import bulshoi4 from './Restaurants/bulshoi14.jpg'
 
 import Pushkin1 from './Restaurants/Pushkin1.jpg'
 import Pushkin2 from './Restaurants/Pushkin2.jpg'
@@ -113,6 +111,9 @@ import Pushkin3 from './Restaurants/Pushkin3.jpeg'
 import Pushkin4 from './Restaurants/Pushkin4.jpg'
 
 import Turandot1 from './Restaurants/Turandot1.jpg'
+import Turandot2 from './Restaurants/Turandot2.jpg'
+import Turandot3 from './Restaurants/Turandot3.jpg'
+import Turandot4 from './Restaurants/Turandot4.jpg'
 
 import loomi1 from './Restaurants/loomi1.jpg'
 import loomi2 from './Restaurants/loomi2.jpg'
@@ -138,7 +139,6 @@ import campus4 from './Restaurants/campus4.webp'
 
 import husky1 from './Activities/husky1.jpg'
 import husky2 from './Activities/husky2.jpg'
-import husky3 from './Activities/husky3.jpg'
 import husky4 from './Activities/husky4.jpg'
 import husky5 from './Activities/husky5.jpg'
 import husky6 from './Activities/husky6.jpg'
@@ -232,34 +232,47 @@ import balshoitheater1 from './Places/balshoitheater1.jpg'
 import balshoitheater2 from './Places/balshoitheater2.jpg'
 import balshoitheater3 from './Places/balshoitheater3.jpg'
 import balshoitheater4 from './Places/balshoitheater4.jpg'
+import balshoitheater5 from './Places/balshoitheater5.jpg'
+import balshoitheater6 from './Places/balshoitheater6.jpg'
 
 import poshkinmusem from './Places/poshkinmusem.jpg'
 import poshkinmusem1 from './Places/poshkinmusem1.jpg'
 import poshkinmusem2 from './Places/poshkinmusem2.jpg'
 import poshkinmusem3 from './Places/poshkinmusem3.jpg'
 import poshkinmusem4 from './Places/poshkinmusem4.jpg'
+import poshkinmusem5 from './Places/poshkinmusem5.jpg'
+import poshkinmusem6 from './Places/poshkinmusem6.jpg'
 
+import kalomnskoemusem from './Places/kalomnskoemusem.jpg'
 import kalomnskoemusem1 from './Places/kalomnskoemusem1.jpg'
 import kalomnskoemusem2 from './Places/kalomnskoemusem2.jpg'
 import kalomnskoemusem3 from './Places/kalomnskoemusem3.jpg'
 import kalomnskoemusem4 from './Places/kalomnskoemusem4.jpg'
+import kalomnskoemusem5 from './Places/kalomnskoemusem5.jpg'
+import kalomnskoemusem6 from './Places/kalomnskoemusem6.jpg'
 
 import weaponmusem1 from './Places/weaponmusem1.jpg'
 import weaponmusem2 from './Places/weaponmusem2.jpg'
 import weaponmusem3 from './Places/weaponmusem3.jpg'
 import weaponmusem4 from './Places/weaponmusem4.jpg'
 import weaponmusem5 from './Places/weaponmusem5.jpg'
+import weaponmusem6 from './Places/weaponmusem6.jpg'
 
 import spacemusem from './Places/spacemusem.jpg'
 import spacemusem1 from './Places/spacemusem1.jpg'
 import spacemusem2 from './Places/spacemusem2.jpg'
 import spacemusem3 from './Places/spacemusem3.jpg'
+import spacemusem4 from './Places/spacemusem4.jpg'
+import spacemusem5 from './Places/spacemusem5.jpg'
+import spacemusem6 from './Places/spacemusem6.jpg'
 
 import tretyakovgallery from './Places/tretyakovgallery.jpg'
 import tretyakovgallery1 from './Places/tretyakovgallery1.jpg'
 import tretyakovgallery2 from './Places/tretyakovgallery2.jpg'
 import tretyakovgallery3 from './Places/tretyakovgallery3.jpg'
 import tretyakovgallery4 from './Places/tretyakovgallery4.jpg'
+import tretyakovgallery5 from './Places/tretyakovgallery5.jpg'
+import tretyakovgallery6 from './Places/tretyakovgallery6.jpg'
 
 import jorkypark1 from './Places/jorkypark1.jpg'
 import jorkypark2 from './Places/jorkypark2.jpg'
@@ -759,7 +772,7 @@ export const AllRestaurants = [
     description: "مطعم فخم يتميز بالمفروشات الحريرية والثريات ويقدم قائمة طعام فرنسية ويابانية وصينية \n  خيارات الخدمة: به منطقة جلوس خارجية · به مدفأة · يقدم كوكتيلات رائعة", 
     img: turandot,
     location: "Tverskoy Blvd, 26, Стр. 3, Moscow, 125009",
-    imgList: [{id:1, img:turandot},{id:2, img:Turandot1}, {id:3, img:turandot},{id:4, img:Turandot1}],
+    imgList: [{id:1, img:Turandot1},{id:2, img:Turandot2}, {id:3, img:Turandot3},{id:4, img:Turandot4}],
     link: "/resturants/turandot", 
 },
 {
@@ -768,14 +781,14 @@ export const AllRestaurants = [
     description: "غرفة طعام مليئة بالتحف في منزل أحد النبلاء مع خدمة رسمية وقائمة طعام روسية نموذجية \n خيارات الخدمة: الحجز مطلوب · يقدم طعام الساعة السعيدة · يقدم كوكتيلات رائعة", 
     img: pushkin,
     location: "Tverskoy Blvd, 26А, Moscow, 125009",
-    imgList: [{id:1, img:pushkin},{id:2, img:Pushkin2}, {id:3, img:Pushkin3}, {id:4, img:Pushkin4}],
+    imgList: [{id:1, img:Pushkin1},{id:2, img:Pushkin2}, {id:3, img:Pushkin3}, {id:4, img:Pushkin4}],
     link: "/resturants/pushkin", 
 },
 {
   id: "loomi",
   name: "مطعم لومي",  
   description:"مطعم بمطبخ داخلي وأجواء وطريقة جديدة توفر القليل من الشمس في موسكو - كل ذلك من لومي.\n تعود هذه القصة إلى أنواع معينة من 'اللوميه'، مثل الليمون الأخضر، أو الليمون الحامض، أو الليمون الأسود الداكن. حسنًا، ليس باللون الأسود تمامًا، – في Loomi يمكن أن نتعرف على خيارات مختلفة لهذا المنتج، واستمر في التحقق من أن هذا المنتج أكبر ستو – الطبقة العليا الأصلية, نهاية جيدة, أي مبلغ ينفق على المحلول أو اللوم, يتم تنفيذه من جميع أنواع القروض المتدفقة هذه الأجهزة الحديثة ",
-  img: pushkin,
+  img: loomi1,
   location: " Neglinnaya St, 8, Moscow, 107031",
   imgList: [{id:1, img:loomi1},{id:2, img:loomi2}, {id:3, img:loomi3}],
   link: "/resturants/loomi", 
@@ -846,8 +859,8 @@ export const AllPlaces =[{
   name: "بالشوي ثييتر",  
   description: "على الرغم من حقيقة ان هذا المكان لا يمكن تصنيفه كمتحف، لكن بالامكان القول أن زيارتك لموسكو لا يمكن أن تتم دون زيارة البالشوي تياتر، والذي يعتبر أيقونة من أيقونات الفن الحديثة والقديمة، حيث يهرع إليه الملايين سنويا لمشاهدة العروض بشكل أسبوعي أو شهري, يتميز المكان بطابع تاريخي جذاب، حيث يعتبره الكثير من الأدباء والفنانين أفضل مسرح في العالم.", 
   location: "none",
-  img: balshoitheater4,
-  imgList: [{id:1, img:balshoitheater1},{id:2, img:balshoitheater2},{id:3, img:balshoitheater3}, {id:4, img:balshoitheater4}],
+  img: balshoitheater1,
+  imgList: [{id:1, img:balshoitheater1},{id:2, img:balshoitheater2},{id:3, img:balshoitheater3}, {id:4, img:balshoitheater4}, {id:5, img:balshoitheater5}, {id:6, img:balshoitheater6}],
   link: "/places/balshoitheater"},
 
 {
@@ -856,7 +869,7 @@ export const AllPlaces =[{
   description: "يعتبر متحف بوشكن حلقة وصل بين الهوية الروسية وهويات الدول الأخرى، حيث ان هذا المتحف الحكومي للفنون الجميلة يحتوي على واحدة من أكبر مجموعات الفن الأجنبي في روسيا من العصور القديمة حتى يومنا هذا. \nيقدم عرضه الحديث للزوار مجموعات الدراسة الواسعة للمتحف من النسخ المصبوغة باللون من الأعمال الفنية اليونانية الرومانية والعصور الوسطى وعصر النهضة. يضم المتحف أيضًا لوحات ونحتًا أصلية ورسومات وأمثلة على الفنون الزخرفية والتطبيقية. في القاعات في الطابق الأرضي يتم عرض الأعمال الفنية الأصلية من مصر القديمة واليونان القديمة وروما ، جنبًا إلى جنب مع اللوحات الأوروبية التي تمتد تاريخها من القرن الثامن إلى القرن الثامن عشر.", 
   location: "none",
   img: poshkinmusem,
-  imgList: [{id:1, img:poshkinmusem1},{id:2, img:poshkinmusem2},{id:3, img:poshkinmusem3}, {id:4, img:poshkinmusem4}],
+  imgList: [{id:1, img:poshkinmusem1},{id:2, img:poshkinmusem2},{id:3, img:poshkinmusem3}, {id:4, img:poshkinmusem4}, {id:5, img:poshkinmusem5}, {id:6, img:poshkinmusem6}],
   link: "/places/poshkinmusem"},
 
 {
@@ -864,16 +877,16 @@ export const AllPlaces =[{
   name: "متحف كالومنسكويه التاريخي",  
   description: "المتحف يوجد في منطقة هادئة ومفتوحة يتواجد فيما حوله بقايا لقرية أثرية من العصور الوسطى، هذه القرية السابقة وموقع الآثار كانت تضم مساكن الصيف للأمراء الكبار في موسكو ، وفيما بعد للقياصرة ، وهي الآن متحف ومحمية، يعتبر المتحف مكان ممتاز لعمل نزهة سريعة حول تاريخ الاباطرة الروس في عصر ما قبل الثورة البلشفيكيه، حيث لا زالت معظم الادوات المستخدمة في الحياة اليومية موجودة في هذا المكان.", 
   location: "none",
-  img: kalomnskoemusem1,
-  imgList: [{id:1, img:kalomnskoemusem1},{id:2, img:kalomnskoemusem2},{id:3, img:kalomnskoemusem3},{id:4, img:kalomnskoemusem4}, ],
+  img: kalomnskoemusem,
+  imgList: [{id:1, img:kalomnskoemusem1},{id:2, img:kalomnskoemusem2},{id:3, img:kalomnskoemusem3},{id:4, img:kalomnskoemusem4},{id:5, img:kalomnskoemusem5},{id:6, img:kalomnskoemusem6} ],
   link: "/places/kalomnskoemusem"},
 {
   id: "weaponmusem",
   name: "متحف السلاح",  
   description: "يعتبر هذا المتحف قطعة تاريخية ثمينة لا تتجزء من الهوية الروسية القائمة على النضال والقتال لأجل الحرية، حيث يضم هذا المتحف في الكرملين مجموعة مذهلة من الكنوز من القرن الرابع إلى القرن العشرين ، بما في ذلك عروش وعربات القياصرة ، وأعمال الفضة والذهب في موسكو ، والأسلحة ، والجواهر ، و 'البيض' الروسي الثمين لعيد الفصح وغيرها من الفنون الزخرفية الروسية والأجنبية.", 
   location: "none",
-  img: weaponmusem4,
-  imgList: [{id:1, img:weaponmusem1},{id:2, img:weaponmusem2},{id:3, img:weaponmusem3},{id:4, img:weaponmusem4},{id:5, img:weaponmusem5}],
+  img: weaponmusem1,
+  imgList: [{id:1, img:weaponmusem1},{id:2, img:weaponmusem2},{id:3, img:weaponmusem3},{id:4, img:weaponmusem4},{id:5, img:weaponmusem5},{id:5, img:weaponmusem5},{id:6, img:weaponmusem6}],
   link: "/places/weaponmusem"},
 {
   id: "spacemusem",
@@ -881,7 +894,7 @@ export const AllPlaces =[{
   description: "كما يعرف الجميع، فروسيا هي اول دولة تصل إلى الفضاء، لذا  المتحف المركزي للطيران والفضاء يعد الفخر الأول لروسيا بإنجازاتها في مجال الفضاء والطيران. في المتحف تستطيع مشاهدة الادوات الاولى المستخدمة للصعود الى الفضاء، بما في ذلك الطرق والادوات التي سبقت رحلة جاجارين المشهورة.", 
   location: "none",
   img: spacemusem,
-  imgList: [{id:1, img:spacemusem1},{id:2, img:spacemusem2},{id:3, img:spacemusem3}],
+  imgList: [{id:1, img:spacemusem1},{id:2, img:spacemusem2},{id:3, img:spacemusem3}, {id:4, img:spacemusem4},{id:5, img:spacemusem5},{id:6, img:spacemusem6}],
   link: "/places/spacemusem"},
 {
   id: "tretyakovgallery",
@@ -889,7 +902,7 @@ export const AllPlaces =[{
   description: "لمعرض الوطني تريتياكوف هو الخزانة الوطنية للفن الروسي, حيث يحتوي على أكثر من 180,000 عمل من الرسم والنحت والرسومات التي أنشأها أجيال من الفنانين الروس، يعتبر المتخف قِبلة لكل محبي الفن في العالم، حيث يزوره ما يقارب عشرة الف سائح سنويا في محاولة لاستيعاب ما يختزنه الفن الروسي من خبايا وجمال.", 
   location: "none",
   img: tretyakovgallery,
-  imgList: [{id:1, img:tretyakovgallery1},{id:2, img:tretyakovgallery2},{id:3, img:tretyakovgallery3},{id:4, img:tretyakovgallery4}],
+  imgList: [{id:1, img:tretyakovgallery1},{id:2, img:tretyakovgallery2},{id:3, img:tretyakovgallery3},{id:4, img:tretyakovgallery4},{id:5, img:tretyakovgallery5},{id:6, img:tretyakovgallery6}],
   link: "/places/tretyakovgallery"},
 {
   id: "jorkypark",
@@ -1058,7 +1071,7 @@ export const AllMolls = [
   {
     id: "rio",
     name: "مركز ريو",  
-    description:" ",
+    description:"يحتوي مركز تسوق ريو على مئات المتاجر وعشرات المطاعم والمقاهي والعديد من وسائل الترفيه المثيرة للاهتمام لكل الأذواق والفرص.  تعد الخدمات اللوجستية المدروسة بعناية للمتاجر جذابة نظرًا لسهولة الوصول إليها.\n يزور مركز التسوق في ريو سنويًا حوالي 200 مليون شخص.\n يمكن رؤية مراكز التسوق التي تحمل علامة 'ريو' الملونة الزاهية في موسكو وسانت بطرسبورغ وبيلغورود وفولوغدا وكالوغا وكولومنا وكوستروما وسارانسك ونيجني نوفغورود وتامبوف وتفير وتولا وأرخانجيلسك. ",
     img: rio1,
     location: "Leninskiy Prospekt, 109, Moscow",
     imgList: [{id:1, img:rio1},{id:2, img:rio2},{id:3, img:rio3},{id:4, img:rio4},{id:5, img:rio5}],
@@ -1066,7 +1079,7 @@ export const AllMolls = [
 {
     id: "visna",
     name: "مركز بوسكو فيسنا",  
-    description:" ",
+    description:"تم افتتاح مجمع التسوق والترفيه 'فيسنا' في عام 2014، ، وهو يكون في جوار منطقة سكنية مكتظة بالسكان. يوجد في ثلاثة طوابق 150 محل تجاري وسينما ومركز ألعاب للأطفال وقاعة طعام لتناول الوجبات وجزر ترفيهية لجميع أفراد الأسرة وغيرها من وسائل الترفيه. ",
     img: visna1,
     location: "New Arbat Ave, 19, Moscow",
     imgList: [{id:1, img:visna1},{id:2, img:visna2},{id:3, img:visna3},{id:4, img:visna4},{id:5, img:visna5}],
@@ -1074,7 +1087,7 @@ export const AllMolls = [
   {
     id: "gooda",
     name: "مركز فريمينا جودا",  
-    description:" ",
+    description:" منذ افتتاحها في عام 2007، احتلت معرض Vremena Goda Galleries مكانة رائدة في عالم الموضة لسكان موسكو ذوي الأذواق الأكثر تميزًا: إنه مكان للتسوق المريح لجميع أفراد الأسرة.\n أكثر من 150 علامة تجارية للأزياء، منها: Mercury، Ulyana Sergeenko، Corneliani، Frame، St John، Eleventy وغيرها الكثير.  تقع مساحة معارض فريمينا جودا على 6 طوابق، بمساحة إجمالية قدرها 32 ألف متر مربع، منها 634 مترًا مربعًا.  يشغلون أقسام العطور ومستحضرات التجميل",
     img: gooda1,
     location: "Kutuzovsky Ave, 48, Moscow",
     imgList: [{id:1, img:gooda1},{id:2, img:gooda2},{id:3, img:gooda3},{id:4, img:gooda4},{id:5, img:gooda5}],
