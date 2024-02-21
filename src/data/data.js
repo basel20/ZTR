@@ -442,7 +442,15 @@ import gooda5 from './Molls/gooda5.jpg'
 
 //tranfers
 
-import car from './Cars/car.jpeg'
+
+import aclass1 from './Cars/A_class.jfif'
+import cameri from './Cars/cameri1.jfif'
+import hl from './Cars/HL1.jfif'
+import kia1 from './Cars/kia1.jfif'
+import prado1 from './Cars/Prado1.jfif'
+import tbus1 from './Cars/TBus1.jfif'
+import vclass from './Cars/v_class.jfif'
+
 
 //tickets 
 
@@ -1096,30 +1104,41 @@ export const AllMolls = [
 
 
 export const AllTransfers = [{
-  id: "car1",
-  name: "مرسيدس اس كلاس 2022",
-  img:car
+  id: "aclass",
+  name: "مرسيدس A class",
+  img:aclass1
 },
 {
-  id: "car2",
-  name:  "مرسيدس اس كلاس 2022",
-  img:car
+  id: "cameri",
+  name:  "تيوتا كاميري",
+  img:cameri
 },
 {
-  id: "car3",
-  name:  "مرسيدس اس كلاس 2022",
-  img:car
+  id: "kia",
+  name:  "كيا اوبتيما",
+  img:kia1
 },
 {
-  id: "car4",
-  name:  "مرسيدس اس كلاس 2022",
-  img:car
+  id: "vclass",
+  name:  "مرسيدس V class mini van",
+  img:vclass
 },
 {
-  id: "car5",
-  name:  "مرسيدس اس كلاس 2022",
-  img:car
+  id: "prado",
+  name:  "تيوتا برادو",
+  img:prado1
 },
+{
+  id: "hbus",
+  name:  "هونداي ليموزين ",
+  img:hl
+},
+{
+  id: "tbus",
+  name:  "ياص تيوتا ",
+  img:tbus1
+},
+
 ]
 
 
