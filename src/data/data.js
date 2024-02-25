@@ -443,8 +443,8 @@ import gooda5 from './Molls/gooda5.jpg'
 //tranfers
 
 
-import aclass1 from './Cars/A_class.jfif'
-import cameri from './Cars/cameri1.jfif'
+import aclass1 from './Cars/eclass1.jpg'
+import cameri from './Cars/cameri1.jpg'
 import hl from './Cars/HL1.jfif'
 import kia1 from './Cars/kia1.jfif'
 import prado1 from './Cars/Prado1.jfif'
@@ -1105,7 +1105,7 @@ export const AllMolls = [
 
 export const AllTransfers = [{
   id: "aclass",
-  name: "مرسيدس A class",
+  name: "مرسيدس E class",
   img:aclass1
 },
 {
